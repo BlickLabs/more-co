@@ -1,0 +1,116 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}This{% endblock %}
+
+{% set meta_description = "" %}
+{% set og_url = "" %}
+{% set og_title = "" %}
+{% set og_description = "" %}
+{% set og_img = "" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "homepage" %}
+
+{% block content %}
+<section class="home">
+  <section class="home-cover">
+    <img class="home-cover-img-left" src="{{es.home.cover.imgLeft}}" alt="{{es.home.cover.imgLeftAlt}}">
+    <div class="home-cover-content">
+      <img class="home-cover-logo" src="{{es.home.cover.shopifyLogo}}" alt="{{es.home.cover.shopifyLogoAlt}}">
+      <span class="home-cover-subtitle metropolis-medium">{{es.home.cover.subtitlePart1}} <span class="metropolis-bold">{{es.home.cover.subtitlePart2}}</span> {{es.home.cover.subtitlePart3}} <span class="metropolis-bold">{{es.home.cover.subtitlePart4}}</span></span>
+      <h1 class="home-cover-title metropolis-bold">{{es.home.cover.title}}</h1>
+      <a class="btn metropolis-bold" href="">{{es.home.cover.btn}}</a>
+    </div>
+    <img class="home-cover-scrolling" src="/img/icons/scroll-indicator.png">
+    <img class="home-cover-img-right" src="{{es.home.cover.imgRight}}" alt="{{es.home.cover.imgRightAlt}}">
+  </section>
+
+  <section class="home-services">
+    <span class="vertical-text metropolis-bold">Tiendas en línea</span>
+    <h2 class="home-services-title metropolis-bold">{{es.home.services.title}}</h2>
+    <div class="home-services-container">
+      {% for service in es.home.services.information %}
+      <div class="home-services-item-container">
+        <div class="home-services-icon-container">
+          <img class="{{service.iconClass}}" src="{{service.icon}}" alt="{{service.iconAlt}}">
+        </div>
+        <h4 class="home-services-item-title metropolis-semibold">{{service.title}} {% if service.titleItalic %}<span class="metropolis-semibolditalic">{{service.titleItalic}}</span>{% endif %}</h4>
+        <p class="home-services-descr metropolis-regular">{{service.descOne}} <span class="metropolis-bold">{{service.descBold}}</span> {{service.descTwo}}</p>
+        {% if service.shopifyLogo %}<img class="{{service.shopifyLogoClass}}" src="{{service.shopifyLogo}}">{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <h3 class="home-services-ourwork metropolis-bold">Nuestro trabajo</h3>
+  </section>
+
+  <section class="home-bannerone">
+    <div>
+      <h3 class="banner-title metropolis-bold">{{es.home.bannerone.title}}</h3>
+      <p class="banner-desc metropolis-medium">{{es.home.bannerone.desc}}</p>
+      <img class="{{es.home.bannerone.shopifyLogoClass}}" src="{{es.home.bannerone.shopifyLogo}}" alt="{{es.home.bannerone.shopifyLogoAlt}}">
+      <a class="btn transparent metropolis-bold" href="">{{es.home.bannerone.btn}}</a>
+    </div>
+    <div>
+      <div class="proof-panel"></div>
+      <div class="home-bannerone-lowerinfo">
+        <h6 class="banner-subtitle metropolis-bold">Akai Swimwear</h6>
+        <div>
+          <h6 class="banner-subtitle metropolis-bold">Tienda en línea</h6>
+          <span class="banner-desc metropolis-medium">Diseño y programación de tienda en línea para vender bikinis hechos a mano</span>
+        </div>
+      </div>
+    </div>
+    <span class="vertical-text metropolis-bold">Vende en línea</span>
+  </section>
+
+  <section class="home-bannertwo">
+    <img class="home-bannertwo-img" src="/img/utils/paisaje-de-nomad-republic.jpg">
+    <div class="home-bannertwo-content">
+      <div style="display: flex; margin-right: 55px;">
+        <div style="background-color:#ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.5); height: 321px; margin-right: 18px; width: 158px;"></div>
+        <div style="background-color:#ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.5); height: 321px; width: 158px;"></div>
+      </div>
+      <div>
+        <h3 class="banner-title metropolis-bold">{{es.home.bannertwo.title}}</h3>
+        <p class="banner-desc metropolis-medium">{{es.home.bannertwo.desc}}</p>
+        <img class="{{es.home.bannerone.shopifyLogoClass}}" src="{{es.home.bannertwo.shopifyLogo}}" alt="{{es.home.bannerone.shopifyLogoAlt}}">
+        <div class="home-bannertwo-lowerinfo">
+          <h6 class="banner-subtitle metropolis-bold">Tienda en línea</h6>
+          <span class="banner-desc metropolis-medium">Diseño y programación de plataforma en línea auto-administrable que utiliza Shopify.</span>
+          <a class="btn metropolis-bold" href="">{{es.home.bannerone.btn}}</a>
+        </div>
+      </div>
+    </div>
+    <span class="vertical-text metropolis-bold">aumenta tus ventas</span>
+  </section>
+
+  <section class="home-bannerthree">
+    <div class="home-bannerthree-content">
+      <h3 class="banner-title metropolis-bold">{{es.home.bannerthree.title}}</h3>
+      <p class="banner-desc metropolis-medium">{{es.home.bannerthree.desc}}</p>
+      <a class="btn metropolis-bold" href="">{{es.home.bannerthree.btn}}</a>
+      <div class="home-bannerthree-lowerinfo">
+        <h6 class="banner-subtitle metropolis-bold">{{es.home.bannerthree.subtitle}}</h6>
+        <span class="banner-desc metropolis-medium">{{es.home.bannerthree.subDesc}}</span>
+        <img class="{{es.home.bannerthree.shopifyLogoClass}}" src="{{es.home.bannerthree.shopifyLogo}}" alt="{{es.home.bannerthree.shopifyLogoAlt}}">
+      </div>
+    </div>
+    <div class="home-bannerthree-background">
+      <div style="background-color: #ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.32); height: 304px; position: absolute; right: 126px; top: 86px; width: 430px;"></div>
+    </div>
+  </section>
+
+  <section class="home-start">
+    <div class="home-start-content">
+      <h2 class="home-start-title metropolis-bold">¿Estás listo para tu proyecto?</h2>
+      <div class="home-start-btns">
+        <a class="btn white metropolis-bold" href="">VER PROYECTOS</a>
+        <a class="btn metropolis-bold" href="">CONTÁCTANOS</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer-home-background"></div>
+</section>
+{% endblock %}

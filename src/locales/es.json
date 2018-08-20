@@ -1,0 +1,147 @@
+{
+  "es": {
+    "nav": {
+      "logo": "/img/logos/logo-moreco-black.png",
+      "logoAlt": "Logo del sitio dentro de la barra de navegación",
+      "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
+      "hamburgerCloseAlt": "Ícono en forma de X para cerrar el menu hamburguesa",
+      "sections": [
+        {
+          "name": "inicio",
+          "link": "index.html",
+          "viewName": "homepage"
+        },
+        {
+          "name": "portafolio",
+          "link": "index.html",
+          "viewName": "portfolio"
+        },
+        {
+          "name": "tiendas en línea",
+          "link": "index.html",
+          "viewName": "stores"
+        },
+        {
+          "name": "puntos de venta",
+          "link": "index.html",
+          "viewName": "pos"
+        },
+        {
+          "name": "nosotros",
+          "link": "index.html",
+          "viewName": "aboutus"
+        },
+        {
+          "name": "contacto",
+          "link": "index.html",
+          "viewName": "contact"
+        }
+      ]
+    },
+    "home": {
+      "cover": {
+        "shopifyLogo": "/img/logos/logo-shopify-experts.png",
+        "shopifyLogoAlt": "Logo de Shopify Experts dentro del cover de la homepage",
+        "title": "Creamos tiendas en línea y páginas web",
+        "subtitlePart1": "where",
+        "subtitlePart2": "technology",
+        "subtitlePart3": "meets",
+        "subtitlePart4": "design",
+        "imgLeft": "/img/utils/show-vre-in-phone.png",
+        "imgLeftAlt": "Se muestra la página de inicio de VRE en un smartphone",
+        "imgRight": "/img/utils/show-store-in-laptop.png",
+        "imgRightAlt": "Ejemplo de tienda en línea, vista desde una laptop",
+        "btn": "contáctanos"
+      },
+      "services": {
+        "title": "Servicios",
+        "information": [
+          {
+            "icon": "/img/icons/icon-cart-white.svg",
+            "iconClass": "service-icon-cart",
+            "iconAlt": "Ícono para el servicio de tiendas en línea",
+            "title": "Tiendas en línea",
+            "descOne": "Diseñamos y programamos tu",
+            "descBold": "tienda en línea",
+            "descTwo": "a la medida",
+            "shopifyLogo": "/img/logos/logo-shopify-experts.png",
+            "shopifyLogoClass": "service-shopify-experts"
+          },
+          {
+            "icon": "/img/icons/icon-page-white.svg",
+            "iconClass": "service-icon-page",
+            "iconAlt": "Ícono para el servicio de páginas web",
+            "title": "Páginas web",
+            "descOne": "Creamos tu",
+            "descBold": "página de internet",
+            "descTwo": "completamente personalizada y a tu gusto"
+          },
+          {
+            "icon": "/img/icons/icon-tag-white.svg",
+            "iconClass": "service-icon-tag",
+            "iconAlt": "Ícono para el servicio de punto de venta",
+            "title": "Punto de Venta",
+            "titleItalic": "(POS)",
+            "descOne": "Implementamos y ponemos en marcha el",
+            "descBold": "punto de venta",
+            "descTwo": "en tu tienda física",
+            "shopifyLogo": "/img/logos/logo-shopify-pos.png",
+            "shopifyLogoClass": "service-shopify-pos"
+          }
+        ]
+      },
+      "bannerone": {
+        "title": "Akai Swimwear",
+        "desc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\"",
+        "shopifyLogo": "/img/logos/logo-shopify-experts-white.png",
+        "shopifyLogoClass": "home-bannerone-logo",
+        "shopifyLogoAlt": "Logo de Shopify Experts dentro del primer banner de proyectos",
+        "btn": "ver más tiendas"
+      },
+      "bannertwo": {
+        "title": "Nomad Replublic",
+        "desc": "Viaja con Nomad Republic para vivir experiencias que cambiarán tu vida y harán al mundo un lugar mejor.",
+        "shopifyLogo": "/img/logos/logo-shopify-experts.png",
+        "shopifyLogoClass": "home-bannertwo-logo",
+        "shopifyLogoAlt": "Logo de Shopify Experts dentro del segundo banner de proyectos",
+        "subtitle": "Tienda en línea",
+        "subDesc": "Diseño y programación de plataforma en línea auto-administrable que utiliza Shopify.",
+        "btn": "ver más tiendas"
+      },
+      "bannerthree": {
+        "title": "El Trébol + Yazbek",
+        "desc": "Empresa mexicana líder en la fabricación de artículos textiles. La mejor opción en playeras y ropa casual.",
+        "btn": "ver más tiendas",
+        "subtitle": "Punto de venta",
+        "subDesc": "Implementación y puesta en marcha del sistema en todas sus tiendas físicas.",
+        "shopifyLogo": "/img/logos/logo-shopify-pos.png",
+        "shopifyLogoClass": "home-bannerthree-logo",
+        "shopifyLogoAlt": "Logo de Shopify Experts dentro del tercer banner de proyectos"
+      }
+    },
+    "footer": {
+      "logo": "/img/logos/logo-moreco-black.png",
+      "logoAlt": "Logo del sitio dentro del pie de página",
+      "sections": [
+        {
+          "name": "portafolio",
+          "link": "index.html",
+          "viewName": "portfolio"
+        },
+        {
+          "name": "nosotros",
+          "link": "index.html",
+          "viewName": "aboutus"
+        },
+        {
+          "name": "contacto",
+          "link": "index.html",
+          "viewName": "contact",
+          "btnAspect": true
+        }
+      ],
+      "copyright": "Copyright More Co. 2018®",
+      "decorator": "/img/utils/show-neulift-in-phone.png"
+    }
+  }
+}

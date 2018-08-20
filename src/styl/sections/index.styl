@@ -1,0 +1,332 @@
+.home
+  &-cover
+    background-color $grayT1
+    display flex
+    align-items center
+    height 503px
+    justify-content center
+    position relative
+
+    &-content
+      max-width 500px
+
+    &-logo
+      height 17px
+      width 95px
+
+    &-subtitle
+      color $blackT2
+      display block
+      font-size 9px
+      letter-spacing 2.4px
+      margin 8px 0 15px 0
+      text-transform uppercase
+
+    &-title
+      color $blackT2
+      font-size 40px
+      line-height 42px
+      margin-bottom 28px
+
+    &-scrolling
+      bottom 49px
+      height 18px
+      margin 0 auto
+      position absolute
+      width 10px
+
+    &-img
+      &-left,
+      &-right
+        position absolute
+
+      &-left
+        bottom -88px
+        height 335px
+        left 0
+        width 242px
+
+      &-right
+        bottom -25px
+        height 434px
+        right 0
+        width 442px
+
+  &-services
+    margin 30px 0 50px 0
+    position relative
+
+    & .vertical-text
+      right -20px
+      top 10px
+
+    &-container
+      display flex
+      flex-direction row
+      justify-content center
+      margin -13% 0 100px 0
+
+    &-title
+      color $grayT1
+      font-size 23vw
+      letter-spacing 2.9px
+      margin 0px -35px
+      text-align center
+
+    &-icon
+      &-container
+        align-items center
+        background-color $blueT1
+        border-radius 100px
+        display flex
+        justify-content center
+        height 34px
+        margin-bottom 29px
+        width 34px
+
+    &-item
+      &-title
+        color $blackT2
+        font-size 13px
+        letter-spacing 0.7px
+        line-height 20px
+
+      &-container:nth-child(1) .home-services-descr
+        width 145px
+
+      &-container:nth-child(2) .home-services-descr
+        width 145px
+
+      &-container:nth-child(3) .home-services-descr
+        width 158px
+
+      &-container:nth-child(2)
+        margin 0 70px
+
+    &-descr
+      color $blackT2
+      font-size 10px
+      letter-spacing 0.6px
+      line-height 15px
+      margin 5px 0 18px 0
+
+    &-ourwork
+      color $blackT2
+      font-size 29px
+      letter-spacing 0.4px
+      margin-left 111px
+
+      &:before
+        background-color $blueT1
+        content ""
+        display inline-block
+        height 3px
+        margin-right 11px
+        vertical-align middle
+        width 36px
+
+  &-bannerone
+    background-blend-mode multiply
+    background-color $blueT1
+    background-image url("/img/backgrounds/woman-in-swimsuit.png")
+    background-position bottom left 30%
+    background-repeat no-repeat
+    background-size 274px
+    display flex
+    flex-direction row
+    height 546px
+    justify-content space-between
+    padding 84px 97px 0 111px
+    position relative
+
+    & .banner-title,
+    & .banner-desc
+      color $whiteT1
+
+    & .banner-desc
+      width 226px
+
+    &-logo
+      margin-bottom 32px
+      height 19px
+      width 112px
+
+    &-lowerinfo
+      display flex
+      flex-direction row
+      padding 35px 0 0 70px
+
+      & > .banner-subtitle
+        margin 20px 32px 0 0
+
+      & > div > .banner-desc
+        display block
+        margin 5px 0 0 0
+        width 170px
+
+    & .banner-subtitle
+      color $whiteT1
+
+    & .vertical-text
+      bottom 105px
+      color $whiteT1
+      left -15px
+
+      &:after
+        background-color $whiteT1
+
+  &-bannertwo
+    height 503px
+    position relative
+
+    &-img
+      bottom 0
+      height 503px
+      left 0
+      position absolute
+      z-index -1
+
+    &-content
+      display flex
+      justify-content flex-end
+      padding 64px 75px 0 0
+
+    & .banner-title
+      color $blackT2
+
+    & .banner-desc
+      color $grayT3
+      width 236px
+
+    &-lowerinfo
+      margin-left 123px
+
+    & .banner-subtitle
+      color $grayT2
+
+    & .banner-subtitle + .banner-desc
+      display block
+      width 256px
+
+    & .vertical-text
+      bottom 12px
+      right -45px
+
+  &-bannerthree
+    display flex
+    flex-direction row
+    padding 0 0 0 111px
+
+    &-content
+      padding-top 106px
+      width 100%
+
+    &-background
+      background-blend-mode multiply
+      background-color $grayT1
+      background-image url("/img/backgrounds/man-with-white-shirt.png")
+      background-position bottom right
+      background-repeat no-repeat
+      background-size 243px
+      height 524px
+      min-width 422px
+      position relative
+
+    & .banner-title,
+    & .banner-desc
+      color $blackT2
+
+    &-lowerinfo
+      margin 81px 0 0 68px
+
+      & .banner-subtitle
+        color $grayT2
+
+      & .banner-subtitle + .banner-desc
+        color $grayT3
+        width 208px
+
+    & .banner-desc
+      display block
+      width 226px
+
+    &-logo
+      height 20px
+      width 83px
+
+  &-start
+    margin 120px 0 70px 0
+    &-content
+      margin 0 auto
+      width 560px
+
+    &-title
+      color $blackT2
+      font-size 37px
+      letter-spacing 0.5px
+      line-height 42px
+
+    &-btns
+      display flex
+      flex-direction row
+      margin-top 40px
+
+      & .btn.white
+        margin-right 22px
+
+.banner
+  &-title
+    font-size 24px
+    letter-spacing 0.3px
+    line-height 42px
+
+  &-subtitle
+    font-size 13px
+    letter-spacing 0.5px
+
+  &-desc
+    font-size 12px
+    letter-spacing 1px
+    line-height 16px
+    margin 18px 0 26px 0
+
+.proof-panel
+  background-color $whiteT1
+  height 304px
+  width 489px
+
+.service
+  &-icon
+    &-cart
+      height 14px
+      width 15px
+
+    &-page
+      height 12px
+      width 13px
+
+    &-tag
+      height 13px
+      width 10px
+
+  &-shopify
+    &-experts
+      height 14px
+      width 83px
+
+    &-pos
+      height 14px
+      width 62px
+
+.footer-home-background
+  background-image url("/img/utils/example-akai-in-laptop.png")
+  background-position center
+  background-repeat no-repeat
+  background-size contain
+  bottom 222px
+  height 425px
+  left 0
+  position absolute
+  width 439px
+  z-index 1
+      

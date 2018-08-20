@@ -1,0 +1,14 @@
+<footer class="footer">
+  <div class="footer-content">
+    <a href="index.html">
+      <img class="footer-logo" src="{{es.footer.logo}}" alt="{{es.footer.logoAlt}}">
+    </a>
+    <div class="footer-section-container">
+      {% for section in es.footer.sections %}
+      <a class="footer-section metropolis-medium {% if section.btnAspect == true %} btn tofooter {% endif %}" href="{{section.link}}">{{section.name}}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <span class="footer-copyrigth metropolis-medium">{{es.footer.copyright}}</span>
+  <img class="footer-decorator" src="{{es.footer.decorator}}">
+</footer>
