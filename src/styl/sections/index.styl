@@ -139,6 +139,11 @@
     padding 84px 97px 0 111px
     position relative
 
+    & .section-tag
+      background-color $blueT2
+      right 31px
+      top 24px
+
     & .banner-title,
     & .banner-desc
       color $whiteT1
@@ -179,6 +184,11 @@
     height 503px
     position relative
 
+    & .section-tag
+      background-color $blueT3
+      left 31px
+      top 24px
+
     &-img
       bottom 0
       height 503px
@@ -211,11 +221,13 @@
     & .vertical-text
       bottom 12px
       right -45px
+      z-index 1
 
   &-bannerthree
     display flex
     flex-direction row
     padding 0 0 0 111px
+    position relative
 
     &-content
       padding-top 106px
@@ -253,6 +265,15 @@
     &-logo
       height 20px
       width 83px
+
+    & .section-tag
+      background-color $blueT1
+      bottom 24px
+      right 31px
+
+      & img
+        height 10px
+        width 8px
 
   &-start
     margin 120px 0 70px 0
@@ -293,7 +314,33 @@
 .proof-panel
   background-color $whiteT1
   height 304px
+  overflow hidden
   width 489px
+
+  &-img
+    animation-duration 5s
+    animation-name scrollCoverBrowser
+    animation-timing-function cubic-bezier(1.000, 0.005, 0.305, 1.000)
+    animation-direction alternate
+    animation-iteration-count infinite
+    animation-fill-mode none
+    width 100%
+
+@keyframes scrollCoverBrowser
+  10%
+    -webkit-transform translateY(0%)
+    -ms-transform translateY(0%)
+    transform translateY(0%)
+
+  50%
+    -webkit-transform translateY(calc(-50% + 285px))
+    -ms-transform translateY(calc(-50% + 285px))
+    transform translateY(calc(-50% + 285px))
+
+  100%
+    -webkit-transform translateY(calc(-100% + 570px))
+    -ms-transform translateY(calc(-100% + 570px))
+    transform translateY(calc(-100% + 570px))
 
 .service
   &-icon

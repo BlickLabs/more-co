@@ -51,7 +51,8 @@
         "imgLeftAlt": "Se muestra la página de inicio de VRE en un smartphone",
         "imgRight": "/img/utils/show-store-in-laptop.png",
         "imgRightAlt": "Ejemplo de tienda en línea, vista desde una laptop",
-        "btn": "contáctanos"
+        "btn": "contáctanos",
+        "verticalText": "Tiendas en línea"
       },
       "services": {
         "title": "Servicios",
@@ -88,17 +89,30 @@
             "shopifyLogo": "/img/logos/logo-shopify-pos.png",
             "shopifyLogoClass": "service-shopify-pos"
           }
-        ]
+        ],
+        "ourWork": "Nuestro trabajo"
       },
       "bannerone": {
+        "tag": "Tienda en línea",
+        "tagIcon": "/img/icons/icon-cart-white.svg",
+        "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para Akai Swimwear",
         "title": "Akai Swimwear",
         "desc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\"",
+        "project": "Akai Swimwear",
+        "type": "Tienda en línea",
+        "typeDesc": "Diseño y programación de tienda en línea para vender bikinis hechos a mano",
         "shopifyLogo": "/img/logos/logo-shopify-experts-white.png",
         "shopifyLogoClass": "home-bannerone-logo",
         "shopifyLogoAlt": "Logo de Shopify Experts dentro del primer banner de proyectos",
-        "btn": "ver más tiendas"
+        "btn": "ver más tiendas",
+        "verticalText": "Vende en línea"
       },
       "bannertwo": {
+        "img": "/img/utils/paisaje-de-nomad-republic.jpg",
+        "imgAlt": "Imagen de un paisaje demostrativo de Nomad Replublic",
+        "tag": "Tienda en línea",
+        "tagIcon": "/img/icons/icon-cart-white.svg",
+        "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para Nomad Republic",
         "title": "Nomad Replublic",
         "desc": "Viaja con Nomad Republic para vivir experiencias que cambiarán tu vida y harán al mundo un lugar mejor.",
         "shopifyLogo": "/img/logos/logo-shopify-experts.png",
@@ -106,7 +120,8 @@
         "shopifyLogoAlt": "Logo de Shopify Experts dentro del segundo banner de proyectos",
         "subtitle": "Tienda en línea",
         "subDesc": "Diseño y programación de plataforma en línea auto-administrable que utiliza Shopify.",
-        "btn": "ver más tiendas"
+        "btn": "ver más tiendas",
+        "verticalText": "aumenta tus ventas"
       },
       "bannerthree": {
         "title": "El Trébol + Yazbek",
@@ -116,7 +131,15 @@
         "subDesc": "Implementación y puesta en marcha del sistema en todas sus tiendas físicas.",
         "shopifyLogo": "/img/logos/logo-shopify-pos.png",
         "shopifyLogoClass": "home-bannerthree-logo",
-        "shopifyLogoAlt": "Logo de Shopify Experts dentro del tercer banner de proyectos"
+        "shopifyLogoAlt": "Logo de Shopify Experts dentro del tercer banner de proyectos",
+        "tag": "Punto de Venta",
+        "tagIcon": "/img/icons/icon-tag-white.svg",
+        "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para El Trebol + Yazbek"
+      },
+      "start": {
+        "title": "¿Estás listo para tu proyecto?",
+        "btnLeft": "ver proyectos",
+        "btnRight": "contáctanos"
       }
     },
     "footer": {
