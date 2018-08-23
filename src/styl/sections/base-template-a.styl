@@ -1,0 +1,219 @@
+.templatea
+  .cover
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    height 374px
+    padding 30px 0 0 40px
+
+  .return
+    color $whiteT1
+    font-size 11px
+    letter-spacing 1px
+    text-transform uppercase
+
+    & .semi-triangle
+      height 8px
+      margin-right 15px
+      width 5px
+
+  &-content
+    padding 70px 0 0 90px
+
+  &-title
+    color $whiteT1
+    font-size 11px
+    letter-spacing 2.5px
+    line-height 20px
+    margin 9px 0
+    text-transform uppercase
+
+  &-paragraph
+    color $whiteT1
+    font-size 13px
+    letter-spacing 0.8px
+    line-height 18px
+    margin-bottom 15px
+    width 315px
+
+  &-scroll-indicator
+    height 18px
+    width 10px
+
+  &-project
+    height 374px
+    position relative
+
+    & .vertical-text
+      left -27px
+      top 135px
+      transform rotate(-90deg)
+
+    &-bigtext
+      color $grayT1
+      font-size 12.2vw
+      line-height 74%
+      margin-left -9px
+
+    &-content
+      margin 0 0 0 130px
+
+    &-subtitle
+      color $blackT3
+      font-size 13px
+      line-height 18px
+      letter-spacing 0.7px
+
+    &-desc
+      color $blackT3
+      font-size 11px
+      letter-spacing 0.7px
+      line-height 20px
+      margin-top 8px
+      width 266px
+
+    &-img
+      height auto
+      position absolute
+      right 0
+      top -90px
+      width 58%
+
+  &-functionalities
+    height 471px
+    position relative
+
+    &-bigtext
+      color $grayT1
+      font-size 13.2vw
+      line-height 155px
+      margin 0px -13px
+      opacity 0.1
+
+    &-content
+      align-items center
+      display flex
+      flex-direction row
+      justify-content center
+      margin-top -40px
+
+    &-img
+      box-shadow 0 19px 30px 0 rgba(0, 0, 0, 0.26)
+      width 43%
+
+    & .vertical-text
+      color $whiteT1
+      right -30px
+      top 230px
+      transform rotate(-90deg)
+
+      &:after
+        background-color $whiteT1
+
+  &-circle
+    align-items center
+    background-color $grayT1
+    box-shadow 0 6px 9px 0 rgba(0, 0, 0, 0.2)
+    border-radius 100px
+    display flex
+    height 47px
+    justify-content center
+    width 47px
+
+    &-container
+      display flex
+      flex-direction row
+      margin-left 107px
+
+      & > .templatea-circle:nth-child(2)
+        margin 0 29px
+
+    &-text
+      color $blackT3
+      font-size 13px
+      height 11px
+      letter-spacing 0.7px
+      text-indent 0.7px
+      text-transform uppercase
+
+    &-icon
+      height 24px
+      width 14px
+
+  &-getmore
+    &-bigtext
+      color $grayT1
+      font-size 24.5vw
+      line-height 212px
+      margin 0px -25px
+
+    &-content
+      align-items center
+      display flex
+      flex-direction row
+      justify-content flex-end
+      margin-top -35px
+      padding 0 67px 50px 0
+
+    &-info
+      align-items center
+      display flex
+      flex-direction column
+      margin-right 13%
+      width 220px
+
+    &-title
+      color $blackT3
+      font-size 13px
+      letter-spacing 0.7px
+      margin-top 31px
+
+    &-desc
+      color $grayT2
+      font-size 11px
+      letter-spacing 0.7px
+      line-height 18px
+      margin 8px 0 25px 0
+
+    &-img
+      height 403px
+      width 387px
+
+      &-container
+        height 403px
+        position relative
+
+    &-smartphone
+      bottom 6px
+      height 350px
+      left -110px
+      position absolute
+      width 202px
+
+  /*Dreamwater project*/
+
+  &.dreamwater
+    .cover
+      background-image url("/img/projects/dreamwater-cover.jpg")
+
+    .templatea-logo
+      height 37px
+      width 69px
+
+    .templatea-functionalities
+      background-image linear-gradient(246deg, #bf83b9, #c991c3)
+
+@media screen and (min-width 1140px)
+  .templatea
+    &-project
+      &-bigtext
+        font-size 139px
+
+      &-img
+        height 490px
+        width 652px
+
+    &-functionalities
+      &-img
+        height 302px
+        width 483px
