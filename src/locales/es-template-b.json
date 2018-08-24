@@ -1,0 +1,54 @@
+{
+  "tbES": {
+    "base": {
+      "linkReturn": "",
+      "iconReturn": "/img/icons/semi-triangulo.svg",
+      "iconReturnAlt": "Icono para enfatizar el enlace de regresar",
+      "textReturn": "regresar",
+      "data": {
+        "title": "Datos importantes del proyecto",
+        "textYear": "Año",
+        "locationTitle": "Ubicación",
+        "btnSeeLink": "",
+        "btnSee": "ver proyecto",
+        "btnQuoteLink": "",
+        "btnQuote": "cotiza tu proyecto"
+      }
+    },
+    "vre": {
+      "cover": {
+        "projectLogo": "/img/logos/logo-vre-blanco.png",
+        "projectLogoAlt": "Logo de VRE en color blanco",
+        "projectName": "vre méxico",
+        "projectType": "página web",
+        "projectDesc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat."
+      },
+      "data": {
+        "laptopImg": "/img/projects/vre-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de VRE",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "SEO avanzado"
+          },
+          {
+            "item": "Fácil acceso a dirección y Redes sociales"
+          },{
+            "item": "Navegación intuitiva / Integración con Whatsapp"
+          },
+          {
+            "item": "Formularios inteligentes / Integración con Hubspot"
+          },
+          {
+            "item": "Integración con Shopify / Formulario de contacto y ubicación"
+          },
+          {
+            "item": "Blog / Chat en línea / 20+ vista"
+          }
+        ],
+        "location": "CDMX, méxico"
+      }
+    }
+  }
+}
