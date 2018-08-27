@@ -58,6 +58,7 @@
 
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.15.0/lazyload.min.js"></script>
   </head>
   <body>
     <div id="page">
@@ -204,72 +205,113 @@
 
   <section class="ourwork-tab-container">
     <ul class="metropolis-semibold">
-      <li class="ourwork-tab"><a class="ourwork-tab-link active" href="javascript:rudrSwitchTab('tb_1', 'content_1');" id="tb_1">mostrar todos</a></li>
-      <li class="ourwork-tab"><a class="ourwork-tab-link" href="javascript:rudrSwitchTab('tb_2', 'content_2');" id="tb_2">tiendas en línea</a></li>
-      <li class="ourwork-tab"><a class="ourwork-tab-link" href="javascript:rudrSwitchTab('tb_3', 'content_3');" id="tb_3">páginas web</a></li>
-      <li class="ourwork-tab"><a class="ourwork-tab-link" href="javascript:rudrSwitchTab('tb_4', 'content_4');" id="tb_4">punto de venta (pos)</a></li>
+      
+      <li class="ourwork-tab"><a class="ourwork-tab-link active" href="javascript:portfolioSwitchTab(&#39;portfolioTab1&#39;, &#39;portfolioTabContent1&#39;);" id="portfolioTab1">mostrar todos</a></li>
+      
+      <li class="ourwork-tab"><a class="ourwork-tab-link " href="javascript:portfolioSwitchTab(&#39;portfolioTab2&#39;, &#39;portfolioTabContent2&#39;);" id="portfolioTab2">tiendas en línea</a></li>
+      
+      <li class="ourwork-tab"><a class="ourwork-tab-link " href="javascript:portfolioSwitchTab(&#39;portfolioTab3&#39;, &#39;portfolioTabContent3&#39;);" id="portfolioTab3">tiendas en línea</a></li>
+      
+      <li class="ourwork-tab"><a class="ourwork-tab-link " href="javascript:portfolioSwitchTab(&#39;portfolioTab4&#39;, &#39;portfolioTabContent4&#39;);" id="portfolioTab4">punto de venta (pos)</a></li>
+      
     </ul>
   </section>
-
-  <button id="addContent">
-    ADD CONTENT
-    <span class="count"></span>
-  </button>
   <section id="results1">
-    <div id="content_1" class="tabcontent" style="width: 762px; margin: 0 auto; display: flex; flex-wrap: wrap;">
+
+    <div id="portfolioTabContent1" class="ourwork-tab-content">
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre.jpg">
+        <img class="ourwork-project-img" data-src="/img/ourwork/dream-water.jpg">
         <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-1.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/vre.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">DREAM WATER</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-2.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/nomad-republic.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">ICAN</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-3.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/higia.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">POS PROYECTO 1</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-4.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/yazbek.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">POS PROYECTO 2</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-5.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/neulift.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">POS PROYECTO 3</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-6.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/akai-swimwear.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">ALIANZA SWEMEX</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-7.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/schutique.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">RANChO LAS FLORES</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-8.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/alianza-swemex.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">NOMAD REPUBLIC</h3>
       </div>
       <div class="ourwork-project">
-        <img class="ourwork-project-img" data-src="/img/ourwork/portafolio-vre-9.jpg">
-        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+        <img class="ourwork-project-img" data-src="/img/ourwork/aromaria.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">NOMAD REPUBLIC</h3>
       </div>
     </div> 
-    <div id="content_2" class="tabcontent" style="display:none;">
-      Content of the second tab.
+
+    <div id="portfolioTabContent2" class="ourwork-tab-content">
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/dream-water-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">VRE México</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/vre-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">DREAM WATER</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/nomad-republic-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">ICAN</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/higia-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">POS PROYECTO 1</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/yazbek-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">POS PROYECTO 2</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/neulift-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">POS PROYECTO 3</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/akai-swimwear-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">ALIANZA SWEMEX</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/schutique-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">RANChO LAS FLORES</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/alianza-swemex-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">NOMAD REPUBLIC</h3>
+      </div>
+      <div class="ourwork-project">
+        <img class="ourwork-project-img" data-src="/img/ourwork/aromaria-red.jpg">
+        <h3 class="ourwork-project-title metropolis-bold">NOMAD REPUBLIC</h3>
+      </div>
     </div>
-    <div id="content_3" class="tabcontent" style="display: none;"> 
+    <div id="portfolioTabContent3" class="ourwork-tab-content" style="display: none;"> 
       Content of the third tab.
     </div> 
-    <div id="content_4" class="tabcontent" style="display:none;">
+    <div id="portfolioTabContent4" class="ourwork-tab-content" style="display:none;">
       Content of the fourth tab.
     </div>
   </section>
-
 </section>
+
 
       </main>
       
@@ -306,6 +348,5 @@
     <script>
       AOS.init();
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.15.0/lazyload.min.js"></script>
   </body>
 </html>
