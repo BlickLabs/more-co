@@ -1,0 +1,97 @@
+.ourwork
+  margin-top 55px
+
+  &-header
+    margin-top 44px
+
+  &-title
+    color $blackT2
+    font-size 33px
+    letter-spacing 0.5
+    text-align center
+
+    &:before
+      background-color $blueT4
+      content ""
+      display block
+      height 3px
+      margin 0 auto 30px auto
+      width 41px
+
+  &-tab
+    display flex
+    width 191px
+
+    &-container
+      margin 60px auto 35px auto
+      width 762px
+
+      & > ul
+        display flex
+        list-style none
+        margin 0
+        padding 0
+
+    &-content
+      display none
+      // visibility hidden
+      flex-wrap wrap
+      margin 0 auto
+      width 762px
+
+      &:first-child
+        display flex
+        // visibility visible
+
+    & > a
+        border-bottom solid 1px $grayT3
+        color $blackT2
+        font-size 11px
+        letter-spacing 0.5px
+        padding 10px 15px 24px 15px
+        text-align center
+        text-transform uppercase
+        width 100%
+
+      & > a.active
+        border-bottom solid 1px $blackT2
+        transition 0.3s
+
+  &-project
+    height 252px
+    position relative
+
+    &-img
+      height 252px
+      width 381px
+
+    &-title
+      bottom 27px
+      color $whiteT1
+      font-size 32px
+      left 23px
+      letter-spacing -0.4px
+      position absolute
+
+img:not([src]) {
+  visibility: hidden;
+}
+
+#loadMore {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+#loadMore a {
+    background: #042a63;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+    background-color: #021737;
+}
