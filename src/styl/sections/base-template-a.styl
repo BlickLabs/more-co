@@ -1,44 +1,66 @@
 .templatea
-  .cover
+  &-cover
     background-position center
     background-repeat no-repeat
     background-size cover
     height 374px
     padding 30px 0 0 40px
+    position relative
 
-  .return
-    color $whiteT1
-    font-size 11px
-    letter-spacing 1px
-    text-transform uppercase
+    &-return
+      color $whiteT1
+      font-size 11px
+      letter-spacing 1px
+      text-transform uppercase
 
-    & .semi-triangle
-      height 8px
-      margin-right 15px
-      width 5px
+      & .semi-triangle
+        height 8px
+        margin-right 15px
+        width 5px
 
-  &-content
-    padding 70px 0 0 90px
+    &-content
+      padding 70px 0 0 90px
 
-  &-title
-    color $whiteT1
-    font-size 11px
-    letter-spacing 2.5px
-    line-height 20px
-    margin 9px 0
-    text-transform uppercase
+    &-title
+      color $whiteT1
+      font-size 11px
+      letter-spacing 2.5px
+      line-height 20px
+      margin 9px 0
+      text-transform uppercase
 
-  &-paragraph
-    color $whiteT1
-    font-size 13px
-    letter-spacing 0.8px
-    line-height 18px
-    margin-bottom 15px
-    width 315px
+    &-paragraph
+      color $whiteT1
+      font-size 13px
+      letter-spacing 0.8px
+      line-height 18px
+      margin-bottom 15px
+      width 315px
 
-  &-scroll-indicator
-    height 18px
-    width 10px
+    &-scroll-indicator
+      height 18px
+      width 10px
+
+    &-btn
+      bottom 100px
+      color $whiteT1
+      font-size 11px
+      letter-spacing 0.5px
+      padding-bottom 10px
+      position absolute
+      right 40px
+      text-transform uppercase
+
+      &:hover
+        font-weight $bold
+
+      &:after
+        background-color $whiteT1
+        content  ""
+        display block
+        height 1px
+        margin-top 2px
+        width 100%
 
   &-project
     height 374px
@@ -58,19 +80,23 @@
     &-content
       margin 0 0 0 130px
 
+    &-ul
+      list-style none
+      margin 0
+      padding 0
+
     &-subtitle
       color $blackT3
       font-size 13px
       line-height 18px
       letter-spacing 0.7px
+      margin-bottom 10px
 
     &-desc
       color $blackT3
       font-size 11px
       letter-spacing 0.7px
       line-height 20px
-      margin-top 8px
-      width 266px
 
     &-img
       height auto
@@ -78,6 +104,9 @@
       right 0
       top -90px
       width 58%
+
+      &-mobile
+        display none
 
   &-functionalities
     height 471px
@@ -97,6 +126,17 @@
       justify-content center
       margin-top -40px
 
+      &-left
+        align-items center
+        display flex
+        flex-direction column
+        margin 0 0 0 107px
+        position relative
+
+        & a.btn
+          bottom -90px
+          position absolute
+
     &-img
       box-shadow 0 19px 30px 0 rgba(0, 0, 0, 0.26)
       width 43%
@@ -104,11 +144,20 @@
     & .vertical-text
       color $whiteT1
       right -30px
-      top 230px
+      top 250px
       transform rotate(-90deg)
 
-      &:after
+      &:before
         background-color $whiteT1
+        content ""
+        display inline-block
+        height 1px
+        margin-right 18px
+        vertical-align middle
+        width 17px
+
+      &:after
+        display none
 
   &-circle
     align-items center
@@ -123,7 +172,6 @@
     &-container
       display flex
       flex-direction row
-      margin-left 107px
 
       & > .templatea-circle:nth-child(2)
         margin 0 29px
@@ -174,6 +222,7 @@
       letter-spacing 0.7px
       line-height 18px
       margin 8px 0 25px 0
+      text-align center
 
     &-img
       height 403px
@@ -182,6 +231,9 @@
       &-container
         height 403px
         position relative
+
+      &-mobile
+        display none
 
     &-smartphone
       bottom 6px
@@ -193,10 +245,10 @@
   /*Dreamwater project*/
 
   &.dreamwater
-    .cover
+    .templatea-cover
       background-image url("/img/projects/dreamwater-cover.jpg")
 
-    .templatea-logo
+    .templatea-cover-logo
       height 37px
       width 69px
 
@@ -209,6 +261,9 @@
       &-bigtext
         font-size 139px
 
+      &-content
+        margin-left 44%
+
       &-img
         height 490px
         width 652px
@@ -217,3 +272,140 @@
       &-img
         height 302px
         width 483px
+
+    &-getmore
+      &-content
+        justify-content center
+        padding-right 0
+
+@media screen and (max-width 920px)
+  .templatea
+    &-cover
+      height 500px
+      padding-left 0
+
+      &-return
+        margin-left 40px
+
+      &-content
+        align-items center
+        display flex
+        flex-direction column
+        padding 53px 0 0 0
+
+      &-title
+        margin-top 18px
+
+      &-paragraph
+        text-align center
+
+      &-scroll-indicator
+        display none
+
+      &-btn
+        bottom 145px
+
+    &-project,
+    &-functionalities
+      & .vertical-text
+        display none
+
+    &-project
+      height auto
+      padding-bottom 45px
+
+      &-img
+        display none
+
+        &-mobile
+          display block
+          margin -100px auto 0 auto
+
+      &-bigtext
+        font-size 23vw
+        margin 0 -13px
+        text-align center
+
+      &-content
+        margin 45px auto 0 auto
+        width fit-content
+
+    &-functionalities
+      height auto
+      padding-bottom 45px
+
+      &-content
+        flex-direction column
+        margin-top 10px
+
+        &-left
+          margin 42px 0 0 0
+
+          & a.btn
+            position initial
+
+    &-circle
+      &-container
+        margin-bottom 30px
+
+    &-getmore
+      padding-bottom 87px
+
+      &-content
+        flex-direction column
+        margin-top -55px
+        padding 0
+
+      &-info
+        margin-right 0
+
+      &-img
+        display none
+
+        &-container
+          margin-top 85px
+          height auto
+
+        &-mobile
+          display block
+          margin-left 70px
+
+      &-smartphone
+        bottom -100px
+        left -30px
+
+@media screen and (max-width 480px)
+  .templatea
+    &-cover
+      height 432px
+
+      &-btn
+        bottom 120px
+        left 0
+        margin 0 auto
+        right 0
+        width fit-content
+
+    &-project
+      &-img
+        &-mobile
+          width 100%
+
+    &-functionalities
+      &-bigtext
+        line-height 70px
+        margin 0 -4px
+
+      &-img
+        width 79%
+
+    &-getmore
+      &-img
+        &-mobile
+          margin-left 50px
+          width 230px
+
+      &-smartphone
+        bottom -75px
+        height auto
+        width 155px

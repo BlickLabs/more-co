@@ -21,6 +21,10 @@ gulp.task('build:html', function () {
     }))
 
     .pipe(data(function() {
+      return require('../src/locales/es-template-a.json')
+    }))
+
+    .pipe(data(function() {
       return require('../src/locales/es-template-b.json')
     }))
 
