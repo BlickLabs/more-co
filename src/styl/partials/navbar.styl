@@ -16,15 +16,31 @@
     height 21px
     width 88px
 
+    &-scroll
+      display none
+      height 21px
+      width 88px
+
   &-scroll
     align-items center
-    background-color $blackT2
+    background-color rgba(49, 49, 49, 0.9)
     // box-shadow 0 6px 8px 0 rgba(0,0,0,0.2)
     height 55px
     transition 0.2s
 
+    & .nav-logo
+      display none
+
+    & .nav-logo-scroll
+      display block
+
     & .nav-option
       color $whiteT1
+
+      &:hover,
+      &.active
+        color $whiteT1
+        font-weight $bold
 
     & .special-btn
       border solid 1px $whiteT1
@@ -94,11 +110,12 @@
   border solid 1px $blackT2
   color $blackT2
   display flex
-  font-size 8px
+  font-size 9px
   height 22px
   justify-content center
   letter-spacing 2px
-  width 88px
+  padding-top 2px
+  width 90px
 
 .hamburger
   &-visibility
