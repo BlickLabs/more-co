@@ -2,6 +2,7 @@
   "es": {
     "nav": {
       "logo": "/img/logos/logo-moreco-black.png",
+      "logoScroll": "/img/logos/logo-moreco-white.png",
       "logoAlt": "Logo del sitio dentro de la barra de navegación",
       "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
       "hamburgerCloseAlt": "Ícono en forma de X para cerrar el menu hamburguesa",
