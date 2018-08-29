@@ -1,0 +1,96 @@
+{
+  "taES": {
+    "base": {
+      "linkReturn": "",
+      "iconReturn": "/img/icons/semi-triangulo.svg",
+      "iconReturnAlt": "Icono para enfatizar el enlace de regresar",
+      "textReturn": "regresar",
+      "scrollImg": "/img/icons/scroll-indicator-white.png",
+      "scrollImgAlt": "ícono que indica que se puede hacer scroll hacia abajo",
+      "btnQuote": "cotiza tu proyecto",
+      "project": {
+        "title": "Datos importantes del proyecto",
+        "textYear": "Año",
+        "locationTitle": "Ubicación",
+        "btnSeeLink": "",
+        "btnSee": "ver proyecto",
+        "btnQuoteLink": "",
+        "btnQuote": "cotiza tu proyecto"
+      },
+      "functionalities": {
+        "title": "funcionalidades",
+        "btn": "ver proyecto"
+      },
+      "getmore": {
+        "bigText": "getmore",
+        "icon": "/img/icons/icon-responsive-design.svg",
+        "iconAlt": "Ícono que representa el tema de diseño responsivo",
+        "title": "Diseño responsivo",
+        "desc": "Nos preocupamos por llevar la experiencia de usuario a otro nivel",
+        "btn": "cotiza tu proyecto",
+        "btnLink": ""
+      }
+    },
+    "dreamwater": {
+      "projectType": "tienda en línea",
+      "cover": {
+        "projectLogo": "/img/logos/logo-dream-water.png",
+        "projectLogoAlt": "Logo de dreamwater en color blanco",
+        "projectName": "dream water",
+        "projectDesc": "Dream Water es un producto que te tomas antes de dormir y te ayuda a tener el sueño más profundo. Natural, para viajar y sin ningún efecto secundario."
+      },
+      "project": {
+        "bigText": "proyecto",
+        "laptopImg": "/img/projects/dreamwater-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de Dream Water",
+        "laptopImgMobile": "/img/projects/akay-laptop-mobile.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de Dream Water",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Compras recurrentes"
+          },
+          {
+            "item": "Selección de variantes / Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp / Testimoniales"
+          },
+          {
+            "item": "Diseño web y móvil / Pasarelas de pago"
+          },
+          {
+            "item": "Envíos personalizados / Productos similares"
+          }
+        ],
+        "location": "Florida, Estados Unidos."
+      },
+      "functionalities": {
+        "img": "/img/projects/dreamwater-window.jpg",
+        "imgAlt": "La tienda en línea de Dream Water en una ventana de navegador",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "btnLink": "",
+        "easyText": "fácil de manejar"
+      },
+      "getmore": {
+        "img": "/img/projects/dreamwater-cama.jpg",
+        "imgAlt": "Imagen representativa de Dreamwater",
+        "imgMobile": "/img/projects/akai-girl.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Dreamwater",
+        "smartphoneImg": "/img/projects/dreamwater-celular.png",
+        "smartphoneImgAlt": "Smartphone con la tienda en línea de Dreamwater"
+      }
+    }
+  }
+}  

@@ -108,8 +108,6 @@
         "verticalText": "Vende en línea"
       },
       "bannertwo": {
-        "img": "/img/utils/paisaje-de-nomad-republic.jpg",
-        "imgAlt": "Imagen de un paisaje demostrativo de Nomad Replublic",
         "tag": "Tienda en línea",
         "tagIcon": "/img/icons/icon-cart-white.svg",
         "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para Nomad Republic",
@@ -141,6 +139,32 @@
         "btnLeft": "ver proyectos",
         "btnRight": "contáctanos"
       }
+    },
+    "portfolio": {
+      "title": "Nuestro trabajo",
+      "tabs": [
+        {
+          "title": "mostrar todos",
+          "function": "javascript:portfolioSwitchTab('portfolioTab1', 'portfolioTabContent1');",
+          "id": "portfolioTab1",
+          "activeClass": "active"
+        },
+        {
+          "title": "tiendas en línea",
+          "function": "javascript:portfolioSwitchTab('portfolioTab2', 'portfolioTabContent2');",
+          "id": "portfolioTab2"
+        },
+        {
+          "title": "tiendas en línea",
+          "function": "javascript:portfolioSwitchTab('portfolioTab3', 'portfolioTabContent3');",
+          "id": "portfolioTab3"
+        },
+        {
+          "title": "punto de venta (pos)",
+          "function": "javascript:portfolioSwitchTab('portfolioTab4', 'portfolioTabContent4');",
+          "id": "portfolioTab4"
+        }
+      ]
     },
     "footer": {
       "logo": "/img/logos/logo-moreco-black.png",

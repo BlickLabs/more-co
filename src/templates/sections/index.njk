@@ -41,15 +41,29 @@
       </div>
       {% endfor %}
     </div>
+    <div class="home-services-mobile-carousel owl-carousel">
+      {% for service in es.home.services.information %}
+      <div class="home-services-item-container">
+        <div class="home-services-icon-container">
+          <img class="{{service.iconClass}}" src="{{service.icon}}" alt="{{service.iconAlt}}">
+        </div>
+        <h4 class="home-services-item-title metropolis-semibold">{{service.title}} {% if service.titleItalic %}<span class="metropolis-semibolditalic">{{service.titleItalic}}</span>{% endif %}</h4>
+        <p class="home-services-descr metropolis-regular">{{service.descOne}} <span class="metropolis-bold">{{service.descBold}}</span> {{service.descTwo}}</p>
+        {% if service.shopifyLogo %}<img class="{{service.shopifyLogoClass}}" src="{{service.shopifyLogo}}">{% endif %}
+      </div>
+      {% endfor %}
+    </div>
     <h3 class="home-services-ourwork metropolis-bold">{{es.home.services.ourWork}}</h3>
   </section>
 
   <section class="home-bannerone">
     <span class="section-tag metropolis-regular">{{es.home.bannerone.tag}}<img src="{{es.home.bannerone.tagIcon}}" alt="{{es.home.bannerone.tagIconAlt}}"></span>
-    <div>
+    <div class="home-bannerone-info">
       <h3 class="banner-title metropolis-bold">{{es.home.bannerone.title}}</h3>
       <p class="banner-desc metropolis-medium">{{es.home.bannerone.desc}}</p>
-      <img class="{{es.home.bannerone.shopifyLogoClass}}" src="{{es.home.bannerone.shopifyLogo}}" alt="{{es.home.bannerone.shopifyLogoAlt}}">
+      <div class="home-bannerone-logo-container">
+        <img class="{{es.home.bannerone.shopifyLogoClass}}" src="{{es.home.bannerone.shopifyLogo}}" alt="{{es.home.bannerone.shopifyLogoAlt}}">
+      </div>
       <a class="btn transparent metropolis-bold" href="">{{es.home.bannerone.btn}}</a>
     </div>
     <div>
@@ -71,13 +85,13 @@
 
   <section class="home-bannertwo">
     <span class="section-tag metropolis-regular">{{es.home.bannertwo.tag}}<img src="{{es.home.bannertwo.tagIcon}}" alt="{{es.home.bannertwo.tagIconAlt}}"></span>
-    <img class="home-bannertwo-img" src="{{es.home.bannertwo.img}}" alt="{{es.home.bannertwo.imgAlt}}">
+    <div class="home-bannertwo-img"></div>
+    <div class="home-bannertwo-devices">
+      <div style="background-color:#ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.5); height: 321px; margin-right: 18px; width: 158px;"></div>
+      <div style="background-color:#ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.5); height: 321px; width: 158px;"></div>
+    </div>
     <div class="home-bannertwo-content">
-      <div style="display: flex; margin-right: 55px;">
-        <div style="background-color:#ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.5); height: 321px; margin-right: 18px; width: 158px;"></div>
-        <div style="background-color:#ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.5); height: 321px; width: 158px;"></div>
-      </div>
-      <div>
+      <div class="home-bannertwo-info">
         <h3 class="banner-title metropolis-bold">{{es.home.bannertwo.title}}</h3>
         <p class="banner-desc metropolis-medium">{{es.home.bannertwo.desc}}</p>
         <img class="{{es.home.bannerone.shopifyLogoClass}}" src="{{es.home.bannertwo.shopifyLogo}}" alt="{{es.home.bannerone.shopifyLogoAlt}}">
@@ -103,7 +117,7 @@
       </div>
     </div>
     <div class="home-bannerthree-background">
-      <div style="background-color: #ffffff; box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.32); height: 304px; position: absolute; right: 126px; top: 86px; width: 430px;"></div>
+      <div class="home-bannerthree-proof"></div>
     </div>
     <span class="section-tag metropolis-regular">{{es.home.bannerthree.tag}}<img src="{{es.home.bannerthree.tagIcon}}" alt="{{es.home.bannerthree.tagIconAlt}}"></span>
   </section>

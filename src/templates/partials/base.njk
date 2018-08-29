@@ -11,10 +11,11 @@
     <title>{% block title %}{% endblock %} | Site</title>
     {% include 'seo/tracking/facebookpixel.njk' %}
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.15.0/lazyload.min.js"></script>
   </head>
   <body>
     <div id="page">
-      {% if section == 'es/index' or section == 'index' %}
+      {% if section == 'es/index' or section == 'index' or section == 'es/portafolio' %}
         {% include 'partials/navbar.njk' %}
       {% else %}
         {% include 'partials/navbar-en.njk' %}
@@ -22,7 +23,7 @@
       <main>
         {% block content %}{% endblock %}
       </main>
-      {% if section == 'es/index' or section == 'index' %}
+      {% if section == 'es/index' or section == 'index' or section == 'es/portafolio' %}
         {% include 'partials/footer.njk' %}
       {% else %}
         {% include 'partials/footer-en.njk' %}
