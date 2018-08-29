@@ -44,7 +44,6 @@
     margin-bottom 100px
 
     &-container
-      align-items flex-end
       display flex
       flex-direction row
       justify-content space-between
@@ -81,6 +80,7 @@
     &-btns
       display flex
       flex-direction row
+      margin-top 5px
 
       & > a:first-child
         margin-right 15px
@@ -94,3 +94,62 @@
     .templateb-logo
       height 38px
       width 34px
+
+@media screen and (min-width 1220px)
+  .templateb
+    &-data
+      &-img
+        height 707px
+        width 1120px
+
+      &-container
+        width 830px
+
+@media screen and (max-width 1010px)
+  .templateb
+    &-cover
+      &-content
+        width 74.7%
+
+      &-title
+        font-size 10px
+
+      &-paragraph
+        font-size 12px
+        width 268px
+
+    &-data
+      &-img
+        width 100%
+
+      &-container
+        flex-direction column
+        width 75%
+
+      &-desc
+        width 100%
+
+      &-btns
+        margin-top 30px
+
+@media screen and (max-width 420px)
+  .templateb
+    .return
+      &-container
+        padding-left 25px
+
+    &-cover
+      &-paragraph
+        width 100%
+
+    &-data
+      margin-bottom 77px
+
+      &-container
+        margin-top 10px
+
+      &-btns
+        flex-direction column
+
+        & > a:first-child
+          margin-bottom 15px
