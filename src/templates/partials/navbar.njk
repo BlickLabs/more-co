@@ -2,13 +2,14 @@
   <div>
     <a href="index.html">
       <img class="nav-logo" src="{{es.nav.logo}}" alt="{{es.nav.logoAlt}}">
+      <img class="nav-logo-scroll" src="{{es.nav.logoScroll}}" alt="{{es.nav.logoAlt}}">
     </a>
   </div>
   <div class="nav-option-container">
     {% for section in es.nav.sections %}
     <div class="nav-option-content">
       <a href="{{section.link}}">
-        <span class="nav-option metropolis-medium {% if view_name == section.viewName %}active{% endif %} {% if section.name == 'contacto' %}special-btn{% endif %}">{{section.name}}</span>
+        <span class="nav-option metropolis-medium {% if view_name == section.viewName %}active{% endif %}{% if section.name == 'contacto' %}special-btn{% endif %}">{{section.name}}</span>
       </a>
     </div>
     {% endfor %}
