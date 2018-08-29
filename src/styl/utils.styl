@@ -75,3 +75,29 @@
     margin-left 10px
     vertical-align middle
     width 20px
+
+@keyframes scrollCoverBrowser
+  10%
+    -webkit-transform translateY(0%)
+    -ms-transform translateY(0%)
+    transform translateY(0%)
+
+  50%
+    -webkit-transform translateY(calc(-50% + 285px))
+    -ms-transform translateY(calc(-50% + 285px))
+    transform translateY(calc(-50% + 285px))
+
+  100%
+    -webkit-transform translateY(calc(-100% + 570px))
+    -ms-transform translateY(calc(-100% + 570px))
+    transform translateY(calc(-100% + 570px))
+
+@keyframes fadeUpAndDown
+   0%
+     top 12%
+
+   50%
+     top 15%
+
+   100%
+     top 12%
