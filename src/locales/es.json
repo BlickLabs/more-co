@@ -22,7 +22,7 @@
           "viewName": "stores"
         },
         {
-          "name": "puntos de venta",
+          "name": "punto de venta",
           "link": "index.html",
           "viewName": "pos"
         },
