@@ -2,25 +2,26 @@
   <div>
     <a href="index.html">
       <img class="nav-logo" src="{{es.nav.logo}}" alt="{{es.nav.logoAlt}}">
+      <img class="nav-logo-scroll" src="{{es.nav.logoScroll}}" alt="{{es.nav.logoAlt}}">
     </a>
   </div>
   <div class="nav-option-container">
     {% for section in es.nav.sections %}
     <div class="nav-option-content">
       <a href="{{section.link}}">
-        <span class="nav-option metropolis-medium {% if view_name == section.viewName %}active{% endif %} {% if section.name == 'contacto' %}special-btn{% endif %}">{{section.name}}</span>
+        <span class="nav-option metropolis-medium {% if view_name == section.viewName %}active{% endif %}{% if section.name == 'contacto' %}special-btn{% endif %}">{{section.name}}</span>
       </a>
     </div>
     {% endfor %}
     <div class="nav-lang-container">
-      <div class="nav-lang-content {% if section == 'es/index' or section == 'index' %} nav-lang-active {% endif %}">
-        <a href="{% if section == 'en/index' %} /es/index.html {% endif %}">
-          <span class="nav-lang">ES</span>
-        </a>
-      </div>
       <div class="nav-lang-content">
         <a href="{% if section == 'es/index' or section == 'index' %} /en/index.html {% endif %}">
-          <span class="nav-lang">EN</span>
+          <span class="nav-lang metropolis-medium">EN</span>
+        </a>
+      </div>
+      <div class="nav-lang-content {% if section == 'es/index' or section == 'index' %} nav-lang-active {% endif %}">
+        <a href="{% if section == 'en/index' %} /es/index.html {% endif %}">
+          <span class="nav-lang metropolis-medium">ES</span>
         </a>
       </div>
     </div>

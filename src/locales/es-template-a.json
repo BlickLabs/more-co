@@ -1,7 +1,7 @@
 {
   "taES": {
     "base": {
-      "linkReturn": "",
+      "linkReturn": "portafolio.html",
       "iconReturn": "/img/icons/semi-triangulo.svg",
       "iconReturnAlt": "Icono para enfatizar el enlace de regresar",
       "textReturn": "regresar",

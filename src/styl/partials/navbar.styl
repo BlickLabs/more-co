@@ -16,15 +16,31 @@
     height 21px
     width 88px
 
+    &-scroll
+      display none
+      height 21px
+      width 88px
+
   &-scroll
     align-items center
-    background-color $blackT2
+    background-color rgba(49, 49, 49, 0.9)
     // box-shadow 0 6px 8px 0 rgba(0,0,0,0.2)
     height 55px
     transition 0.2s
 
+    & .nav-logo
+      display none
+
+    & .nav-logo-scroll
+      display block
+
     & .nav-option
       color $whiteT1
+
+      &:hover,
+      &.active
+        color $whiteT1
+        font-weight $bold
 
     & .special-btn
       border solid 1px $whiteT1
@@ -36,42 +52,40 @@
     letter-spacing 2px
     text-transform uppercase
 
+    &:hover,
     &.active
-      color white
-
-    &:hover:before,
-    &.active:before
-      background-color white
-      bottom -8px
-      content ""
-      height 3px
-      position absolute
-      width 100%
-
-    &:hover
-      color white
+      color $blueT1
+      font-weight $semibold
 
     &-container
       display flex
       flex-direction row
 
     &-content
+      align-items center
+      display flex
       margin-left 20px
       position relative
 
   &-lang
-    font-size 8px
+    color $grayT3
+    display block
+    font-size 9px
+    letter-spacing 1.7px
+    height 7px
 
     &-container
+      align-items center
       border-radius 16px
       background-color $whiteT1
       display flex
       flex-direction row
       height 26px
       margin-left 20px
+      width 67px
 
     &-content
-      margin 0 10px
+      margin 0 13px
 
       & a
         padding 5px
@@ -82,9 +96,11 @@
       background-color $blueT1
       color #ffffff
       display flex
-      height 26px
+      height 27px
       justify-content center
-      width 26px
+      margin 0
+      min-width 27px
+      text-indent 2px
 
       & a span
         color $whiteT1
@@ -94,11 +110,12 @@
   border solid 1px $blackT2
   color $blackT2
   display flex
-  font-size 8px
+  font-size 9px
   height 22px
   justify-content center
   letter-spacing 2px
-  width 88px
+  padding-top 2px
+  width 90px
 
 .hamburger
   &-visibility

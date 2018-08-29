@@ -1,4 +1,6 @@
 .home
+  position relative
+
   &-cover
     background-color $grayT1
     display flex
@@ -184,6 +186,49 @@
       &:after
         background-color $whiteT1
 
+    &-animation
+      background-color $whiteT1
+      box-shadow 0 19px 30px 0 rgba(0, 0, 0, 0.26)
+      height 304px
+      overflow hidden
+      padding-top 16px
+      position relative
+      width 489px
+
+      &-bar
+        background-color $whiteT1
+        box-shadow 0 2px 4px 0 rgba(0, 0, 0, 0.08)
+        height 16px
+        position absolute
+        top 0
+        width 100%
+        z-index 1
+
+      &-dot
+        background-color $grayT3
+        border-radius 100px
+        height 4px
+        width 4px
+
+        &-container
+          display flex
+          flex-direction row
+          left 14px
+          position absolute
+          top 6px
+
+        &:nth-child(2)
+          margin 0 6px
+
+      &-img
+        animation-duration 5s
+        animation-name scrollCoverBrowser
+        animation-timing-function cubic-bezier(1.000, 0.005, 0.305, 1.000)
+        animation-direction alternate
+        animation-iteration-count infinite
+        animation-fill-mode none
+        width 100%
+
   &-bannertwo
     display flex
     flex-direction row
@@ -204,11 +249,23 @@
       min-width 439px
 
     &-devices
+      animation fadeUpAndDown 4s infinite
       display flex
       left 180px
       margin-right 55px
       position absolute
       top 133px
+
+      &-container
+        background-color transparent
+        border-radius 30px
+        box-shadow 0 19px 30px 0 rgba(0, 0, 0, 0.5)
+        height 321px
+        margin-right 18px
+        width 158px
+
+      &-img
+        width 100%
 
     &-content
       display flex
@@ -259,14 +316,19 @@
       min-width 422px
       position relative
 
-    &-proof
-      background-color #ffffff
-      box-shadow 0 19px 30px 0 rgba(0, 0, 0, 0.32)
-      height 304px
-      position absolute
-      right 126px
-      top 86px
-      width 430px
+    &-tablet
+      width 100%
+
+      &-container
+        animation fadeUpAndDown 4s infinite
+        background-color transparent
+        border-radius 22px
+        box-shadow 0 19px 30px 0 rgba(0, 0, 0, 0.32)
+        height 304px
+        position absolute
+        right 126px
+        top 86px
+        width 430px
 
     & .banner-title,
     & .banner-desc
@@ -319,7 +381,7 @@
       flex-direction row
       margin-top 40px
 
-      & .btn.white
+      & .btn.borderBlack
         margin-right 22px
 
 .banner
@@ -337,37 +399,6 @@
     letter-spacing 1px
     line-height 16px
     margin 18px 0 26px 0
-
-.proof-panel
-  background-color $whiteT1
-  height 304px
-  overflow hidden
-  width 489px
-
-  &-img
-    animation-duration 5s
-    animation-name scrollCoverBrowser
-    animation-timing-function cubic-bezier(1.000, 0.005, 0.305, 1.000)
-    animation-direction alternate
-    animation-iteration-count infinite
-    animation-fill-mode none
-    width 100%
-
-@keyframes scrollCoverBrowser
-  10%
-    -webkit-transform translateY(0%)
-    -ms-transform translateY(0%)
-    transform translateY(0%)
-
-  50%
-    -webkit-transform translateY(calc(-50% + 285px))
-    -ms-transform translateY(calc(-50% + 285px))
-    transform translateY(calc(-50% + 285px))
-
-  100%
-    -webkit-transform translateY(calc(-100% + 570px))
-    -ms-transform translateY(calc(-100% + 570px))
-    transform translateY(calc(-100% + 570px))
 
 .service
   &-icon
@@ -397,12 +428,36 @@
   background-position center
   background-repeat no-repeat
   background-size contain
-  bottom 222px
+  bottom -100px
   height 425px
   left 0
   position absolute
   width 439px
   z-index 1
+
+@media screen and (min-width 1720px) and (max-width 1920px)
+  .home
+    &-bannerone
+      padding-left 22%
+      padding-right 22%
+
+    &-bannertwo
+      padding 0 23%
+
+    &-bannerthree
+      padding 0 25%
+
+@media screen and (min-width 1250px) and (max-width 1719px)
+  .home
+    &-bannerone
+      padding-left 20%
+      padding-right 20%
+
+    &-bannertwo
+      padding 0 13%
+
+    &-bannerthree
+      padding 0 16%
 
 @media screen and (max-width 1010px)
   .home

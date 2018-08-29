@@ -2,6 +2,7 @@
   "es": {
     "nav": {
       "logo": "/img/logos/logo-moreco-black.png",
+      "logoScroll": "/img/logos/logo-moreco-white.png",
       "logoAlt": "Logo del sitio dentro de la barra de navegación",
       "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
       "hamburgerCloseAlt": "Ícono en forma de X para cerrar el menu hamburguesa",
@@ -22,7 +23,7 @@
           "viewName": "stores"
         },
         {
-          "name": "puntos de venta",
+          "name": "punto de venta",
           "link": "index.html",
           "viewName": "pos"
         },
@@ -98,6 +99,8 @@
         "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para Akai Swimwear",
         "title": "Akai Swimwear",
         "desc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\"",
+        "img": "/img/utils/akai-animacion.jpg",
+        "imgAlt": "Imagen del sitio de Akai Swimwaer",
         "project": "Akai Swimwear",
         "type": "Tienda en línea",
         "typeDesc": "Diseño y programación de tienda en línea para vender bikinis hechos a mano",
@@ -132,7 +135,9 @@
         "shopifyLogoAlt": "Logo de Shopify Experts dentro del tercer banner de proyectos",
         "tag": "Punto de Venta",
         "tagIcon": "/img/icons/icon-tag-white.svg",
-        "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para El Trebol + Yazbek"
+        "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para El Trebol + Yazbek",
+        "img": "/img/utils/yazbek-ropa.png",
+        "imgAlt": "Imagen de una tablet mostrando el sitio de Yazbek"
       },
       "start": {
         "title": "¿Estás listo para tu proyecto?",
