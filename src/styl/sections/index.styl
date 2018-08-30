@@ -381,6 +381,10 @@
       flex-direction row
       margin-top 40px
 
+      & > a
+        justify-content center
+        width 137px
+
       & .btn.borderBlack
         margin-right 22px
 
@@ -566,6 +570,9 @@
           height 273px
           width 304px
 
+      &-scrolling
+        display none
+
     &-services
       margin-top 55px
 
@@ -578,7 +585,7 @@
       &-mobile
         &-carousel
           display block !important
-          margin -60px 0 130px 0
+          margin -10% 0 130px 0
           padding 0 14%
           position relative
 
@@ -628,6 +635,7 @@
       padding 50px 38px 104px 38px
 
       &-info
+        margin-bottom 0
         padding-left 40px
 
       &-logo
@@ -636,6 +644,9 @@
           justify-content flex-end
           padding-right 40px
           width 100%
+
+      &-animation
+        width 100%
 
       &-lowerinfo
         justify-content center
@@ -685,29 +696,31 @@
     &-bannerthree
       &-background
         background-size 166px
-        height 306px
+        height 330px
+        min-width 100%
 
-      &-proof
-        height 259px
-        left 0
-        margin 0 auto
-        right 0
-        width 367px
+      &-tablet
+        &-container
+          height auto
+          left 0
+          margin 25px auto 0 auto
+          right 0
+          width 80%
 
       &-content
         align-items flex-start
         margin 51px auto -20px auto
-        width 367px
+        width 80%
 
       &-lowerinfo
-        margin 54px 0 0 155px
+        margin 54px 0 0 auto
 
       & .section-tag
         bottom initial
         top 17px
 
     &-start
-      margin-top 0
+      margin 0
 
       &:before
         border-top solid 1px $grayT3
@@ -723,12 +736,78 @@
         text-align center
 
       &-btns
+        justify-content center
         margin-top 44px
 
-  .proof-panel
-    min-width 100%
-
   .footer-home-background
-    bottom 0
+    bottom -590px
     height 334px
     width 375px
+
+@media screen and (max-width 460px)
+  .home
+    &-cover
+      align-items flex-start
+      padding-top 95px
+
+      &-img
+        &-left
+          bottom -30px
+
+        &-right
+          bottom -37px
+          height 230px
+          width 256px
+
+    &-bannerone
+      &-info
+        margin-top 15px
+        padding-left 0
+
+      & .banner-subtitle
+        text-align center
+
+      &-logo
+        &-container
+          padding-right 0
+
+      &-lowerinfo
+        align-items center
+        flex-direction column
+
+        & > .banner-subtitle
+          margin 0 0 20px 0
+
+        & > div > .banner-desc
+          text-align center
+          width 205px
+
+    &-bannertwo
+      &-devices
+        left 26px
+        margin -60px 0 0 0
+
+        &-container
+          margin-right 0
+
+      &-content
+        padding-top 210px
+
+      &-info,
+      &-lowerinfo
+        margin 0 auto
+
+    &-start
+      &-title
+        font-size 33px
+        line-height 36px
+
+      &-btns
+        margin-top 30px
+
+        & .btn.borderBlack
+          margin-right 12px
+
+  .footer-home-background
+    height 300px
+    width 335px

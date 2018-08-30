@@ -36,13 +36,15 @@ window.addEventListener('scroll', function(e) {
 });
 
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = '85%';
+  document.querySelector('#menuContainer').style.width = '100%';
   document.querySelector('#hamburgerMenu').style.display = 'none';
+  document.querySelector('body').style.overflow = 'hidden';
 }
 
 function hideMenu() {
   document.querySelector('#menuContainer').style.width = '0%';
   document.querySelector('#hamburgerMenu').style.display = 'inline';
+  document.querySelector('body').style.overflow = 'scroll';
 }
 
 window.addEventListener('click', function(e) {
