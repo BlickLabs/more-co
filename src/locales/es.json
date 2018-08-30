@@ -5,6 +5,7 @@
       "logoScroll": "/img/logos/logo-moreco-white.png",
       "logoAlt": "Logo del sitio dentro de la barra de navegación",
       "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
+      "hamburgerClose": "/img/icons/cerrar-menu-hamburguesa.png",
       "hamburgerCloseAlt": "Ícono en forma de X para cerrar el menu hamburguesa",
       "sections": [
         {
@@ -14,13 +15,18 @@
         },
         {
           "name": "portafolio",
-          "link": "index.html",
+          "link": "es/portafolio.html",
           "viewName": "portfolio"
         },
         {
           "name": "tiendas en línea",
           "link": "index.html",
           "viewName": "stores"
+        },
+        {
+          "name": "páginas web",
+          "link": "index.html",
+          "viewName": "pages"
         },
         {
           "name": "punto de venta",
@@ -176,9 +182,29 @@
       "logoAlt": "Logo del sitio dentro del pie de página",
       "sections": [
         {
-          "name": "portafolio",
+          "name": "inicio",
           "link": "index.html",
+          "viewName": "homepage"
+        },
+        {
+          "name": "portafolio",
+          "link": "es/portafolio.html",
           "viewName": "portfolio"
+        },
+        {
+          "name": "tiendas en línea",
+          "link": "index.html",
+          "viewName": "stores"
+        },
+        {
+          "name": "páginas web",
+          "link": "index.html",
+          "viewName": "pages"
+        },
+        {
+          "name": "punto de venta",
+          "link": "index.html",
+          "viewName": "pos"
         },
         {
           "name": "nosotros",
@@ -192,6 +218,7 @@
           "btnAspect": true
         }
       ],
+      "email": "hola@getmore.mx",
       "copyright": "Copyright More Co. 2018®",
       "decorator": "/img/utils/show-neulift-in-phone.png"
     }
