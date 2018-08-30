@@ -20,16 +20,31 @@
     color $blackT2
     font-size 10px
     letter-spacing 2.2px
+    line-height 22px
+    margin-right 15px
     text-transform uppercase
+
+    &:hover
+      color $blueT1
+
+    &.borderBlack
+      height 29px
+      margin 10px 0 0 0
 
     &-container
       align-items center
       display flex
       flex-direction row
+      flex-wrap wrap
       margin-top 16px
+      width 340px
 
-      & a:nth-child(2)
-        margin 0 15px
+  &-email
+    color $blackT2
+    display block
+    font-size 9px
+    letter-spacing 2px
+    margin-top 15px
 
   &-copyrigth
     color $blackT2
@@ -45,8 +60,9 @@
 
 @media screen and (max-width 650px)
   .footer
-    height 492px
+    height 566px
     justify-content flex-start
+    padding 44px 0 44px 0
 
     &-content
       align-items center
@@ -54,5 +70,23 @@
       flex-direction column
       margin 0 auto 19px auto
 
+    &-section
+      margin 0 7px
+
+      &-container
+        justify-content center
+
+      &.btn.borderBlack
+        margin-top 25px
+
     &-decorator
       display none
+
+    &-email
+      margin 35px 0 12px 0
+
+@media screen and (max-width 460px)
+  .footer
+    &-section
+      &-container
+        width 260px
