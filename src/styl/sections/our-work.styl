@@ -1,5 +1,17 @@
 .ourwork
-  margin-top 55px
+  margin 55px 0
+  padding-bottom 72px
+  position relative
+
+  &:before
+    background-color $grayT1
+    bottom 0
+    content ""
+    left 0
+    position absolute
+    right 0
+    top 880px
+    z-index -1
 
   &-header
     margin-top 44px
@@ -34,14 +46,12 @@
 
     &-content
       display none
-      // visibility hidden
       flex-wrap wrap
       margin 0 auto
       width 762px
 
       &:first-child
         display flex
-        // visibility visible
 
     & > a
         border-bottom solid 1px $grayT3
@@ -73,25 +83,546 @@
       letter-spacing -0.4px
       position absolute
 
-img:not([src]) {
-  visibility: hidden;
-}
+    &-layer
+      align-items center
+      background-size cover
+      bottom 0
+      display flex
+      flex-direction column
+      justify-content center
+      left 0
+      opacity 0
+      position absolute
+      right 0
+      top 0
+      transition 0.3s
 
-#loadMore {
-    padding-bottom: 30px;
-    padding-top: 30px;
-    text-align: center;
-    width: 100%;
-}
-#loadMore a {
-    background: #042a63;
-    border-radius: 3px;
-    color: white;
-    display: inline-block;
-    padding: 10px 30px;
-    transition: all 0.25s ease-out;
-    -webkit-font-smoothing: antialiased;
-}
-#loadMore a:hover {
-    background-color: #021737;
-}
+      &:hover
+        opacity 1
+        transition 0.3s
+        z-index 2
+
+
+      /*Styles to the project dreamwater*/
+      &.dreamwater
+        background-image url("../img/ourwork/hover-dream-water.jpg")
+
+      & .logo-dreamwater
+        height 43px
+        width 80px
+
+      /*Styles to the project vremexico*/
+      &.vremexico
+        background-image url("../img/ourwork/hover-vre-mexico.jpg")
+
+      & .logo-vremexico
+        height 58px
+        width 60px
+
+      /*Styles to the project nomadrepublic*/
+      &.nomadrepublic
+        background-image url("../img/ourwork/hover-nomad-republic.jpg")
+
+      & .logo-nomadrepublic
+        height 27px
+        width 103px
+
+      /*Styles to the project higia*/
+      &.higia
+        background-image url("../img/ourwork/hover-higia.jpg")
+
+      & .logo-higia
+        height 46px
+        width 77px
+
+      /*Styles to the project yazbek*/
+      &.yazbek
+        background-image url("../img/ourwork/hover-yazbek.jpg")
+
+      & .logo-yazbek
+        height 36px
+        width 99px
+
+      /*Styles to the project neulift*/
+      &.neulift
+        background-image url("../img/ourwork/hover-neulift.jpg")
+
+      & .logo-neulift
+        height 28px
+        width 115px
+
+      /*Styles to the project akaiswimwear*/
+      &.akaiswimwear
+        background-image url("../img/ourwork/hover-akai-swimwear.jpg")
+
+      & .logo-akaiswimwear
+        height 35px
+        width 88px
+
+      /*Styles to the project schutique*/
+      &.schutique
+        background-image url("../img/ourwork/hover-schutique.jpg")
+
+      & .logo-schutique
+        height 30px
+        width 98px
+
+      /*Styles to the project alianzaswemex*/
+      &.alianzaswemex
+        background-image url("../img/ourwork/hover-alianza-swe-mex.jpg")
+
+      & .logo-alianzaswemex
+        height 51px
+        width 97px
+
+      /*Styles to the project aromaria*/
+      &.aromaria
+        background-image url("../img/ourwork/hover-aromaria.jpg")
+
+      & .logo-aromaria
+        height 14px
+        // width px
+
+      /*Styles to the project littleme*/
+      &.littleme
+        background-image url("../img/ourwork/hover-little-me.jpg")
+
+      & .logo-littleme
+        height 26px
+        width 85px
+
+      /*Styles to the project ican*/
+      &.ican
+        background-image url("../img/ourwork/hover-ican.jpg")
+
+      & .logo-ican
+        height 23px
+        width 207px
+
+      /*Styles to the project 98coastav*/
+      &.ninety-eight-coastav
+        background-image url("../img/ourwork/hover-98-coast-av.jpg")
+
+      & .logo-98coastav
+        height 22px
+        width 112px
+
+      /*Styles to the project mccosmetics*/
+      &.mccosmetics
+        background-image url("../img/ourwork/hover-mc-cosmetics.jpg")
+
+      & .logo-mccosmetics
+        height 18px
+        width 154px
+
+      /*Styles to the project loretta*/
+      &.loretta
+        background-image url("../img/ourwork/hover-loretta.jpg")
+
+      & .logo-loretta
+        height 14px
+        width 129px
+
+      /*Styles to the project entos*/
+      &.entos
+        background-image url("../img/ourwork/hover-entos.jpg")
+
+      & .logo-entos
+        height 22px
+        width 90px
+
+      /*Styles to the project dondinero*/
+      &.dondinero
+        background-image url("../img/ourwork/hover-don-dinero.jpg")
+
+      & .logo-dondinero
+        height 18px
+        width 131px
+
+      /*Styles to the project sic*/
+      &.sic
+        background-image url("../img/ourwork/hover-sic.jpg")
+
+      & .logo-sic
+        height 28px
+        width 83px
+
+      /*Styles to the project promor*/
+      &.promor
+        background-image url("../img/ourwork/hover-promor.jpg")
+
+      & .logo-promor
+        height 28px
+        width 99px
+
+      /*Styles to the project piktia*/
+      &.piktia
+        background-image url("../img/ourwork/hover-piktia.jpg")
+
+      & .logo-piktia
+        height 30px
+        width 91px
+
+      /*Styles to the project coralbeach*/
+      &.coralbeach
+        background-image url("../img/ourwork/hover-coral-beach.jpg")
+
+      & .logo-coralbeach
+        height 31px
+        width 80px
+
+      /*Styles to the project aventarte*/
+      &.aventarte
+        background-image url("../img/ourwork/hover-aventarte.jpg")
+
+      & .logo-aventarte
+        height 18px
+        width 120px
+
+      /*Styles to the project dimsa*/
+      &.dimsa
+        background-image url("../img/ourwork/hover-dimsa.jpg")
+
+      & .logo-dimsa
+        height 39px
+        width 76px
+
+      /*Styles to the project wicore*/
+      &.wicore
+        background-image url("../img/ourwork/hover-wicore.jpg")
+
+      & .logo-wicore
+        height 21px
+        width 98px
+
+      /*Styles to the project theaerincompany*/
+      &.theaerincompany
+        background-image url("../img/ourwork/hover-the-aerin-company.jpg")
+
+      & .logo-theaerincompany
+        height 36px
+        width 111px
+
+      /*Styles to the project grupoaguaviento*/
+      &.grupoaguaviento
+        background-image url("../img/ourwork/hover-grupo-aguaviento.jpg")
+
+      & .logo-grupoaguaviento
+        height 18px
+        width 115px
+
+      /*Styles to the project bricksa*/
+      &.bricksa
+        background-image url("../img/ourwork/hover-bricksa.jpg")
+
+      & .logo-bricksa
+        height 50px
+        width 81px
+
+      /*Styles to the project wellnessstore*/
+      &.wellnessstore
+        background-image url("../img/ourwork/hover-wellness-store.jpg")
+
+      & .logo-wellnessstore
+        height 32px
+        width 87px
+
+      /*Styles to the project finacero*/
+      &.finacero
+        background-image url("../img/ourwork/hover-finacero.jpg")
+
+      & .logo-finacero
+        height 14px
+        width 133px
+
+      /*Styles to the project rancholasflores*/
+      &.rancholasflores
+        background-image url("../img/ourwork/hover-rancho-las-flores.jpg")
+
+      & .logo-rancholasflores
+        height 40px
+        width 87px
+
+      /*Styles to the project rgvsoluciones*/
+      &.rgvsoluciones
+        background-image url("../img/ourwork/hover-rgv-soluciones.jpg")
+
+      & .logo-rgvsoluciones
+        height 34px
+        width 69px
+
+      /*Styles to the project tabbybeans*/
+      &.tabbybeans
+        background-image url("../img/ourwork/hover-tabby-beans.jpg")
+
+      & .logo-tabbybeans
+        height 51px
+        width 47.17px
+
+      /*Styles to the project rerenergygroup*/
+      &.rerenergygroup
+        background-image url("../img/ourwork/hover-rer-energy-group.jpg")
+
+      & .logo-rerenergygroup
+        height 30px
+        width 94px
+
+      /*Styles to the project lasmezcas*/
+      &.lasmezcas
+        background-image url("../img/ourwork/hover-las-mezcas.jpg")
+
+      & .logo-lasmezcas
+        height 39px
+        width 87px
+
+      /*Styles to the project fortia*/
+      &.fortia
+        background-image url("../img/ourwork/hover-fortia.jpg")
+
+      & .logo-fortia
+        height 29px
+        width 101.5px
+
+      /*Styles to the project endless*/
+      &.endless
+        background-image url("../img/ourwork/hover-endless.jpg")
+
+      & .logo-endless
+        height 26px
+        width 88px
+
+      /*Styles to the project dreamwatershop*/
+      &.dreamwatershop
+        background-image url("../img/ourwork/hover-dream-water-shop.jpg")
+
+      & .logo-dreamwatershop
+        height 43px
+        width 80px
+
+      /*Styles to the project loquay*/
+      &.loquay
+        background-image url("../img/ourwork/hover-loquay.jpg")
+
+      & .logo-loquay
+        height 22px
+        width 84px
+
+      /*Styles to the project indots*/
+      &.indots
+        background-image url("../img/ourwork/hover-indots.jpg")
+
+      & .logo-indots
+        height 29px
+        width 89px
+
+      /*Styles to the project florella*/
+      &.florella
+        background-image url("../img/ourwork/hover-florella.jpg")
+
+      & .logo-florella
+        height 28px
+        width 105px
+
+      /*Styles to the project ateliercotejardin*/
+      &.ateliercotejardin
+        background-image url("../img/ourwork/hover-atelier-cote-jardin.jpg")
+
+      & .logo-ateliercotejardin
+        height 43px
+        width 92px
+
+      /*Styles to the project neopraxis*/
+      &.neopraxis
+        background-image url("../img/ourwork/hover-neopraxis.jpg")
+
+      & .logo-neopraxis
+        height 16px
+        width 114px
+
+      /*Styles to the project iidea*/
+      &.iidea
+        background-image url("../img/ourwork/hover-iidea.jpg")
+
+      & .logo-iidea
+        height 18px
+        width 74px
+
+      /*Styles to the project workingchapultepec*/
+      &.workingchapultepec
+        background-image url("../img/ourwork/hover-working-chapultepec.jpg")
+
+      & .logo-workingchapultepec
+        height 27px
+        width 88px
+
+      /*Styles to the project begoniafernandez*/
+      &.begoniafernandez
+        background-image url("../img/ourwork/hover-begonia-fernandez.jpg")
+
+      & .logo-begoniafernandez
+        height 33px
+        width 21px
+
+      /*Styles to the project rlabogados*/
+      &.rlabogados
+        background-image url("../img/ourwork/hover-rl-abogados.jpg")
+
+      & .logo-rlabogados
+        height 35px
+        width 29px
+
+      /*Styles to the project nutriologaalegp*/
+      &.nutriologaalegp
+        background-image url("../img/ourwork/hover-nutriologa-ale-gp.jpg")
+
+      & .logo-nutriologaalegp
+        height 15px
+        width 200px
+
+      /*Styles to the project estilizate*/
+      &.estilizate
+        background-image url("../img/ourwork/hover-estilizate.jpg")
+
+      & .logo-estilizate
+        height 35px
+        width 93px
+
+      /*Styles to the project pacer*/
+      &.pacer
+        background-image url("../img/ourwork/hover-pacer.jpg")
+
+      & .logo-pacer
+        height 33px
+        width 90px
+
+      /*Styles to the project opiajewelry*/
+      &.opiajewelry
+        background-image url("../img/ourwork/hover-opia-jewelry.jpg")
+
+      & .logo-opiajewelry
+        height 29px
+        width 91px
+
+      /*Styles to the project sante*/
+      &.sante
+        background-image url("../img/ourwork/hover-sante.jpg")
+
+      & .logo-sante
+        height 68px
+        width 123px
+
+      /*Styles to the project decosnay*/
+      &.decosnay
+        background-image url("../img/ourwork/hover-decosnay.jpg")
+
+      & .logo-decosnay
+        height 49px
+        width 66px
+
+      /*Styles to the project confettiparty*/
+      &.confettiparty
+        background-image url("../img/ourwork/hover-confetti-party.jpg")
+
+      & .logo-confettiparty
+        height 56px
+        width 66px
+
+      /*Styles to the project opaloaccesorios*/
+      &.opaloaccesorios
+        background-image url("../img/ourwork/hover-opalo-accesorios.jpg")
+
+      & .logo-opaloaccesorios
+        height 31px
+        width 71px
+
+      & > a
+        margin-top 19px
+
+    &-icon
+      height 22px
+      width 22px
+
+    &-btn
+      &-container
+        display flex
+        justify-content flex-end
+        margin-top 69px
+        width 100%
+
+        & > a
+          display flex
+          justify-content center
+          width 123px
+
+img:not([src])
+  visibility hidden
+
+@media screen and (max-width 820px)
+  .ourwork
+    &-tab
+      &-container
+        position relative
+        width 381px
+
+      &-content
+        width 381px
+
+      & > a
+        font-size 10px
+        padding-bottom 19px
+
+      &-carousel
+        & .owl-prev,
+        & .owl-next
+          background-color $whiteT1 !important
+          bottom 15px
+          height 26px
+          position absolute
+
+        & .owl-prev
+          left 0
+
+        & .owl-next
+          right 0
+
+        & .owl-prev.disabled,
+        & .owl-next.disabled
+          display none
+
+        & .carousel-arrow
+          height 26px
+          width 26px
+
+@media screen and (max-width 420px)
+  .ourwork
+    margin-bottom 5px
+    padding-bottom 46px
+
+    &-header
+      margin-top 50px
+
+    &-title
+      &:before
+        height 2px
+        margin-bottom 20px
+
+    &-tab
+      &-container
+        margin 35px auto 50px auto
+        width 191px
+
+      &-content
+        width 100%
+
+    &-project
+      height auto
+      width 100%
+
+      &-img
+        height 100%
+        width 100%
+
+      &-btn
+        &-container
+          justify-content center
+          margin-top 46px
