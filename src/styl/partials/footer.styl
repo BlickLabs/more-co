@@ -5,9 +5,21 @@
   flex-direction column
   height 330px
   justify-content space-between
-  padding 44px 92px
+  padding 15px 92px 40px 0
   position relative
   width 100%
+
+  &-background
+    background-image url("/img/utils/example-akai-in-laptop.png")
+    background-position center
+    background-repeat no-repeat
+    background-size contain
+    bottom 170px
+    height 425px
+    left 0
+    position absolute
+    width 439px
+    z-index 1
 
   &-content
     margin 0 0 0 auto
@@ -58,11 +70,24 @@
     position absolute
     right 60px
 
+@media screen and (max-width 940px)
+  .footer
+    &-background
+      bottom 90px
+      height 334px
+      width 375px
+
+    &-decorator
+      right 30px
+
 @media screen and (max-width 650px)
   .footer
     height 566px
     justify-content flex-start
     padding 44px 0 44px 0
+
+    &-background
+      bottom -23px
 
     &-content
       align-items center
@@ -85,8 +110,15 @@
     &-email
       margin 35px 0 12px 0
 
+    &-decorator
+      display none
+
 @media screen and (max-width 460px)
   .footer
+    &-background
+      height 300px
+      width 335px
+
     &-section
       &-container
         width 260px
