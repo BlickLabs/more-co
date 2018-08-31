@@ -1,7 +1,7 @@
 {
   "tbES": {
     "base": {
-      "linkReturn": "portafolio.html",
+      "linkReturn": "/es/portafolio.html",
       "iconReturn": "/img/icons/semi-triangulo.svg",
       "iconReturnAlt": "Icono para enfatizar el enlace de regresar",
       "textReturn": "regresar",
@@ -12,7 +12,7 @@
         "btnSeeLink": "",
         "btnSee": "ver proyecto",
         "btnQuoteLink": "",
-        "btnQuote": "cotiza tu proyecto"
+        "btnQuote": "cotizar mi proyecto"
       }
     },
     "vre": {
