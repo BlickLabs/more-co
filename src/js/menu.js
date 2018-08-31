@@ -44,7 +44,7 @@ function showMenu() {
 function hideMenu() {
   document.querySelector('#menuContainer').style.width = '0%';
   document.querySelector('#hamburgerMenu').style.display = 'inline';
-  document.querySelector('body').style.overflow = 'scroll';
+  document.querySelector('body').style.overflow = 'auto';
 }
 
 window.addEventListener('click', function(e) {
