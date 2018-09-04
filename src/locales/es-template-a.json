@@ -327,6 +327,90 @@
         "smartphoneImg": "/img/projects/nomad-smartphone.png",
         "smartphoneImgAlt": "Smartphone con la tienda en línea de Nomad Republic"
       }
+    },
+    "schutique": {
+      "goProject": "https://nomadrepublic.org/",
+      "projectType": "tienda en línea",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-schutique.svg",
+        "projectLogoAlt": "Logo de Schutique en color blanco",
+        "projectName": "schutique",
+        "projectDesc": "Tienda en línea de Zapatos y accesorios para crear el mejor look de temporada."
+      },
+      "project": {
+        "laptopImg": "/img/projects/schutique-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de Schutique",
+        "laptopImgMobile": "/img/projects/schutique-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de Schutique",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Tarjeta de regalo"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          },
+          {
+            "item": "Integración con Instagram"
+          },
+          {
+            "item": "Venta en Facebook e Instagram"
+          },
+          {
+            "item": "Creación de guías automáticas"
+          },
+          {
+            "item": "Métodos de pago variados"
+          }
+        ],
+        "location": "Veracruz, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/schutique-web.png",
+        "imgAlt": "La tienda en línea de Schutique en una ventana de navegador",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "fácil de navegar"
+      },
+      "getmore": {
+        "img": "/img/projects/schutique-imagen.jpg",
+        "imgAlt": "Imagen representativa de Schutique",
+        "imgMobile": "/img/projects/schutique-imagen.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Schutique",
+        "smartphoneImg": "/img/projects/schutique-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con la tienda en línea de Schutique"
+      }
     }
   }
 }  
