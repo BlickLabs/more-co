@@ -530,6 +530,66 @@
         "smartphoneImg": "/img/projects/higia-smartphone.png",
         "smartphoneImgAlt": "Smartphone con la página web de Higia"
       }
+    },
+    "neulift": {
+      "goProject": "http://neulift.com.mx/",
+      "projectType": "página web",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-neulift.svg",
+        "projectLogoAlt": "Logo de Neulift en color blanco",
+        "projectName": "neulift",
+        "projectDesc": "Clínica de belleza integral sin cirugía para otorgar un servicio estético y con ello conseguir una mejora emocional."
+      },
+      "project": {
+        "laptopImg": "/img/projects/neulift-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la página web de Neulift",
+        "laptopImgMobile": "/img/projects/neulift-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la página web de Neulift",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Navegación intuitiva"
+          },
+          {
+            "item": "Fácil acceso a dirección y Redes sociales"
+          },
+          {
+            "item": "Filtrado de Tratamientos"
+          },
+          {
+            "item": "Formulario de contacto y ubicación"
+          }
+        ],
+        "location": "Veracruz, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/neulift-web.png",
+        "imgAlt": "La página web de Neulift en una ventana de navegador",
+        "circles": [
+          {
+            "title": "d"
+          },
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "fácil de usar"
+      },
+      "getmore": {
+        "img": "/img/projects/neulift-imagen.jpg",
+        "imgAlt": "Imagen representativa de Neulift",
+        "imgMobile": "/img/projects/neulift-imagen.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Neulift",
+        "smartphoneImg": "/img/projects/neulift-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con la página web de Neulift"
+      }
     }
   }
 }  
