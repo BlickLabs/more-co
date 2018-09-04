@@ -470,6 +470,66 @@
         "smartphoneImg": "/img/projects/yazbek-smartphone.png",
         "smartphoneImgAlt": "Smartphone con Punto de venta de Yazbek"
       }
+    },
+    "higia": {
+      "goProject": "https://www.higia.tech/es/index",
+      "projectType": "página web",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-higia.svg",
+        "projectLogoAlt": "Logo de Higia en color blanco",
+        "projectName": "higia",
+        "projectDesc": "Empresa que desarrolló EVA, el primer wearable inteligente portátil y no invasivo, diseñado para detectar anormalidades en los patrones térmicos de los senos, un indicador de posible presencia de cáncer de mama."
+      },
+      "project": {
+        "laptopImg": "/img/projects/higia-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la página web de Higia",
+        "laptopImgMobile": "/img/projects/higia-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la página web de Higia",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Animaciones"
+          },
+          {
+            "item": "Cambio de idioma inglés / español"
+          },
+          {
+            "item": "Fácil navegación"
+          },
+          {
+            "item": "Programación web y móvil"
+          },
+          {
+            "item": "Formulario de contacto y ubicación"
+          },
+          {
+            "item": "8+ vistas"
+          }
+        ],
+        "location": "Monterrey, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/higia-web.png",
+        "imgAlt": "La página web de Higia en una ventana de navegador",
+        "circles": [
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "fácil de usar"
+      },
+      "getmore": {
+        "img": "/img/projects/higia-imagen.png",
+        "imgAlt": "Imagen representativa de Higia",
+        "imgMobile": "/img/projects/higia-imagen.png",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Higia",
+        "smartphoneImg": "/img/projects/higia-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con la página web de Higia"
+      }
     }
   }
 }  
