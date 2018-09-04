@@ -36,7 +36,7 @@
       "projectType": "tienda en línea",
       "cover": {
         "projectLogo": "/img/ourwork/logo-akai-swimwear.svg",
-        "projectLogoAlt": "Logo de akay swimwear en color blanco",
+        "projectLogoAlt": "Logo de Akai Swimwear en color blanco",
         "projectName": "akai swimwear",
         "projectDesc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\""
       },
@@ -89,6 +89,78 @@
         "imgMobileAlt": "Imagen en versión móvil representativa de Akai Swimwear",
         "smartphoneImg": "/img/projects/akai-smartphone.png",
         "smartphoneImgAlt": "Smartphone con la tienda en línea de Akai Swimwear"
+      }
+    },
+    "dreamwater": {
+      "goProject": "https://drinkdreamwater.com/",
+      "projectType": "tienda en línea",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-dream-water.svg",
+        "projectLogoAlt": "Logo de Dream Water en color blanco",
+        "projectName": "dream water",
+        "projectDesc": "Dream Water es un producto que te tomas antes de dormir y te ayuda a tener el sueño más profundo. Natural, para viajar y sin ningún efecto secundario."
+      },
+      "project": {
+        "laptopImg": "/img/projects/dreamwater-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de Dream Water",
+        "laptopImgMobile": "/img/projects/dreamwater-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de Dream Water",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Compras recurrentes"
+          },
+          {
+            "item": "Selección de variantes"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp"
+          },
+          {
+            "item": "Testimoniales"
+          },
+          {
+            "item": "Pasarelas de pago"
+          },
+          {
+            "item": "Envíos personalizados"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Productos similares"
+          }
+        ],
+        "location": "Florida, Estados Unidos."
+      },
+      "functionalities": {
+        "img": "/img/projects/dreamwater-web.png",
+        "imgAlt": "La tienda en línea de Dream Water en una ventana de navegador",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "fácil de navegar"
+      },
+      "getmore": {
+        "img": "/img/projects/dreamwater-imagen.jpg",
+        "imgAlt": "Imagen representativa de Dream Water",
+        "imgMobile": "/img/projects/dreamwater-imagen.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Dream Water",
+        "smartphoneImg": "/img/projects/dreamwater-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con la tienda en línea de Dream Water"
       }
     }
   }
