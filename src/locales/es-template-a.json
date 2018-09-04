@@ -214,7 +214,7 @@
             "item": "20+ vistas"
           }
         ],
-        "location": "Florida, Estados Unidos."
+        "location": "CDMX, México"
       },
       "functionalities": {
         "img": "/img/projects/vremexico-web.png",
@@ -239,6 +239,93 @@
         "imgMobileAlt": "Imagen en versión móvil representativa de VRE México",
         "smartphoneImg": "/img/projects/vremexico-smartphone.png",
         "smartphoneImgAlt": "Smartphone con la tienda en línea de VRE México"
+      }
+    },
+    "nomad": {
+      "goProject": "https://nomadrepublic.org/",
+      "projectType": "tienda en línea / plataforma",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-nomad-republic.svg",
+        "projectLogoAlt": "Logo de Nomad Republic en color blanco",
+        "projectName": "nomad republic",
+        "projectDesc": "Viaja con Nomad Republic para vivir experiencias que cambiarán tu vida y harán al mundo un lugar mejor."
+      },
+      "project": {
+        "laptopImg": "/img/projects/nomad-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de Nomad Republic",
+        "laptopImgMobile": "/img/projects/nomad-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de Nomad Republic",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Filtrado de programas"
+          },
+          {
+            "item": "Template de programa y colección personalizado"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp"
+          },
+          {
+            "item": "Integración con Hubspot"
+          },
+          {
+            "item": "Testimoniales"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Autoadministración de vistas"
+          },
+          {
+            "item": "Blog"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Aplicación a programas"
+          },
+          {
+            "item": "Formularios inteligentes"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          }
+        ],
+        "location": "CDMX, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/nomad-web.png",
+        "imgAlt": "La tienda en línea de Nomad Republic en una ventana de navegador",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "fácil de navegar"
+      },
+      "getmore": {
+        "img": "/img/projects/nomad-imagen.jpg",
+        "imgAlt": "Imagen representativa de Nomad Republic",
+        "imgMobile": "/img/projects/nomad-imagen.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Nomad Republic",
+        "smartphoneImg": "/img/projects/nomad-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con la tienda en línea de Nomad Republic"
       }
     }
   }
