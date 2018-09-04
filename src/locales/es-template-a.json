@@ -9,12 +9,12 @@
       "scrollImgAlt": "ícono que indica que se puede hacer scroll hacia abajo",
       "btnQuote": "cotizar mi proyecto",
       "project": {
+        "bigText": "proyecto",
         "title": "Datos importantes del proyecto",
         "textYear": "Año",
         "locationTitle": "Ubicación",
         "btnSeeLink": "",
         "btnSee": "ver proyecto",
-        "btnQuoteLink": "",
         "btnQuote": "cotiza tu proyecto"
       },
       "functionalities": {
@@ -31,44 +31,44 @@
         "btnLink": ""
       }
     },
-    "dreamwater": {
+    "akai": {
+      "goProject": "https://akaiswimwear.com/",
       "projectType": "tienda en línea",
       "cover": {
-        "projectLogo": "/img/logos/logo-dream-water.png",
-        "projectLogoAlt": "Logo de dreamwater en color blanco",
-        "projectName": "dream water",
-        "projectDesc": "Dream Water es un producto que te tomas antes de dormir y te ayuda a tener el sueño más profundo. Natural, para viajar y sin ningún efecto secundario."
+        "projectLogo": "/img/ourwork/logo-akai-swimwear.svg",
+        "projectLogoAlt": "Logo de akay swimwear en color blanco",
+        "projectName": "akai swimwear",
+        "projectDesc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\""
       },
       "project": {
-        "bigText": "proyecto",
-        "laptopImg": "/img/projects/dreamwater-laptop.png",
-        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de Dream Water",
-        "laptopImgMobile": "/img/projects/akay-laptop-mobile.png",
-        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de Dream Water",
-        "numberYear": "2016",
+        "laptopImg": "/img/projects/akai-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de Akai Swimwear",
+        "laptopImgMobile": "/img/projects/akai-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de Akai Swimwear",
+        "numberYear": "2018",
         "functionalities": [
           {
             "title": "Funcionalidades",
-            "item": "Compras recurrentes"
+            "item": "Filtrado de productos"
           },
           {
-            "item": "Selección de variantes / Chat en línea"
+            "item": "Selección de variantes"
           },
           {
-            "item": "Integración con Mailchimp / Testimoniales"
+            "item": "Chat en línea"
           },
           {
-            "item": "Diseño web y móvil / Pasarelas de pago"
+            "item": "Integración con Mailchimp"
           },
           {
-            "item": "Envíos personalizados / Productos similares"
+            "item": "Diseño web y móvil"
           }
         ],
         "location": "Florida, Estados Unidos."
       },
       "functionalities": {
-        "img": "/img/projects/dreamwater-window.jpg",
-        "imgAlt": "La tienda en línea de Dream Water en una ventana de navegador",
+        "img": "/img/projects/akai-web.png",
+        "imgAlt": "La tienda en línea de Akai Swimwear en una ventana de navegador",
         "circles": [
           {
             "title": "ui"
@@ -80,16 +80,15 @@
             "title": "dev"
           }
         ],
-        "btnLink": "",
-        "easyText": "fácil de manejar"
+        "easyText": "fácil de usar"
       },
       "getmore": {
-        "img": "/img/projects/dreamwater-cama.jpg",
-        "imgAlt": "Imagen representativa de Dreamwater",
-        "imgMobile": "/img/projects/akai-girl.jpg",
-        "imgMobileAlt": "Imagen en versión móvil representativa de Dreamwater",
-        "smartphoneImg": "/img/projects/dreamwater-celular.png",
-        "smartphoneImgAlt": "Smartphone con la tienda en línea de Dreamwater"
+        "img": "/img/projects/akai-imagen.jpg",
+        "imgAlt": "Imagen representativa de Akai Swimwear",
+        "imgMobile": "/img/projects/akai-imagen.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Akai Swimwear",
+        "smartphoneImg": "/img/projects/akai-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con la tienda en línea de Akai Swimwear"
       }
     }
   }
