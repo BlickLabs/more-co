@@ -329,7 +329,7 @@
       }
     },
     "schutique": {
-      "goProject": "https://nomadrepublic.org/",
+      "goProject": "https://schutiqueshoes.com/",
       "projectType": "tienda en línea",
       "cover": {
         "projectLogo": "/img/ourwork/logo-schutique.svg",
@@ -410,6 +410,65 @@
         "imgMobileAlt": "Imagen en versión móvil representativa de Schutique",
         "smartphoneImg": "/img/projects/schutique-smartphone.png",
         "smartphoneImgAlt": "Smartphone con la tienda en línea de Schutique"
+      }
+    },
+    "yazbek": {
+      "projectType": "punto de venta",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-yazbek.svg",
+        "projectLogoAlt": "Logo de Yazbek en color blanco",
+        "projectName": "yazbek",
+        "projectDesc": "Empresa mexicana líder en la fabricación de artículos textiles. La mejor opción en playeras y ropa casual."
+      },
+      "project": {
+        "laptopImg": "/img/projects/yazbek-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra Punto de venta de Yazbek",
+        "laptopImgMobile": "/img/projects/yazbek-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra Punto de venta de Yazbek",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Facturación de pedidos"
+          },
+          {
+            "item": "Impresión de tickets"
+          },
+          {
+            "item": "Inventario en tiempo real"
+          },
+          {
+            "item": "Categoría de productos"
+          },
+          {
+            "item": "Administración de usuarios"
+          },
+          {
+            "item": "Fácil uso y navegación"
+          }
+        ],
+        "location": "CDMX, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/yazbek-web.png",
+        "imgAlt": "Punto de venta de Yazbek en una ventana de navegador",
+        "circles": [
+          {
+            "title": "pos"
+          }
+        ],
+        "easyText": "fácil de usar"
+      },
+      "getmore": {
+        "img": "/img/projects/yazbek-imagen.jpg",
+        "imgAlt": "Imagen representativa de Yazbek",
+        "imgMobile": "/img/projects/yazbek-imagen.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de Yazbek",
+        "smartphoneImg": "/img/projects/yazbek-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con Punto de venta de Yazbek"
       }
     }
   }
