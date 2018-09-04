@@ -181,7 +181,7 @@
         {
           "img": "/img/ourwork/dream-water.jpg",
           "imgAlt": "Imagen representativa del proyecto dream water",
-          "title": "Dream water",
+          "title": "Dream Water",
           "layerClass": "dreamwater",
           "layerLogo": "/img/ourwork/logo-dream-water.svg",
           "layerLogoClass": "logo-dreamwater",
@@ -335,7 +335,7 @@
         {
           "img": "/img/ourwork/ican.jpg",
           "imgAlt": "Imagen representativa del proyecto ican",
-          "title": "Ican",
+          "title": "ICAN",
           "layerClass": "ican",
           "layerLogo": "/img/ourwork/logo-ican.svg",
           "layerLogoClass": "logo-ican",
@@ -349,7 +349,7 @@
         {
           "img": "/img/ourwork/98-coast-av.jpg",
           "imgAlt": "Imagen representativa del proyecto 98 coast av",
-          "title": "98 Coast AV.",
+          "title": "98 Coast Av.",
           "layerClass": "ninety-eight-coastav",
           "layerLogo": "/img/ourwork/logo-98-coast-av.svg",
           "layerLogoClass": "logo-98coastav",
@@ -445,20 +445,6 @@
           "tagPOS": false
         },
         {
-          "img": "/img/ourwork/coral-beach.jpg",
-          "imgAlt": "Imagen representativa del proyecto coral beach",
-          "title": "Coral Beach",
-          "layerClass": "coralbeach",
-          "layerLogo": "/img/ourwork/logo-coral-beach.svg",
-          "layerLogoClass": "logo-coralbeach",
-          "layerLogoAlt": "Logo del proyecto coral beach",
-          "hoverIconLink": "portafolio/coral-beach.html",
-          "tagAll": true,
-          "tagWebPage": false,
-          "tagOnlineStore": true,
-          "tagPOS": false
-        },
-        {
           "img": "/img/ourwork/piktia.jpg",
           "imgAlt": "Imagen representativa del proyecto piktia",
           "title": "Piktia",
@@ -467,6 +453,20 @@
           "layerLogoClass": "logo-piktia",
           "layerLogoAlt": "Logo del proyecto piktia",
           "hoverIconLink": "portafolio/piktia.html",
+          "tagAll": true,
+          "tagWebPage": false,
+          "tagOnlineStore": true,
+          "tagPOS": false
+        },
+        {
+          "img": "/img/ourwork/coral-beach.jpg",
+          "imgAlt": "Imagen representativa del proyecto coral beach",
+          "title": "Coral Beach",
+          "layerClass": "coralbeach",
+          "layerLogo": "/img/ourwork/logo-coral-beach.svg",
+          "layerLogoClass": "logo-coralbeach",
+          "layerLogoAlt": "Logo del proyecto coral beach",
+          "hoverIconLink": "portafolio/coral-beach.html",
           "tagAll": true,
           "tagWebPage": false,
           "tagOnlineStore": true,
@@ -559,7 +559,7 @@
         {
           "img": "/img/ourwork/wellness-store.jpg",
           "imgAlt": "Imagen representativa del proyecto wellness store",
-          "title": "Wellness Store",
+          "title": "Wellness",
           "layerClass": "wellnessstore",
           "layerLogo": "/img/ourwork/logo-wellness-store.svg",
           "layerLogoClass": "logo-wellnessstore",
@@ -783,7 +783,7 @@
         {
           "img": "/img/ourwork/working-chapultepec.jpg",
           "imgAlt": "Imagen representativa del proyecto working chapultepec",
-          "title": "Working Chapultepec",
+          "title": "Workin Chapultepec",
           "layerClass": "workingchapultepec",
           "layerLogo": "/img/ourwork/logo-working-chapultepec.svg",
           "layerLogoClass": "logo-workingchapultepec",
@@ -908,8 +908,8 @@
         },
         {
           "img": "/img/ourwork/confetti-party.jpg",
-          "imgAlt": "Imagen representativa del proyecto confetti-party",
-          "title": "Confetti Party",
+          "imgAlt": "Imagen representativa del proyecto the confetti party",
+          "title": "The Confetti Party",
           "layerClass": "confettiparty",
           "layerLogo": "/img/ourwork/logo-confetti-party.svg",
           "layerLogoClass": "logo-confettiparty",
