@@ -162,6 +162,84 @@
         "smartphoneImg": "/img/projects/dreamwater-smartphone.png",
         "smartphoneImgAlt": "Smartphone con la tienda en línea de Dream Water"
       }
+    },
+    "vremexico": {
+      "goProject": "https://vre.com.mx/",
+      "projectType": "página web",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-vre-mexico.svg",
+        "projectLogoAlt": "Logo de VRE México en color blanco",
+        "projectName": "vre méxico",
+        "projectDesc": "Diseño, desarrollo y venta de departamentos en el corazón de la Ciudad de México."
+      },
+      "project": {
+        "laptopImg": "/img/projects/vremexico-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de VRE México",
+        "laptopImgMobile": "/img/projects/vremexico-laptop-movil.png",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de VRE México",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "SEO avanzado"
+          },
+          {
+            "item": "Fácil acceso a dirección y Redes sociales"
+          },
+          {
+            "item": "Navegación intuitiva"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          },
+          {
+            "item": "Formularios inteligentes"
+          },
+          {
+            "item": "Integración con Hubspot"
+          },
+          {
+            "item": "Integración con Shopify"
+          },
+          {
+            "item": "Formulario de contacto y ubicación"
+          },
+          {
+            "item": "Blog"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "20+ vistas"
+          }
+        ],
+        "location": "Florida, Estados Unidos."
+      },
+      "functionalities": {
+        "img": "/img/projects/vremexico-web.png",
+        "imgAlt": "La tienda en línea de VRE México en una ventana de navegador",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "fácil de navegar"
+      },
+      "getmore": {
+        "img": "/img/projects/vremexico-imagen.jpg",
+        "imgAlt": "Imagen representativa de VRE México",
+        "imgMobile": "/img/projects/vremexico-imagen.jpg",
+        "imgMobileAlt": "Imagen en versión móvil representativa de VRE México",
+        "smartphoneImg": "/img/projects/vremexico-smartphone.png",
+        "smartphoneImgAlt": "Smartphone con la tienda en línea de VRE México"
+      }
     }
   }
 }  
