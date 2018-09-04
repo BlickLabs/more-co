@@ -80,10 +80,3 @@ hideHamburger.addEventListener('click', function(e) {
   e.preventDefault();
   hideMenu();
 });
-
-$(function() {
-  if(window.location.pathname === '/es/templatea.html' || window.location.pathname === 'es/templatea.html' || window.location.pathname === '/es/portafolio/templateb.html' || window.location.pathname === 'es/portafolio/templateb.html') {
-    $("nav").remove(".nav");
-    $("footer").remove(".footer");
-  }
-})

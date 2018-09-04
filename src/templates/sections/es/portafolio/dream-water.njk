@@ -1,18 +1,18 @@
 {% extends "partials/base.njk" %}
 
-{% block title %}This{% endblock %}
+{% block title %}Tienda en línea de Dream Water{% endblock %}
 
-{% set meta_description = "" %}
-{% set og_url = "" %}
-{% set og_title = "" %}
-{% set og_description = "" %}
-{% set og_img = "" %}
-{% set og_img_width = "" %}
-{% set og_img_height = "" %}
+{% set meta_description = "Compras recurrentes | Selección de variantes | Chat en línea | Integración con Mailchimp | Testimoniales | Pasarelas de pago | Envíos personalizados | Diseño web y móvil | Productos similares" %}
+{% set og_url = "https://getmore.mx/es/portafolio/dream-water.html" %}
+{% set og_title = "Tienda en línea de Dream Water | Get More" %}
+{% set og_description = "Compras recurrentes | Selección de variantes | Chat en línea | Integración con Mailchimp | Testimoniales | Pasarelas de pago | Envíos personalizados | Diseño web y móvil | Productos similares" %}
+{% set og_img = "https://getmore.mx/img/seo/tienda-en-linea-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
 
-{% set view_name = "templatea" %}
+{% set view_name = "ourwork" %}
 
-{% block content %}
+{% block template %}
 <section class="templatea dreamwater">
   <section class="templatea-cover">
     <a class="templatea-cover-return metropolis-semibold" href="{{taES.base.linkReturn}}"><img class="semi-triangle" src="{{taES.base.iconReturn}}" alt="{{taES.base.iconReturnAlt}}">{{taES.base.textReturn}}</a>
@@ -28,7 +28,7 @@
   <section class="templatea-project">
     <img  class="templatea-project-img-mobile" src="{{taES.dreamwater.project.laptopImgMobile}}" alt="{{taES.dreamwater.project.laptopImgMobileAlt}}">
     <span class="vertical-text metropolis-bold">{{taES.dreamwater.projectType}}</span>
-    <h3 class="templatea-project-bigtext metropolis-bold">{{taES.dreamwater.project.bigText}}</h3>
+    <h3 class="templatea-project-bigtext metropolis-bold">{{taES.base.project.bigText}}</h3>
     <div class="templatea-project-content">
       <h2 class="templatea-project-subtitle metropolis-semibold">{{taES.base.project.title}}</h2>
       <span class="templatea-project-desc metropolis-light"><span class="metropolis-medium">{{taES.base.project.textYear}}</span>&nbsp;{{taES.dreamwater.project.numberYear}}</span>
@@ -54,7 +54,7 @@
           </div>
           {% endfor %}
         </div>
-        <a class="btn transparent metropolis-bold" href="{{taES.dreamwater.functionalities.btnLink}}">{{taES.base.functionalities.btn}}</a>
+        <a class="btn transparent metropolis-bold" href="{{taES.dreamwater.goProject}}" target="_blank">{{taES.base.functionalities.btn}}</a>
       </div>
     </div>
     <span class="vertical-text metropolis-bold">{{taES.dreamwater.functionalities.easyText}}</span>
@@ -69,7 +69,7 @@
         </div>
         <h6 class="templatea-getmore-title metropolis-semibold">{{taES.base.getmore.title}}</h6>
         <p class="templatea-getmore-desc metropolis-medium">{{taES.base.getmore.desc}}</p>
-        <a class="btn metropolis-bold" href="{{taES.base.getmore.btnLink}}">{{taES.base.getmore.btn}}</a>
+        <a class="btn metropolis-bold" href="{{taES.dreamwater.goProject}}" target="_blank">{{taES.base.getmore.btn}}</a>
       </div>
       <div class="templatea-getmore-img-container">
         <img class="templatea-getmore-img" src="{{taES.dreamwater.getmore.img}}" alt="{{taES.dreamwater.getmore.imgAlt}}">

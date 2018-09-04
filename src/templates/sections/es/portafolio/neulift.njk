@@ -1,0 +1,82 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Página web de Neulift{% endblock %}
+
+{% set meta_description = "Navegación intuitiva | Fácil acceso a dirección y Redes sociales | Filtrado de Tratamientos | Formulario de contacto y ubicación" %}
+{% set og_url = "https://getmore.mx/es/portafolio/neulift.html" %}
+{% set og_title = "Página web de Neulift | Get More" %}
+{% set og_description = "Navegación intuitiva | Fácil acceso a dirección y Redes sociales | Filtrado de Tratamientos | Formulario de contacto y ubicación" %}
+{% set og_img = "https://getmore.mx/img/seo/pagina-web-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ourwork" %}
+
+{% block template %}
+<section class="templatea neulift">
+  <section class="templatea-cover">
+    <a class="templatea-cover-return metropolis-semibold" href="{{taES.base.linkReturn}}"><img class="semi-triangle" src="{{taES.base.iconReturn}}" alt="{{taES.base.iconReturnAlt}}">{{taES.base.textReturn}}</a>
+    <div class="templatea-cover-content">
+      <img class="templatea-cover-logo" src="{{taES.neulift.cover.projectLogo}}" alt="{{taES.neulift.cover.projectLogoAlt}}">
+      <h1 class="templatea-cover-title metropolis-bold">{{taES.neulift.cover.projectName}}&nbsp;<span class="metropolis-medium">|&nbsp;{{taES.neulift.projectType}}</span></h1>
+      <p class="templatea-cover-paragraph metropolis-medium">{{taES.neulift.cover.projectDesc}}</p>
+      <img class="templatea-cover-scroll-indicator" src="{{taES.base.scrollImg}}" alt="{{taES.base.scrollImgAlt}}">
+    </div>
+    <a class="btn transparent metropolis-bold" href="{{taES.base.btnQuoteLink}}">{{taES.base.btnQuote}}</a>
+  </section>
+
+  <section class="templatea-project">
+    <img  class="templatea-project-img-mobile" src="{{taES.neulift.project.laptopImgMobile}}" alt="{{taES.neulift.project.laptopImgMobileAlt}}">
+    <span class="vertical-text metropolis-bold">{{taES.neulift.projectType}}</span>
+    <h3 class="templatea-project-bigtext metropolis-bold">{{taES.base.project.bigText}}</h3>
+    <div class="templatea-project-content">
+      <h2 class="templatea-project-subtitle metropolis-semibold">{{taES.base.project.title}}</h2>
+      <span class="templatea-project-desc metropolis-light"><span class="metropolis-medium">{{taES.base.project.textYear}}</span>&nbsp;{{taES.neulift.project.numberYear}}</span>
+      <ul class="templatea-project-ul">
+        {% for list in taES.neulift.project.functionalities %}
+        <li class="templatea-project-desc metropolis-light">{% if list.title %}<span class="metropolis-medium">{{list.title}}</span>&nbsp;{% endif %}{{list.item}}</li>
+        {% endfor %}
+      </ul>
+      <span class="templatea-project-desc metropolis-light"><span class="metropolis-medium">{{taES.base.project.locationTitle}}</span>&nbsp;{{taES.neulift.project.location}}</span>
+    </div>
+    <img class="templatea-project-img" src="{{taES.neulift.project.laptopImg}}" alt="{{taES.neulift.project.laptopImgAlt}}">
+  </section>
+
+  <section class="templatea-functionalities">
+    <h3 class="templatea-functionalities-bigtext metropolis-bold">{{taES.base.functionalities.title}}</h3>
+    <div class="templatea-functionalities-content">
+      <img class="templatea-functionalities-img" src="{{taES.neulift.functionalities.img}}" alt="{{taES.neulift.functionalities.imgALt}}">
+      <div class="templatea-functionalities-content-left">
+        <div class="templatea-circle-container">
+          {% for circle in taES.neulift.functionalities.circles %}
+          <div class="templatea-circle">
+            <span class="templatea-circle-text metropolis-semibold">{{circle.title}}</span>
+          </div>
+          {% endfor %}
+        </div>
+        <a class="btn transparent metropolis-bold" href="{{taES.neulift.goProject}}" target="_blank">{{taES.base.functionalities.btn}}</a>
+      </div>
+    </div>
+    <span class="vertical-text metropolis-bold">{{taES.neulift.functionalities.easyText}}</span>
+  </section>
+
+  <section class="templatea-getmore">
+    <h3 class="templatea-getmore-bigtext metropolis-bold">{{taES.base.getmore.bigText}}</h3>
+    <div class="templatea-getmore-content">
+      <div class="templatea-getmore-info">
+        <div class="templatea-circle">
+          <img class="templatea-circle-icon" src="{{taES.base.getmore.icon}}" alt="{{taES.base.getmore.iconAlt}}">
+        </div>
+        <h6 class="templatea-getmore-title metropolis-semibold">{{taES.base.getmore.title}}</h6>
+        <p class="templatea-getmore-desc metropolis-medium">{{taES.base.getmore.desc}}</p>
+        <a class="btn metropolis-bold" href="{{taES.neulift.goProject}}" target="_blank">{{taES.base.getmore.btn}}</a>
+      </div>
+      <div class="templatea-getmore-img-container">
+        <img class="templatea-getmore-img" src="{{taES.neulift.getmore.img}}" alt="{{taES.neulift.getmore.imgAlt}}">
+        <img class="templatea-getmore-img-mobile" src="{{taES.neulift.getmore.imgMobile}}" alt="{{taES.neulift.getmore.imgMobileAlt}}">
+        <img class="templatea-getmore-smartphone" src="{{taES.neulift.getmore.smartphoneImg}}" alt="{{taES.neulift.getmore.smartphoneImgAlt}}">
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}
