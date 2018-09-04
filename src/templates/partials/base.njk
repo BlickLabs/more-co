@@ -14,6 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.15.0/lazyload.min.js"></script>
   </head>
   <body>
+    {% if section == 'es/index' or section == 'index' or section == 'es/portafolio' or section == 'en/index' %}
     <div id="page">
       {% if section == 'es/index' or section == 'index' or section == 'es/portafolio' %}
         {% include 'partials/navbar.njk' %}
@@ -29,6 +30,14 @@
         {% include 'partials/footer-en.njk' %}
       {% endif %}
     </div>
+    {% else %}
+    <div id="page">
+      <main>
+        {% block template %}{% endblock %}
+      </main>
+    </div>
+    {% endif %}
+
     {% block js_libs_config %}
     {% endblock %}
     <script src="/js/{{ projectFilesName }}.libs.js"></script>
