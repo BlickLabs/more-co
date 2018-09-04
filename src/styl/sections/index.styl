@@ -221,11 +221,17 @@
           margin 0 6px
 
       &-img
+        -webkit-animation-duration 5s
         animation-duration 5s
+        -webkit-animation-name scrollCoverBrowser
         animation-name scrollCoverBrowser
+        -webkit-animation-timing-function cubic-bezier(1.000, 0.005, 0.305, 1.000)
         animation-timing-function cubic-bezier(1.000, 0.005, 0.305, 1.000)
+        -webkit-animation-direction alternate
         animation-direction alternate
+        -webkit-animation-iteration-count infinite
         animation-iteration-count infinite
+        -webkit-animation-fill-mode none
         animation-fill-mode none
         width 100%
 
