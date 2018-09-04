@@ -174,9 +174,9 @@
       },
       "project": {
         "laptopImg": "/img/projects/vremexico-laptop.png",
-        "laptopImgAlt": "Imagen de una laptop que muestra la tienda en línea de VRE México",
+        "laptopImgAlt": "Imagen de una laptop que muestra la página web de VRE México",
         "laptopImgMobile": "/img/projects/vremexico-laptop-movil.png",
-        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la tienda en línea de VRE México",
+        "laptopImgMobileAlt": "Imagen en versión móvil de una laptop que muestra la página web de VRE México",
         "numberYear": "2016",
         "functionalities": [
           {
@@ -218,7 +218,7 @@
       },
       "functionalities": {
         "img": "/img/projects/vremexico-web.png",
-        "imgAlt": "La tienda en línea de VRE México en una ventana de navegador",
+        "imgAlt": "La página web de VRE México en una ventana de navegador",
         "circles": [
           {
             "title": "ui"
@@ -238,7 +238,7 @@
         "imgMobile": "/img/projects/vremexico-imagen.jpg",
         "imgMobileAlt": "Imagen en versión móvil representativa de VRE México",
         "smartphoneImg": "/img/projects/vremexico-smartphone.png",
-        "smartphoneImgAlt": "Smartphone con la tienda en línea de VRE México"
+        "smartphoneImgAlt": "Smartphone con la página web de VRE México"
       }
     },
     "nomad": {
