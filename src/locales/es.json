@@ -10,7 +10,7 @@
       "sections": [
         {
           "name": "inicio",
-          "link": "index.html",
+          "link": "es/index.html",
           "viewName": "homepage"
         },
         {
