@@ -36,6 +36,7 @@
 
     &-container
       margin 60px auto 35px auto
+      transition 0.3s
       width 762px
 
       & > ul
@@ -535,11 +536,9 @@
         height 31px
         width 71px
 
-      & > a
-        margin-top 19px
-
     &-icon
       height 22px
+      margin-top 19px
       width 22px
 
     &-btn
@@ -549,13 +548,27 @@
         margin-top 69px
         width 100%
 
-        & > a
+        & > .btn.borderBlack
           display flex
           justify-content center
           width 123px
 
 img:not([src])
   visibility hidden
+
+.fixed-tab
+  background-color $whiteT1
+  left 0
+  margin-top 0
+  padding-top 18px
+  position fixed
+  right 0
+  top 55px
+  transition 0.3s
+  z-index 4
+
+  & .ourwork-tab-link.active
+    border-bottom solid 2px $blackT2
 
 @media screen and (max-width 820px)
   .ourwork
