@@ -1,0 +1,49 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Tienda en línea de Loquay{% endblock %}
+
+{% set meta_description = "Catálogo de productos | Pasarelas de pagos | Contacto y ubicación | Programación Web y móvil | Link a Redes Sociales | Búsqueda" %}
+{% set og_url = "https://getmore.mx/es/portafolio/loquay.html" %}
+{% set og_title = "Tienda en línea de Loquay | Get More" %}
+{% set og_description = "Catálogo de productos | Pasarelas de pagos | Contacto y ubicación | Programación Web y móvil | Link a Redes Sociales | Búsqueda" %}
+{% set og_img = "https://getmore.mx/img/seo/tienda-en-linea-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ourwork" %}
+{% set lang_view = "spanish" %}
+
+{% block content %}
+<section class="templateb loquay">
+  <section class="templateb-cover">
+    <div class="return-container">
+      <a class="return metropolis-semibold" href="{{tbES.base.linkReturn}}"><img class="semi-triangle" src="{{tbES.base.iconReturn}}" alt="{{tbES.base.iconReturnAlt}}">{{tbES.base.textReturn}}</a>
+    </div>
+    <div class="templateb-cover-content">
+      <img class="templateb-logo" src="{{tbES.loquay.cover.projectLogo}}" alt="{{tbES.loquay.cover.projectLogoAlt}}">
+      <h1 class="templateb-cover-title metropolis-bold">{{tbES.loquay.cover.projectName}}&nbsp;<span class="metropolis-medium">|&nbsp;{{tbES.loquay.cover.projectType}}</span></h1>
+      <p class="templateb-cover-paragraph metropolis-medium">{{tbES.loquay.cover.projectDesc}}</p>
+    </div>
+  </section>
+
+  <section class="templateb-data">
+    <img class="templateb-data-img" src="{{tbES.loquay.data.laptopImg}}" alt="{{tbES.loquay.data.laptopImgAlt}}">
+    <div class="templateb-data-container">
+      <div>
+        <h2 class="templateb-data-title metropolis-semibold">{{tbES.base.data.title}}</h2>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.textYear}}</span>&nbsp;{{tbES.loquay.data.numberYear}}</span>
+        <ul class="templateb-data-ul">
+          {% for list in tbES.loquay.data.functionalities %}
+          <li class="templateb-data-desc metropolis-light">{% if list.title %}<span class="metropolis-medium">{{list.title}}</span>&nbsp;{% endif %}{{list.item}}</li>
+          {% endfor %}
+        </ul>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.locationTitle}}</span>&nbsp;{{tbES.loquay.data.location}}</span>
+      </div>
+      <div class="templateb-data-btns">
+        <a class="btn borderBlack metropolis-bold" href="{{tbES.loquay.data.btnSeeLink}}" target="_blank">{{tbES.base.data.btnSee}}</a>
+        <a class="btn metropolis-bold" href="{{tbES.base.data.btnQuoteLink}}">{{tbES.base.data.btnQuote}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}

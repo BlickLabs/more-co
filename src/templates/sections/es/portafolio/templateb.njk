@@ -1,16 +1,17 @@
 {% extends "partials/base.njk" %}
 
-{% block title %}This{% endblock %}
+{% block title %}Página web de Neulift{% endblock %}
 
 {% set meta_description = "" %}
-{% set og_url = "" %}
-{% set og_title = "" %}
+{% set og_url = "https://getmore.mx/es/portafolio/.html" %}
+{% set og_title = "Página web de Neulift | Get More" %}
 {% set og_description = "" %}
-{% set og_img = "" %}
-{% set og_img_width = "" %}
-{% set og_img_height = "" %}
+{% set og_img = "https://getmore.mx/img/seo/-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
 
-{% set view_name = "templateb" %}
+{% set view_name = "ourwork" %}
+{% set lang_view = "spanish" %}
 
 {% block content %}
 <section class="templateb vre">
@@ -39,7 +40,7 @@
         <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.locationTitle}}</span>&nbsp;{{tbES.vre.data.location}}</span>
       </div>
       <div class="templateb-data-btns">
-        <a class="btn borderBlack metropolis-bold" href="{{tbES.base.data.btnSeeLink}}">{{tbES.base.data.btnSee}}</a>
+        <a class="btn borderBlack metropolis-bold" href="{{tbES.vre.data.btnSeeLink}}" target="_blank">{{tbES.base.data.btnSee}}</a>
         <a class="btn metropolis-bold" href="{{tbES.base.data.btnQuoteLink}}">{{tbES.base.data.btnQuote}}</a>
       </div>
     </div>

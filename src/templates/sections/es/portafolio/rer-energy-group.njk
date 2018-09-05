@@ -1,0 +1,49 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Página web de RER Enery Group{% endblock %}
+
+{% set meta_description = "Diseño web y móvil | Link a Redes Sociales | Contacto y ubicación | Integración con Blog | Portafolio de proyectos | Animaciones y efectos" %}
+{% set og_url = "https://getmore.mx/es/portafolio/rer-energy-group.html" %}
+{% set og_title = "Página web de RER Enery Group | Get More" %}
+{% set og_description = "Diseño web y móvil | Link a Redes Sociales | Contacto y ubicación | Integración con Blog | Portafolio de proyectos | Animaciones y efectos" %}
+{% set og_img = "https://getmore.mx/img/seo/pagina-web-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ourwork" %}
+{% set lang_view = "spanish" %}
+
+{% block content %}
+<section class="templateb rer">
+  <section class="templateb-cover">
+    <div class="return-container">
+      <a class="return metropolis-semibold" href="{{tbES.base.linkReturn}}"><img class="semi-triangle" src="{{tbES.base.iconReturn}}" alt="{{tbES.base.iconReturnAlt}}">{{tbES.base.textReturn}}</a>
+    </div>
+    <div class="templateb-cover-content">
+      <img class="templateb-logo" src="{{tbES.rer.cover.projectLogo}}" alt="{{tbES.rer.cover.projectLogoAlt}}">
+      <h1 class="templateb-cover-title metropolis-bold">{{tbES.rer.cover.projectName}}&nbsp;<span class="metropolis-medium">|&nbsp;{{tbES.rer.cover.projectType}}</span></h1>
+      <p class="templateb-cover-paragraph metropolis-medium">{{tbES.rer.cover.projectDesc}}</p>
+    </div>
+  </section>
+
+  <section class="templateb-data">
+    <img class="templateb-data-img" src="{{tbES.rer.data.laptopImg}}" alt="{{tbES.rer.data.laptopImgAlt}}">
+    <div class="templateb-data-container">
+      <div>
+        <h2 class="templateb-data-title metropolis-semibold">{{tbES.base.data.title}}</h2>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.textYear}}</span>&nbsp;{{tbES.rer.data.numberYear}}</span>
+        <ul class="templateb-data-ul">
+          {% for list in tbES.rer.data.functionalities %}
+          <li class="templateb-data-desc metropolis-light">{% if list.title %}<span class="metropolis-medium">{{list.title}}</span>&nbsp;{% endif %}{{list.item}}</li>
+          {% endfor %}
+        </ul>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.locationTitle}}</span>&nbsp;{{tbES.rer.data.location}}</span>
+      </div>
+      <div class="templateb-data-btns">
+        <a class="btn borderBlack metropolis-bold" href="{{tbES.rer.data.btnSeeLink}}" target="_blank">{{tbES.base.data.btnSee}}</a>
+        <a class="btn metropolis-bold" href="{{tbES.base.data.btnQuoteLink}}">{{tbES.base.data.btnQuote}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}
