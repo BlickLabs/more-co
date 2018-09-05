@@ -11,6 +11,7 @@
 {% set og_img_height = "" %}
 
 {% set view_name = "ourwork" %}
+{% set lang_view = "spanish" %}
 
 {% block content %}
 <section class="ourwork">
@@ -33,12 +34,12 @@
       <div class="ourwork-project itemAll moreAll" data-tags="{{project.tags}}">
         <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
         <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-          <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-          <a href="{{project.hoverIconLink}}">
+        <a href="{{project.hoverIconLink}}">
+          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
             <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       {% endif %}
       {% endfor %}
@@ -53,12 +54,12 @@
       <div class="ourwork-project itemOnlineStore moreOnlineStore" data-tags="{{project.tags}}">
         <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
         <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-          <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-          <a href="{{project.hoverIconLink}}">
+        <a href="{{project.hoverIconLink}}">
+          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
             <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       {% endif %}
       {% endfor %}
@@ -73,12 +74,12 @@
       <div class="ourwork-project itemWebPages moreWebPages" data-tags="{{project.tags}}">
         <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
         <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-          <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-          <a href="{{project.hoverIconLink}}">
+        <a href="{{project.hoverIconLink}}">
+          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
             <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       {% endif %}
       {% endfor %}
@@ -93,12 +94,12 @@
       <div class="ourwork-project itemPOS morePOS" data-tags="{{project.tags}}">
         <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
         <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-          <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-          <a href="{{project.hoverIconLink}}">
+        <a href="{{project.hoverIconLink}}">
+          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
             <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       {% endif %}
       {% endfor %}
