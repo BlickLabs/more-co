@@ -11,8 +11,9 @@
 {% set og_img_height = "300" %}
 
 {% set view_name = "ourwork" %}
+{% set lang_view = "spanish" %}
 
-{% block template %}
+{% block content %}
 <section class="templatea yazbek">
   <section class="templatea-cover">
     <a class="templatea-cover-return metropolis-semibold" href="{{taES.base.linkReturn}}"><img class="semi-triangle" src="{{taES.base.iconReturn}}" alt="{{taES.base.iconReturnAlt}}">{{taES.base.textReturn}}</a>
@@ -68,6 +69,7 @@
         </div>
         <h6 class="templatea-getmore-title metropolis-semibold">{{taES.base.getmore.title}}</h6>
         <p class="templatea-getmore-desc metropolis-medium">{{taES.base.getmore.desc}}</p>
+        <a class="btn metropolis-bold" href="{{taES.dreamwater.goProject}}" target="_blank">{{taES.base.getmore.btn}}</a>
       </div>
       <div class="templatea-getmore-img-container">
         <img class="templatea-getmore-img" src="{{taES.yazbek.getmore.img}}" alt="{{taES.yazbek.getmore.imgAlt}}">

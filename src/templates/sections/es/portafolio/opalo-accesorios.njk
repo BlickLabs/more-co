@@ -1,0 +1,49 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Tienda en línea de Opalo accesorios{% endblock %}
+
+{% set meta_description = "Catálogo de productos | Pasarelas de pagos | Contacto y ubicación | Diseño Web y móvil | Link a Redes Sociales | Filtrado de productos | Búsqueda integrada" %}
+{% set og_url = "https://getmore.mx/es/portafolio/opalo-accesorios.html" %}
+{% set og_title = "Tienda en línea de Opalo accesorios | Get More" %}
+{% set og_description = "Catálogo de productos | Pasarelas de pagos | Contacto y ubicación | Diseño Web y móvil | Link a Redes Sociales | Filtrado de productos | Búsqueda integrada" %}
+{% set og_img = "https://getmore.mx/img/seo/tienda-en-linea-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ourwork" %}
+{% set lang_view = "spanish" %}
+
+{% block content %}
+<section class="templateb opalo">
+  <section class="templateb-cover">
+    <div class="return-container">
+      <a class="return metropolis-semibold" href="{{tbES.base.linkReturn}}"><img class="semi-triangle" src="{{tbES.base.iconReturn}}" alt="{{tbES.base.iconReturnAlt}}">{{tbES.base.textReturn}}</a>
+    </div>
+    <div class="templateb-cover-content">
+      <img class="templateb-logo" src="{{tbES.opalo.cover.projectLogo}}" alt="{{tbES.opalo.cover.projectLogoAlt}}">
+      <h1 class="templateb-cover-title metropolis-bold">{{tbES.opalo.cover.projectName}}&nbsp;<span class="metropolis-medium">|&nbsp;{{tbES.opalo.cover.projectType}}</span></h1>
+      <p class="templateb-cover-paragraph metropolis-medium">{{tbES.opalo.cover.projectDesc}}</p>
+    </div>
+  </section>
+
+  <section class="templateb-data">
+    <img class="templateb-data-img" src="{{tbES.opalo.data.laptopImg}}" alt="{{tbES.opalo.data.laptopImgAlt}}">
+    <div class="templateb-data-container">
+      <div>
+        <h2 class="templateb-data-title metropolis-semibold">{{tbES.base.data.title}}</h2>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.textYear}}</span>&nbsp;{{tbES.opalo.data.numberYear}}</span>
+        <ul class="templateb-data-ul">
+          {% for list in tbES.opalo.data.functionalities %}
+          <li class="templateb-data-desc metropolis-light">{% if list.title %}<span class="metropolis-medium">{{list.title}}</span>&nbsp;{% endif %}{{list.item}}</li>
+          {% endfor %}
+        </ul>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.locationTitle}}</span>&nbsp;{{tbES.opalo.data.location}}</span>
+      </div>
+      <div class="templateb-data-btns">
+        <a class="btn borderBlack metropolis-bold" href="{{tbES.opalo.data.btnSeeLink}}" target="_blank">{{tbES.base.data.btnSee}}</a>
+        <a class="btn metropolis-bold" href="{{tbES.base.data.btnQuoteLink}}">{{tbES.base.data.btnQuote}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}

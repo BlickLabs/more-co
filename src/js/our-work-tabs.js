@@ -65,3 +65,12 @@ $(function () {
     myLazyLoad.update()
   });
 });
+
+$(window).scroll(function(){
+  if ($(window).scrollTop() >= 160) {
+    $('.ourwork-tab-container').addClass('fixed-tab');
+  }
+  else {
+    $('.ourwork-tab-container').removeClass('fixed-tab');
+  }
+});
