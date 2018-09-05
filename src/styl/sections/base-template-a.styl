@@ -1,10 +1,12 @@
 .templatea
+  margin 0 0 150px 0
+
   &-cover
     background-position center
     background-repeat no-repeat
     background-size cover
-    height 374px
-    padding 30px 0 0 40px
+    height auto
+    padding 100px 0 0 40px
     position relative
 
     &-return
@@ -22,7 +24,7 @@
         font-weight 800
 
     &-content
-      padding 70px 0 0 90px
+      padding 70px 0 80px 90px
 
     &-title
       color $whiteT1
@@ -369,7 +371,6 @@
 @media screen and (max-width 920px)
   .templatea
     &-cover
-      height 500px
       padding-left 0
 
       &-return
@@ -379,7 +380,7 @@
         align-items center
         display flex
         flex-direction column
-        padding 53px 0 0 0
+        padding 53px 0 180px 0
 
       &-title
         margin-top 18px
@@ -391,7 +392,7 @@
         display none
 
       & .btn.transparent
-        bottom 145px
+        bottom 130px
 
     &-project,
     &-functionalities
@@ -408,6 +409,7 @@
         &-mobile
           display block
           margin -100px auto 0 auto
+          width 100%
 
       &-bigtext
         font-size 23vw
@@ -467,6 +469,9 @@
     &-cover
       height auto
       padding-bottom 120px
+
+      &-content
+        padding-bottom 10px
 
       &-paragraph
         padding 0 35px
