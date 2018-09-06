@@ -19,26 +19,6 @@
           "viewName": "portfolio"
         },
         {
-          "name": "tiendas en línea",
-          "link": "index.html",
-          "viewName": "stores"
-        },
-        {
-          "name": "páginas web",
-          "link": "index.html",
-          "viewName": "pages"
-        },
-        {
-          "name": "punto de venta",
-          "link": "index.html",
-          "viewName": "pos"
-        },
-        {
-          "name": "nosotros",
-          "link": "index.html",
-          "viewName": "aboutus"
-        },
-        {
           "name": "contacto",
           "link": "index.html",
           "viewName": "contact"
@@ -957,26 +937,6 @@
           "name": "portafolio",
           "link": "es/portafolio.html",
           "viewName": "portfolio"
-        },
-        {
-          "name": "tiendas en línea",
-          "link": "index.html",
-          "viewName": "stores"
-        },
-        {
-          "name": "páginas web",
-          "link": "index.html",
-          "viewName": "pages"
-        },
-        {
-          "name": "punto de venta",
-          "link": "index.html",
-          "viewName": "pos"
-        },
-        {
-          "name": "nosotros",
-          "link": "index.html",
-          "viewName": "aboutus"
         },
         {
           "name": "contacto",
