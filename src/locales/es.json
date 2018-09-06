@@ -19,28 +19,8 @@
           "viewName": "portfolio"
         },
         {
-          "name": "tiendas en línea",
-          "link": "index.html",
-          "viewName": "stores"
-        },
-        {
-          "name": "páginas web",
-          "link": "index.html",
-          "viewName": "pages"
-        },
-        {
-          "name": "punto de venta",
-          "link": "index.html",
-          "viewName": "pos"
-        },
-        {
-          "name": "nosotros",
-          "link": "index.html",
-          "viewName": "aboutus"
-        },
-        {
-          "name": "contacto",
-          "link": "index.html",
+          "name": "contactar",
+          "link": "/es/contacto.html",
           "viewName": "contact"
         }
       ]
@@ -58,7 +38,8 @@
         "imgLeftAlt": "Se muestra la página de inicio de VRE en un smartphone",
         "imgRight": "/img/utils/show-store-in-laptop.png",
         "imgRightAlt": "Ejemplo de tienda en línea, vista desde una laptop",
-        "btn": "contáctanos",
+        "btn": "contactar",
+        "btnLink": "/es/contacto.html",
         "verticalText": "Tiendas en línea"
       },
       "services": {
@@ -104,16 +85,17 @@
         "tagIcon": "/img/icons/icon-cart-white.svg",
         "tagIconAlt": "Carrito en la etiqueta de Tiendas en línea para Akai Swimwear",
         "title": "Akai Swimwear",
-        "desc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\"",
+        "desc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\".",
         "img": "/img/utils/akai-animacion.jpg",
         "imgAlt": "Imagen del sitio de Akai Swimwaer",
         "project": "Akai Swimwear",
         "type": "Tienda en línea",
-        "typeDesc": "Diseño y programación de tienda en línea para vender bikinis hechos a mano",
+        "typeDesc": "Diseño y programación de tienda en línea para vender bikinis hechos a mano.",
         "shopifyLogo": "/img/logos/logo-shopify-experts-white.png",
         "shopifyLogoClass": "home-bannerone-logo",
         "shopifyLogoAlt": "Logo de Shopify Experts dentro del primer banner de proyectos",
         "btn": "ver más tiendas",
+        "btnLink": "",
         "verticalText": "Vende en línea"
       },
       "bannertwo": {
@@ -133,7 +115,7 @@
       "bannerthree": {
         "title": "El Trébol + Yazbek",
         "desc": "Empresa mexicana líder en la fabricación de artículos textiles. La mejor opción en playeras y ropa casual.",
-        "btn": "ver más tiendas",
+        "btn": "ver más puntos de venta",
         "subtitle": "Punto de venta",
         "subDesc": "Implementación y puesta en marcha del sistema en todas sus tiendas físicas.",
         "shopifyLogo": "/img/logos/logo-shopify-pos.png",
@@ -148,7 +130,9 @@
       "start": {
         "title": "¿Estás listo para tu proyecto?",
         "btnLeft": "ver proyectos",
-        "btnRight": "contáctanos"
+        "btnLeftLink": "/es/portafolio.html",
+        "btnRight": "contactar",
+        "btnRightLink": "/es/contacto.html"
       }
     },
     "portfolio": {
@@ -959,34 +943,14 @@
           "viewName": "portfolio"
         },
         {
-          "name": "tiendas en línea",
-          "link": "index.html",
-          "viewName": "stores"
-        },
-        {
-          "name": "páginas web",
-          "link": "index.html",
-          "viewName": "pages"
-        },
-        {
-          "name": "punto de venta",
-          "link": "index.html",
-          "viewName": "pos"
-        },
-        {
-          "name": "nosotros",
-          "link": "index.html",
-          "viewName": "aboutus"
-        },
-        {
-          "name": "contacto",
-          "link": "index.html",
+          "name": "contactar",
+          "link": "/es/contacto.html",
           "viewName": "contact",
           "btnAspect": true
         }
       ],
       "email": "hola@getmore.mx",
-      "copyright": "Copyright More Co. 2018®",
+      "copyright": "Get More 2018®",
       "decorator": "/img/utils/show-neulift-in-phone.png"
     }
   }
