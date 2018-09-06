@@ -1,16 +1,16 @@
 <footer class="footer">
-  <div class="footer-logo-container">
+  <div class="footer-background"></div>
+  <div class="footer-content">
     <a href="index.html">
-      <img src="{{en.footer.logo}}" alt="{{en.footer.logoAlt}}">
+      <img class="footer-logo" src="{{en.footer.logo}}" alt="{{en.footer.logoAlt}}">
     </a>
-  </div>
-  <div>
-    {% for section in en.footer.sections %}
-    <div>
-      <a href="{{section.link}}">
-        <span>{{section.name}}</span>
-      </a>
+    <div class="footer-section-container">
+      {% for section in en.footer.sections %}
+      <a class="footer-section metropolis-medium {% if section.btnAspect == true %} btn borderBlack {% endif %}" href="{{section.link}}">{{section.name}}</a>
+      {% endfor %}
     </div>
-    {% endfor %}
+    <span class="footer-email metropolis-medium">{{en.footer.email}}</span>
   </div>
+  <span class="footer-copyrigth metropolis-medium">{{en.footer.copyright}}</span>
+  <img class="footer-decorator" src="{{en.footer.decorator}}">
 </footer>
