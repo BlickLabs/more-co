@@ -938,6 +938,9 @@
       "hoverIcon": "/img/icons/icono-hover-proyecto.png",
       "hoverIconAlt": "Ícono que indica el enlace a la información del proyecto"
     },
+    "contacto": {
+      "title": "Contacto"
+    },
     "footer": {
       "logo": "/img/logos/logo-moreco-black.png",
       "logoAlt": "Logo del sitio dentro del pie de página",
