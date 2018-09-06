@@ -10,12 +10,12 @@
       "sections": [
         {
           "name": "inicio",
-          "link": "es/index.html",
+          "link": "/es/index.html",
           "viewName": "homepage"
         },
         {
           "name": "portafolio",
-          "link": "es/portafolio.html",
+          "link": "/es/portafolio.html",
           "viewName": "portfolio"
         },
         {
@@ -940,6 +940,9 @@
     },
     "contacto": {
       "title": "Contacto"
+    },
+    "quote": {
+      "title": "Cotiza"
     },
     "footer": {
       "logo": "/img/logos/logo-moreco-black.png",
