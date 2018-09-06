@@ -8,12 +8,12 @@
       "scrollImg": "/img/icons/scroll-indicator-white.png",
       "scrollImgAlt": "ícono que indica que se puede hacer scroll hacia abajo",
       "btnQuote": "cotizar mi proyecto",
+      "btnQuoteLink": "/es/cotiza.html",
       "project": {
         "bigText": "proyecto",
         "title": "Datos importantes del proyecto",
         "textYear": "Año",
         "locationTitle": "Ubicación",
-        "btnSeeLink": "",
         "btnSee": "ver proyecto",
         "btnQuote": "cotiza tu proyecto"
       },
@@ -27,8 +27,7 @@
         "iconAlt": "Ícono que representa el tema de diseño responsivo",
         "title": "Diseño responsivo",
         "desc": "Nos preocupamos por llevar la experiencia de usuario a otro nivel",
-        "btn": "cotizar mi proyecto",
-        "btnLink": ""
+        "btn": "cotizar mi proyecto"
       }
     },
     "akai": {
