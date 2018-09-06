@@ -1,11 +1,11 @@
 {% extends "partials/base.njk" %}
 
-{% block title %}This{% endblock %}
+{% block title %}Ejemplos de diseño y desarrollo web{% endblock %}
 
-{% set meta_description = "" %}
-{% set og_url = "" %}
-{% set og_title = "" %}
-{% set og_description = "" %}
+{% set meta_description = "Observa cómo hemos ayudado a pequeñas y grandes empresas a tener presencia digital y aumentar sus ventas en línea." %}
+{% set og_url = "https://getmore.mx/es/portafolio.html" %}
+{% set og_title = "Ejemplos de diseño y desarrollo web | Get More" %}
+{% set og_description = "Observa cómo hemos ayudado a pequeñas y grandes empresas a tener presencia digital y aumentar sus ventas en línea." %}
 {% set og_img = "" %}
 {% set og_img_width = "" %}
 {% set og_img_height = "" %}
@@ -22,7 +22,7 @@
   <section class="ourwork-tab-container">
     <ul class="metropolis-semibold ourwork-tab-carousel owl-carousel">
       {% for tab in es.portfolio.tabs %}
-      <li class="ourwork-tab"><a class="ourwork-tab-link {% if tab.activeClass %}{{tab.activeClass}}{% endif %}" href="{{tab.function}}" id="{{tab.id}}">{{tab.title}}</a></li>
+      <li class="ourwork-tab"><a class="ourwork-tab-link {% if tab.activeClass %}{{tab.activeClass}}{% endif %}" href="{{tab.function}}" id="{{tab.id}}"><h2>{{tab.title}}</h2></a></li>
       {% endfor %}
     </ul>
   </section>

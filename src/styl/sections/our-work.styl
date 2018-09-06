@@ -54,10 +54,12 @@
       &:first-child
         display flex
 
+    & > a > h2
+      font-size 11px
+
     & > a
         border-bottom solid 1px $grayT3
         color $blackT2
-        font-size 11px
         letter-spacing 0.5px
         padding 10px 15px 24px 15px
         text-align center
@@ -576,6 +578,9 @@ img:not([src])
       &-container
         width 381px
 
+        &.fixed-tab
+          margin-top 15px
+
       &-content
         width 381px
 
@@ -604,9 +609,6 @@ img:not([src])
         & .carousel-arrow
           height 26px
           width 26px
-
-  .fixed-tab
-    margin-top 15px
 
 @media screen and (max-width 420px)
   .ourwork
