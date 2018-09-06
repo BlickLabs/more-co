@@ -19,8 +19,8 @@
           "viewName": "portfolio"
         },
         {
-          "name": "contacto",
-          "link": "index.html",
+          "name": "contactar",
+          "link": "/es/contacto.html",
           "viewName": "contact"
         }
       ]
@@ -38,7 +38,8 @@
         "imgLeftAlt": "Se muestra la página de inicio de VRE en un smartphone",
         "imgRight": "/img/utils/show-store-in-laptop.png",
         "imgRightAlt": "Ejemplo de tienda en línea, vista desde una laptop",
-        "btn": "contáctanos",
+        "btn": "contactar",
+        "btnLink": "/es/contacto.html",
         "verticalText": "Tiendas en línea"
       },
       "services": {
@@ -94,6 +95,7 @@
         "shopifyLogoClass": "home-bannerone-logo",
         "shopifyLogoAlt": "Logo de Shopify Experts dentro del primer banner de proyectos",
         "btn": "ver más tiendas",
+        "btnLink": "",
         "verticalText": "Vende en línea"
       },
       "bannertwo": {
@@ -128,7 +130,8 @@
       "start": {
         "title": "¿Estás listo para tu proyecto?",
         "btnLeft": "ver proyectos",
-        "btnRight": "contáctanos"
+        "btnRight": "contactar",
+        "btnRightLink": "/es/contacto.html"
       }
     },
     "portfolio": {
@@ -939,8 +942,8 @@
           "viewName": "portfolio"
         },
         {
-          "name": "contacto",
-          "link": "index.html",
+          "name": "contactar",
+          "link": "/es/contacto.html",
           "viewName": "contact",
           "btnAspect": true
         }
