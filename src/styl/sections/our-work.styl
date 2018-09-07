@@ -36,7 +36,6 @@
 
     &-container
       margin 60px auto 35px auto
-      transition 0.3s
       width 762px
 
       & > ul
@@ -56,6 +55,9 @@
 
     & > a > h2
       font-size 11px
+
+      &:hover
+        font-weight 900
 
     & > a
         border-bottom solid 1px $grayT3
@@ -553,7 +555,7 @@
         & > .btn.borderBlack
           display flex
           justify-content center
-          width 123px
+          width 130px
 
 img:not([src])
   visibility hidden
@@ -566,11 +568,10 @@ img:not([src])
   position fixed
   right 0
   top 55px
-  transition 0.3s
   z-index 4
 
   & .ourwork-tab-link.active
-    border-bottom solid 2px $blackT2
+    border-bottom solid 1px $blackT2
 
 @media screen and (max-width 820px)
   .ourwork
@@ -626,7 +627,6 @@ img:not([src])
     &-tab
       &-container
         margin 35px auto 50px auto
-        width 191px
 
       &-content
         width 100%
