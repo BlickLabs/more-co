@@ -726,7 +726,7 @@
             "item": "Link a Redes Sociales"
           }
         ],
-        "location": "CDMX, México",
+        "location": "Veracruz, México",
         "btnSeeLink": "http://bricksa.mx/"
       }
     },
@@ -865,7 +865,7 @@
             "item": "Catálogo de servicios"
           }
         ],
-        "location": "CDMX, México",
+        "location": "Veracruz, México",
         "btnSeeLink": "http://rgvsoluciones.com/"
       }
     },
@@ -1390,7 +1390,7 @@
             "item": "Contacto y ubicación"
           }
         ],
-        "location": "CDMX, México",
+        "location": "Veracruz, México",
         "btnSeeLink": "http://www.begonafernandez.com.mx/"
       }
     },
@@ -1527,7 +1527,7 @@
         "projectLogoAlt": "Logo de Opia Jewelry en color blanco",
         "projectName": "opia jewelry",
         "projectType": "tienda en línea",
-        "projectDesc": "Brazaletes y pulseras hechas en México."
+        "projectDesc": "Accesorios para mujer, desde aretes hasta cualquier tipo de joyería."
       },
       "data": {
         "laptopImg": "/img/projects/opia-laptop.png",
@@ -1552,6 +1552,9 @@
           },
           {
             "item": "Búsqueda integrada"
+          },
+          {
+            "item": "Blog integrado"
           }
         ],
         "location": "CDMX, México",
@@ -1674,7 +1677,7 @@
         "projectLogo": "/img/ourwork/logo-confetti-party.svg",
         "projectLogoAlt": "Logo de The Confetti Party en color blanco",
         "projectName": "The Confetti Party",
-        "projectType": "página web",
+        "projectType": "punto de venta",
         "projectDesc": "Venta de accesorios para eventos y fiestas."
       },
       "data": {
