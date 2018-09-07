@@ -16,7 +16,7 @@
         {
           "name": "portafolio",
           "link": "/es/portafolio.html",
-          "viewName": "portfolio"
+          "viewName": "ourwork"
         },
         {
           "name": "contactar",
@@ -936,13 +936,13 @@
       "sections": [
         {
           "name": "inicio",
-          "link": "index.html",
+          "link": "/es/index.html",
           "viewName": "homepage"
         },
         {
           "name": "portafolio",
-          "link": "es/portafolio.html",
-          "viewName": "portfolio"
+          "link": "/es/portafolio.html",
+          "viewName": "ourwork"
         },
         {
           "name": "contactar",
