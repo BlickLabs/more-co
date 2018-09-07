@@ -1,8 +1,8 @@
 {
   "es": {
     "nav": {
-      "logo": "/img/logos/logo-moreco-black.png",
-      "logoScroll": "/img/logos/logo-moreco-white.png",
+      "logo": "/img/logos/logo-getmore-negro.png",
+      "logoScroll": "/img/logos/logo-getmore-blanco.png",
       "logoAlt": "Logo del sitio dentro de la barra de navegación",
       "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
       "hamburgerClose": "/img/icons/cerrar-menu-hamburguesa.png",
@@ -929,7 +929,7 @@
       "title": "Cotiza"
     },
     "footer": {
-      "logo": "/img/logos/logo-moreco-black.png",
+      "logo": "/img/logos/logo-getmore-negro.png",
       "logoAlt": "Logo del sitio dentro del pie de página",
       "sections": [
         {
