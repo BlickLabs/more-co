@@ -6,7 +6,7 @@
     </a>
     <div class="footer-section-container">
       {% for section in es.footer.sections %}
-      <a class="footer-section metropolis-medium {% if section.btnAspect == true %} btn borderBlack {% endif %}" href="{{section.link}}">{{section.name}}</a>
+      <a class="footer-section metropolis-medium {% if section.btnAspect == true %} btn borderBlack {% endif %}{% if view_name == section.viewName %}active{% endif %}" href="{{section.link}}">{{section.name}}</a>
       {% endfor %}
     </div>
     <a class="footer-email metropolis-medium" href="mailto:hola@getmore.mx">{{es.footer.email}}</a>
