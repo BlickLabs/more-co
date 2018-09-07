@@ -36,7 +36,7 @@ window.addEventListener('scroll', function(e) {
 });
 
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = '100%';
+  document.querySelector('#menuContainer').style.width = '85%';
   document.querySelector('#hamburgerMenu').style.display = 'none';
   document.querySelector('body').style.overflow = 'hidden';
 }
