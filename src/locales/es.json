@@ -78,6 +78,8 @@
             "shopifyLogoClass": "service-shopify-pos"
           }
         ],
+        "btn": "contactar",
+        "btnLink": "/es/contacto.html",
         "ourWork": "Nuestro trabajo"
       },
       "bannerone": {
