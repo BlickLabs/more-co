@@ -133,8 +133,8 @@
         "title": "¿Estás listo para tu proyecto?",
         "btnLeft": "ver proyectos",
         "btnLeftLink": "/es/portafolio.html",
-        "btnRight": "contactar",
-        "btnRightLink": "/es/contacto.html"
+        "btnRight": "cotizar",
+        "btnRightLink": "/es/cotiza.html"
       }
     },
     "portfolio": {
