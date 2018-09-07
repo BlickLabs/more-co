@@ -151,6 +151,10 @@
       right 31px
       top 24px
 
+    &-info
+      & .btn.transparent
+        width 164.17px
+
     & .banner-title,
     & .banner-desc
       color $whiteT1
@@ -556,6 +560,9 @@
         line-height 32px
         letter-spacing 0.5px
 
+      &-subtitle
+        font-size 10px
+
       &-img
         &-left
           bottom 35px
@@ -582,21 +589,21 @@
       &-mobile
         &-carousel
           display block !important
-          margin -10% 0 130px 0
-          padding 0 14%
+          margin -10% 0 100px 0
+          padding 0 10%
           position relative
 
           & .owl-stage-outer
-            width 170px
+            width 210px
 
           & .owl-nav
-            bottom 70px
+            bottom 40px
             position absolute
-            right 14%
+            right 10%
 
           & .carousel-arrow
-            height 33px
-            width 33px
+            height 36px
+            width 36px
 
           & .owl-prev.disabled,
           & .owl-next.disabled
@@ -604,24 +611,6 @@
 
           & .owl-next
             margin-left 10px
-
-          & .owl-dots
-            bottom -20px
-            left 0
-            margin 0 auto
-            position absolute
-            right 0
-            width 54px
-
-          & .owl-dot
-            background-color $grayT1 !important
-            border-radius 100px
-            height 8px
-            margin 0 5px
-            width 8px
-
-          & .owl-dot.active
-            background-color $blueT1 !important
 
       &-ourwork
         margin 0 55px 0 0
@@ -773,15 +762,7 @@
           padding-right 0
 
       &-lowerinfo
-        align-items center
-        flex-direction column
-
-        & > .banner-subtitle
-          margin 0 0 20px 0
-
-        & > div > .banner-desc
-          text-align center
-          width 205px
+        display none
 
     &-bannertwo
       &-devices
@@ -794,9 +775,18 @@
       &-content
         padding-top 210px
 
-      &-info,
-      &-lowerinfo
+      &-info
         margin 0 auto
+
+        & .home-bannerone-logo
+          display none
+
+      &-lowerinfo
+        display none
+
+    &-bannerthree
+      &-lowerinfo
+        display none
 
     &-start
       &-title
