@@ -1,8 +1,8 @@
 {
   "es": {
     "nav": {
-      "logo": "/img/logos/logo-moreco-black.png",
-      "logoScroll": "/img/logos/logo-moreco-white.png",
+      "logo": "/img/logos/logo-getmore-negro.png",
+      "logoScroll": "/img/logos/logo-getmore-blanco.png",
       "logoAlt": "Logo del sitio dentro de la barra de navegación",
       "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
       "hamburgerClose": "/img/icons/cerrar-menu-hamburguesa.png",
@@ -16,7 +16,7 @@
         {
           "name": "portafolio",
           "link": "/es/portafolio.html",
-          "viewName": "portfolio"
+          "viewName": "ourwork"
         },
         {
           "name": "contactar",
@@ -78,6 +78,8 @@
             "shopifyLogoClass": "service-shopify-pos"
           }
         ],
+        "btn": "contactar",
+        "btnLink": "/es/contacto.html",
         "ourWork": "Nuestro trabajo"
       },
       "bannerone": {
@@ -95,7 +97,7 @@
         "shopifyLogoClass": "home-bannerone-logo",
         "shopifyLogoAlt": "Logo de Shopify Experts dentro del primer banner de proyectos",
         "btn": "ver más tiendas",
-        "btnLink": "",
+        "btnLink": "/es/portafolio.html",
         "verticalText": "Vende en línea"
       },
       "bannertwo": {
@@ -110,12 +112,14 @@
         "subtitle": "Tienda en línea",
         "subDesc": "Diseño y programación de plataforma en línea auto-administrable que utiliza Shopify.",
         "btn": "ver más tiendas",
+        "btnLink": "/es/portafolio.html",
         "verticalText": "aumenta tus ventas"
       },
       "bannerthree": {
         "title": "El Trébol + Yazbek",
         "desc": "Empresa mexicana líder en la fabricación de artículos textiles. La mejor opción en playeras y ropa casual.",
         "btn": "ver más puntos de venta",
+        "btnLink": "/es/portafolio.html",
         "subtitle": "Punto de venta",
         "subDesc": "Implementación y puesta en marcha del sistema en todas sus tiendas físicas.",
         "shopifyLogo": "/img/logos/logo-shopify-pos.png",
@@ -131,8 +135,8 @@
         "title": "¿Estás listo para tu proyecto?",
         "btnLeft": "ver proyectos",
         "btnLeftLink": "/es/portafolio.html",
-        "btnRight": "contactar",
-        "btnRightLink": "/es/contacto.html"
+        "btnRight": "cotizar",
+        "btnRightLink": "/es/cotiza.html"
       }
     },
     "portfolio": {
@@ -160,7 +164,7 @@
           "id": "portfolioTab4"
         }
       ],
-      "btn": "ver más",
+      "btn": "cargar más",
       "projects": [
         {
           "img": "/img/ourwork/dream-water.jpg",
@@ -929,18 +933,18 @@
       "title": "Cotiza"
     },
     "footer": {
-      "logo": "/img/logos/logo-moreco-black.png",
+      "logo": "/img/logos/logo-getmore-negro.png",
       "logoAlt": "Logo del sitio dentro del pie de página",
       "sections": [
         {
           "name": "inicio",
-          "link": "index.html",
+          "link": "/es/index.html",
           "viewName": "homepage"
         },
         {
           "name": "portafolio",
-          "link": "es/portafolio.html",
-          "viewName": "portfolio"
+          "link": "/es/portafolio.html",
+          "viewName": "ourwork"
         },
         {
           "name": "contactar",

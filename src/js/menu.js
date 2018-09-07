@@ -5,14 +5,14 @@ var siteNavbar = document.querySelector('.nav');
 
 //navbar-fixed-top
 function doSomething(scroll_pos) {
-  if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/project-name/index.html' || window.location.pathname === '/project-name/') {
+  if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/more-co/index.html' || window.location.pathname === '/more-co/' || window.location.pathname === '/more-co/es/index.html' || window.location.pathname === '/more-co/en/index.html' || window.location.pathname === '/es/index.html' || window.location.pathname === '/en/index.html' || window.location.pathname === 'es/index.html' || window.location.pathname === 'en/index.html') {
     if (scroll_pos > 30) {
       siteNavbar.classList.add('nav-scroll');
-      $('.nav-logo').attr('src', '/img/logos/logo-moreco-white.png');
+      $('.nav-logo').attr('src', '/img/logos/logo-getmore-blanco.png');
 
     } else {
       siteNavbar.classList.remove('nav-scroll');
-      $('.nav-logo').attr('src', '/img/logos/logo-moreco-black.png');
+      $('.nav-logo').attr('src', '/img/logos/logo-getmore-negro.png');
     }
   }
 }
@@ -36,7 +36,7 @@ window.addEventListener('scroll', function(e) {
 });
 
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = '100%';
+  document.querySelector('#menuContainer').style.width = '85%';
   document.querySelector('#hamburgerMenu').style.display = 'none';
   document.querySelector('body').style.overflow = 'hidden';
 }

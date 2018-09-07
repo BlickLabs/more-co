@@ -13,13 +13,13 @@
       max-width 500px
 
     &-logo
-      height 17px
-      width 95px
+      height 24.86px
+      width 139px
 
     &-subtitle
       color $blackT2
       display block
-      font-size 9px
+      font-size 12px
       letter-spacing 2.4px
       margin 8px 0 15px 0
       text-transform uppercase
@@ -93,32 +93,24 @@
     &-item
       &-title
         color $blackT2
-        font-size 13px
+        font-size 18px
         letter-spacing 0.7px
         line-height 20px
-
-      &-container:nth-child(1) .home-services-descr
-        width 145px
-
-      &-container:nth-child(2) .home-services-descr
-        width 145px
-
-      &-container:nth-child(3) .home-services-descr
-        width 158px
 
       &-container:nth-child(2)
         margin 0 70px
 
     &-descr
       color $blackT2
-      font-size 10px
+      font-size 12px
       letter-spacing 0.6px
       line-height 15px
       margin 5px 0 18px 0
+      width 192px
 
     &-ourwork
       color $blackT2
-      font-size 29px
+      font-size 32px
       letter-spacing 0.4px
       margin-left 111px
 
@@ -130,6 +122,15 @@
         margin-right 11px
         vertical-align middle
         width 36px
+
+    &-btn
+      &-container
+        bottom 80px
+        display flex
+        justify-content center
+        left 0
+        position absolute
+        right 0
 
   &-bannerone
     background-blend-mode multiply
@@ -149,6 +150,10 @@
       background-color $blueT2
       right 31px
       top 24px
+
+    &-info
+      & .btn.transparent
+        width 164.17px
 
     & .banner-title,
     & .banner-desc
@@ -308,6 +313,10 @@
     position relative
 
     &-content
+      align-items flex-end
+      display flex
+      flex-direction column
+      padding-right 240px
       padding-top 106px
       width 100%
 
@@ -387,10 +396,6 @@
       flex-direction row
       margin-top 40px
 
-      & > a
-        justify-content center
-        width 137px
-
       & .btn.borderBlack
         margin-right 22px
 
@@ -426,12 +431,12 @@
 
   &-shopify
     &-experts
-      height 14px
-      width 83px !important
+      height auto
+      width 90px !important
 
     &-pos
-      height 14px
-      width 62px !important
+      height auto
+      width 90px !important
 
 @media screen and (min-width 1720px) and (max-width 1920px)
   .home
@@ -456,6 +461,13 @@
 
     &-bannerthree
       padding 0 16%
+
+@media screen and (min-width 1011px) and (max-width 1250px)
+  .home
+    &-bannertwo
+      &-content
+        display flex-start
+        padding-left 150px
 
 @media screen and (max-width 1010px)
   .home
@@ -535,10 +547,10 @@
         margin-right 80px
         width 310px
 
-@media screen and (max-width 650px)
+@media screen and (max-width 770px)
   .home
     &-cover
-      height 459px
+      height 475px
 
       &-content
         max-width 260px
@@ -547,6 +559,9 @@
         font-size 32px
         line-height 32px
         letter-spacing 0.5px
+
+      &-subtitle
+        font-size 10px
 
       &-img
         &-left
@@ -574,21 +589,21 @@
       &-mobile
         &-carousel
           display block !important
-          margin -10% 0 130px 0
-          padding 0 14%
+          margin -10% 0 100px 0
+          padding 0 10%
           position relative
 
           & .owl-stage-outer
-            width 170px
+            width 210px
 
           & .owl-nav
-            bottom 70px
+            bottom 40px
             position absolute
-            right 14%
+            right 10%
 
           & .carousel-arrow
-            height 33px
-            width 33px
+            height 36px
+            width 36px
 
           & .owl-prev.disabled,
           & .owl-next.disabled
@@ -597,27 +612,13 @@
           & .owl-next
             margin-left 10px
 
-          & .owl-dots
-            bottom -40px
-            left 0
-            margin 0 auto
-            position absolute
-            right 0
-            width 54px
-
-          & .owl-dot
-            background-color $grayT1 !important
-            border-radius 100px
-            height 8px
-            margin 0 5px
-            width 8px
-
-          & .owl-dot.active
-            background-color $blueT1 !important
-
       &-ourwork
         margin 0 55px 0 0
         text-align right
+
+      &-btn
+        &-container
+          bottom 70px
 
     &-bannerone
       align-items initial
@@ -743,6 +744,11 @@
           height 230px
           width 256px
 
+    &-services
+      &-ourwork
+        font-size 26px
+        margin-right 30px
+
     &-bannerone
       &-info
         margin-top 15px
@@ -756,15 +762,7 @@
           padding-right 0
 
       &-lowerinfo
-        align-items center
-        flex-direction column
-
-        & > .banner-subtitle
-          margin 0 0 20px 0
-
-        & > div > .banner-desc
-          text-align center
-          width 205px
+        display none
 
     &-bannertwo
       &-devices
@@ -777,9 +775,18 @@
       &-content
         padding-top 210px
 
-      &-info,
-      &-lowerinfo
+      &-info
         margin 0 auto
+
+        & .home-bannerone-logo
+          display none
+
+      &-lowerinfo
+        display none
+
+    &-bannerthree
+      &-lowerinfo
+        display none
 
     &-start
       &-title

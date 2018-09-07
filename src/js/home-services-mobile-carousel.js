@@ -3,7 +3,7 @@ var homeServicesCarousel = $('.home-services-mobile-carousel');
 homeServicesCarousel.owlCarousel ({
   loop: false,
   nav: true,
-  dots: true,
+  dots: false,
   navText: ['<img class="carousel-arrow" src="/img/icons/control-left.png" />', '<img class="carousel-arrow" src="/img/icons/control-right.svg" />'],
   margin: 20,
   responsive:{
