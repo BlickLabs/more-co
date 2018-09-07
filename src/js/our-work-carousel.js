@@ -9,10 +9,12 @@ function startCarousel () {
     margin: 0,
     responsive:{
       0:{
-        items: 1
+        items: 2,
+        nav: false
       },
       421:{
-        items: 2
+        items: 2,
+        nav: false
       },
       1000: {
         items: 2
