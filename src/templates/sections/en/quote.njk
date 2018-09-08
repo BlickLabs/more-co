@@ -1,0 +1,31 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}{% endblock %}
+
+{% set meta_description = "" %}
+{% set og_url = "" %}
+{% set og_title = "" %}
+{% set og_description = "" %}
+{% set og_img = "" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "quote" %}
+{% set lang_view = "english" %}
+
+{% block content %}
+<section class="hsbase">
+  <h1 class="hsbase-title metropolis-bold">{{en.quote.title}}</h1>
+  <div class="hsbase-form-container">
+    <div class="hsbase-form">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+      <script>
+        hbspt.forms.create({
+          portalId: "3998157",
+          formId: "aad0df00-000e-4256-a749-669639d20897"
+      });
+      </script>
+    </div>
+  </div>
+</section>
+{% endblock %}

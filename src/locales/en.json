@@ -135,6 +135,12 @@
         "btnRightLink": "/en/contacto.html"
       }
     },
+    "contacto": {
+      "title": "Contact us"
+    },
+    "quote": {
+      "title": "Quote"
+    },
     "footer": {
       "logo": "/img/logos/logo-moreco-black.png",
       "logoAlt": "Logo del sitio dentro del pie de página",
