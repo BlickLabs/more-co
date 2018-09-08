@@ -1,0 +1,31 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}{% endblock %}
+
+{% set meta_description = "" %}
+{% set og_url = "" %}
+{% set og_title = "" %}
+{% set og_description = "" %}
+{% set og_img = "" %}
+{% set og_img_width = "" %}
+{% set og_img_height = "" %}
+
+{% set view_name = "contact" %}
+{% set lang_view = "english" %}
+
+{% block content %}
+<section class="hsbase">
+  <h1 class="hsbase-title metropolis-bold">{{en.contacto.title}}</h1>
+  <div class="hsbase-form-container">
+    <div class="hsbase-form">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+      <script>
+        hbspt.forms.create({
+          portalId: "3998157",
+          formId: "21407449-a547-4467-b695-541faf8b29c6"
+      });
+      </script>
+    </div>
+  </div>
+</section>
+{% endblock %}
