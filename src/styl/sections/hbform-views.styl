@@ -1,7 +1,4 @@
 .hsbase
-  align-items center
-  display flex
-  flex-direction column
   margin 110px 0 250px
 
   &-title
@@ -11,8 +8,19 @@
     text-align center
 
   &-form
-    margin 50px -31px 0 0
+    margin 50px -53px 0 0
+    width 531px
+
+    &-container
+      display flex
+      justify-content center      
 
 @media screen and (max-width 940px)
   .hsbase
     margin-bottom 30px
+
+@media screen and (max-width 520px)
+  .hsbase
+    &-form
+      margin-right -32px
+      width 310px
