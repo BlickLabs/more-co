@@ -10,7 +10,8 @@ function startCarousel () {
     responsive:{
       0:{
         items: 2,
-        nav: false
+        nav: false,
+        autoWidth: true
       },
       421:{
         items: 2,
