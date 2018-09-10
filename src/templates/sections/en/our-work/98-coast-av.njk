@@ -1,0 +1,49 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Online Store of 98 Coast Av.{% endblock %}
+
+{% set meta_description = "" %}
+{% set og_url = "https://getmore.mx/en/our-work/98-coast-av.html" %}
+{% set og_title = "Online Store of 98 Coast Av. | Get More" %}
+{% set og_description = "" %}
+{% set og_img = "/img/seo/tienda-en-linea-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ourwork" %}
+{% set lang_view = "english" %}
+
+{% block content %}
+<section class="templateb coastav">
+  <section class="templateb-cover">
+    <div class="return-container">
+      <a class="return metropolis-semibold" href="{{tbEN.base.linkReturn}}"><img class="semi-triangle" src="{{tbEN.base.iconReturn}}" alt="{{tbEN.base.iconReturnAlt}}">{{tbEN.base.textReturn}}</a>
+    </div>
+    <div class="templateb-cover-content">
+      <img class="templateb-logo" src="{{tbEN.coastav.cover.projectLogo}}" alt="{{tbEN.coastav.cover.projectLogoAlt}}">
+      <h1 class="templateb-cover-title metropolis-bold">{{tbEN.coastav.cover.projectName}}&nbsp;<span class="metropolis-medium">|&nbsp;{{tbEN.coastav.cover.projectType}}</span></h1>
+      <p class="templateb-cover-paragraph metropolis-medium">{{tbEN.coastav.cover.projectDesc}}</p>
+    </div>
+  </section>
+
+  <section class="templateb-data">
+    <img class="templateb-data-img" src="{{tbEN.coastav.data.laptopImg}}" alt="{{tbEN.coastav.data.laptopImgAlt}}">
+    <div class="templateb-data-container">
+      <div>
+        <h2 class="templateb-data-title metropolis-semibold">{{tbEN.base.data.title}}</h2>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbEN.base.data.textYear}}</span>&nbsp;{{tbEN.coastav.data.numberYear}}</span>
+        <ul class="templateb-data-ul">
+          {% for list in tbEN.coastav.data.functionalities %}
+          <li class="templateb-data-desc metropolis-light">{% if list.title %}<span class="metropolis-medium">{{list.title}}</span>&nbsp;{% endif %}{{list.item}}</li>
+          {% endfor %}
+        </ul>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbEN.base.data.locationTitle}}</span>&nbsp;{{tbEN.coastav.data.location}}</span>
+      </div>
+      <div class="templateb-data-btns">
+        <a class="btn borderBlack metropolis-bold" href="{{tbEN.coastav.data.btnSeeLink}}" target="_blank">{{tbEN.base.data.btnSee}}</a>
+        <a class="btn metropolis-bold" href="{{tbEN.base.data.btnQuoteLink}}">{{tbEN.base.data.btnQuote}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}
