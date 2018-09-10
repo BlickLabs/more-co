@@ -24,7 +24,6 @@
   &-scroll
     align-items center
     background-color rgba(49, 49, 49, 0.9)
-    // box-shadow 0 6px 8px 0 rgba(0,0,0,0.2)
     height 55px
     transition 0.2s
 
@@ -115,7 +114,14 @@
   justify-content center
   letter-spacing 2px
   padding-top 2px
+  transition 0.3s
   width 120px
+
+  &:hover
+    background-color $blueT1
+    border solid 1px $blueT1
+    color $whiteT1
+    transition 0.3s
 
 .hamburger
   &-visibility
