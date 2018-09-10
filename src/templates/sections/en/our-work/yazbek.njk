@@ -1,0 +1,82 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Point of Sale of Yazbek{% endblock %}
+
+{% set meta_description = "" %}
+{% set og_url = "https://getmore.mx/es/our-work/yazbek.html" %}
+{% set og_title = "Point of Sale of Yazbek | Get More" %}
+{% set og_description = "" %}
+{% set og_img = "/img/seo/punto-de-venta-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ourwork" %}
+{% set lang_view = "english" %}
+
+{% block content %}
+<section class="templatea yazbek">
+  <section class="templatea-cover">
+    <a class="templatea-cover-return metropolis-semibold" href="{{taEN.base.linkReturn}}"><img class="semi-triangle" src="{{taEN.base.iconReturn}}" alt="{{taEN.base.iconReturnAlt}}">{{taEN.base.textReturn}}</a>
+    <div class="templatea-cover-content">
+      <img class="templatea-cover-logo" src="{{taEN.yazbek.cover.projectLogo}}" alt="{{taEN.yazbek.cover.projectLogoAlt}}">
+      <h1 class="templatea-cover-title metropolis-bold">{{taEN.yazbek.cover.projectName}}&nbsp;<span class="metropolis-medium">|&nbsp;{{taEN.yazbek.projectType}}</span></h1>
+      <p class="templatea-cover-paragraph metropolis-medium">{{taEN.yazbek.cover.projectDesc}}</p>
+      <img class="templatea-cover-scroll-indicator" src="{{taEN.base.scrollImg}}" alt="{{taEN.base.scrollImgAlt}}">
+    </div>
+    <a class="btn transparent metropolis-bold" href="{{taEN.base.btnQuoteLink}}">{{taEN.base.btnQuote}}</a>
+  </section>
+
+  <section class="templatea-project">
+    <img  class="templatea-project-img-mobile" src="{{taEN.yazbek.project.laptopImgMobile}}" alt="{{taEN.yazbek.project.laptopImgMobileAlt}}">
+    <span class="vertical-text metropolis-bold">{{taEN.yazbek.projectType}}</span>
+    <h3 class="templatea-project-bigtext en-bigtext metropolis-bold">{{taEN.base.project.bigText}}</h3>
+    <div class="templatea-project-content">
+      <h2 class="templatea-project-subtitle metropolis-semibold">{{taEN.base.project.title}}</h2>
+      <span class="templatea-project-desc metropolis-light"><span class="metropolis-medium">{{taEN.base.project.textYear}}</span>&nbsp;{{taEN.yazbek.project.numberYear}}</span>
+      <ul class="templatea-project-ul">
+        {% for list in taEN.yazbek.project.functionalities %}
+        <li class="templatea-project-desc metropolis-light">{% if list.title %}<span class="metropolis-medium">{{list.title}}</span>&nbsp;{% endif %}{{list.item}}</li>
+        {% endfor %}
+      </ul>
+      <span class="templatea-project-desc metropolis-light"><span class="metropolis-medium">{{taEN.base.project.locationTitle}}</span>&nbsp;{{taEN.yazbek.project.location}}</span>
+    </div>
+    <img class="templatea-project-img" src="{{taEN.yazbek.project.laptopImg}}" alt="{{taEN.yazbek.project.laptopImgAlt}}">
+  </section>
+
+  <section class="templatea-functionalities">
+    <h3 class="templatea-functionalities-bigtext en-bigtext metropolis-bold">{{taEN.base.functionalities.title}}</h3>
+    <div class="templatea-functionalities-content">
+      <img class="templatea-functionalities-img" src="{{taEN.yazbek.functionalities.img}}" alt="{{taEN.yazbek.functionalities.imgALt}}">
+      <div class="templatea-functionalities-content-left">
+        <div class="templatea-circle-container">
+          {% for circle in taEN.yazbek.functionalities.circles %}
+          <div class="templatea-circle">
+            <span class="templatea-circle-text metropolis-semibold">{{circle.title}}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <span class="vertical-text metropolis-bold">{{taEN.yazbek.functionalities.easyText}}</span>
+  </section>
+
+  <section class="templatea-getmore">
+    <h3 class="templatea-getmore-bigtext metropolis-bold">{{taEN.base.getmore.bigText}}</h3>
+    <div class="templatea-getmore-content">
+      <div class="templatea-getmore-info">
+        <div class="templatea-circle">
+          <img class="templatea-circle-icon" src="{{taEN.base.getmore.icon}}" alt="{{taEN.base.getmore.iconAlt}}">
+        </div>
+        <h6 class="templatea-getmore-title metropolis-semibold">{{taEN.base.getmore.title}}</h6>
+        <p class="templatea-getmore-desc metropolis-medium">{{taEN.base.getmore.desc}}</p>
+        <a class="btn metropolis-bold" href="{{taEN.base.btnQuoteLink}}">{{taEN.base.getmore.btn}}</a>
+      </div>
+      <div class="templatea-getmore-img-container">
+        <img class="templatea-getmore-img" src="{{taEN.yazbek.getmore.img}}" alt="{{taEN.yazbek.getmore.imgAlt}}">
+        <img class="templatea-getmore-img-mobile" src="{{taEN.yazbek.getmore.imgMobile}}" alt="{{taEN.yazbek.getmore.imgMobileAlt}}">
+        <img class="templatea-getmore-smartphone" src="{{taEN.yazbek.getmore.smartphoneImg}}" alt="{{taEN.yazbek.getmore.smartphoneImgAlt}}">
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}

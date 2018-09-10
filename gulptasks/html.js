@@ -32,6 +32,10 @@ gulp.task('build:html', function () {
       return require('../src/locales/en.json')
     }))
 
+    .pipe(data(function() {
+      return require('../src/locales/en-template-a.json')
+    }))
+
     .pipe(nunjucksRender({
       path: config.paths.src.templates_dir,
       ext: '.html',

@@ -1,0 +1,594 @@
+{
+  "taEN": {
+    "base": {
+      "linkReturn": "/en/our-work.html",
+      "iconReturn": "/img/icons/semi-triangulo.svg",
+      "iconReturnAlt": "Icon to emphasize the return link",
+      "textReturn": "Go Back",
+      "scrollImg": "/img/icons/scroll-indicator-white.png",
+      "scrollImgAlt": "icon that indicates that you can scroll down",
+      "btnQuote": "Quote my project",
+      "btnQuoteLink": "/en/quote.html",
+      "project": {
+        "bigText": "proyect",
+        "title": "Important facts",
+        "textYear": "Year",
+        "locationTitle": "Location",
+        "btnSee": "See project",
+        "btnQuote": "Quote my project"
+      },
+      "functionalities": {
+        "title": "Features",
+        "btn": "See project"
+      },
+      "getmore": {
+        "bigText": "getmore",
+        "icon": "/img/icons/icon-responsive-design.svg",
+        "iconAlt": "Icon that represents the theme of responsive design",
+        "title": "Responsive design",
+        "desc": "We care about taking the user experience to another level",
+        "btn": "Quote my project"
+      }
+    },
+    "akai": {
+      "goProject": "https://akaiswimwear.com/",
+      "projectType": "Online Store",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-akai-swimwear.svg",
+        "projectLogoAlt": "Akai Swimwear logo",
+        "projectName": "akai swimwear",
+        "projectDesc": "\"Created in Miami, manufactured in Colombia, seen in paradise: Handcrafted bikinis\""
+      },
+      "project": {
+        "laptopImg": "/img/projects/akai-laptop.png",
+        "laptopImgAlt": "Image of a laptop showing the online store ofAkai Swimwear",
+        "laptopImgMobile": "/img/projects/akai-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows the online store of Akai Swimwear",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Selección de variantes"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp"
+          },
+          {
+            "item": "Diseño web y móvil"
+          }
+        ],
+        "location": "Florida, Estados Unidos."
+      },
+      "functionalities": {
+        "img": "/img/projects/akai-web.png",
+        "imgAlt": "Akai Swimwear in a browser window",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/akai-imagen.jpg",
+        "imgAlt": "Representative image of Akai Swimwear",
+        "imgMobile": "/img/projects/akai-imagen.jpg",
+        "imgMobileAlt": "Image in mobile version representative of Akai Swimwear",
+        "smartphoneImg": "/img/projects/akai-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with online store of Akai Swimwear"
+      }
+    },
+    "dreamwater": {
+      "goProject": "https://drinkdreamwater.com/",
+      "projectType": "Online Store",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-dream-water.svg",
+        "projectLogoAlt": "Dream Water logo",
+        "projectName": "dream water",
+        "projectDesc": "Dream Water es un producto que te tomas antes de dormir y te ayuda a tener el sueño más profundo. Natural, para viajar y sin ningún efecto secundario."
+      },
+      "project": {
+        "laptopImg": "/img/projects/dreamwater-laptop.png",
+        "laptopImgAlt": "Image of a laptop showing the online store ofDream Water",
+        "laptopImgMobile": "/img/projects/dreamwater-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows the online store of Dream Water",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Compras recurrentes"
+          },
+          {
+            "item": "Selección de variantes"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp"
+          },
+          {
+            "item": "Testimoniales"
+          },
+          {
+            "item": "Pasarelas de pago"
+          },
+          {
+            "item": "Envíos personalizados"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Productos similares"
+          }
+        ],
+        "location": "Florida, Estados Unidos."
+      },
+      "functionalities": {
+        "img": "/img/projects/dreamwater-web.png",
+        "imgAlt": "Dream Water in a browser window",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/dreamwater-imagen.jpg",
+        "imgAlt": "Representative image of Dream Water",
+        "imgMobile": "/img/projects/dreamwater-imagen.jpg",
+        "imgMobileAlt": "Image in mobile version representative of Dream Water",
+        "smartphoneImg": "/img/projects/dreamwater-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with online store of Dream Water"
+      }
+    },
+    "vremexico": {
+      "goProject": "https://vre.com.mx/",
+      "projectType": "Website",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-vre-mexico.svg",
+        "projectLogoAlt": "VRE México logo",
+        "projectName": "vre méxico",
+        "projectDesc": "Diseño, desarrollo y venta de departamentos en el corazón de la Ciudad de México."
+      },
+      "project": {
+        "laptopImg": "/img/projects/vremexico-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the website of VRE México",
+        "laptopImgMobile": "/img/projects/vremexico-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows the web page of VRE México",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "SEO avanzado"
+          },
+          {
+            "item": "Fácil acceso a dirección y Redes sociales"
+          },
+          {
+            "item": "Navegación intuitiva"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          },
+          {
+            "item": "Formularios inteligentes"
+          },
+          {
+            "item": "Integración con Hubspot"
+          },
+          {
+            "item": "Integración con Shopify"
+          },
+          {
+            "item": "Formulario de contacto y ubicación"
+          },
+          {
+            "item": "Blog"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "20+ vistas"
+          }
+        ],
+        "location": "CDMX, México"
+      },
+      "functionalities": {
+        "img": "/img/projects/vremexico-web.png",
+        "imgAlt": "VRE México in a browser window",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/vremexico-imagen.jpg",
+        "imgAlt": "Representative image of VRE México",
+        "imgMobile": "/img/projects/vremexico-imagen.jpg",
+        "imgMobileAlt": "Image in mobile version representative of VRE México",
+        "smartphoneImg": "/img/projects/vremexico-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with the website of VRE México"
+      }
+    },
+    "nomad": {
+      "goProject": "https://nomadrepublic.org/",
+      "projectType": "online store / platform",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-nomad-republic.svg",
+        "projectLogoAlt": "Nomad Republic logo",
+        "projectName": "nomad republic",
+        "projectDesc": "Viaja con Nomad Republic para vivir experiencias que cambiarán tu vida y harán al mundo un lugar mejor."
+      },
+      "project": {
+        "laptopImg": "/img/projects/nomad-laptop.png",
+        "laptopImgAlt": "Image of a laptop showing the online store ofNomad Republic",
+        "laptopImgMobile": "/img/projects/nomad-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows the online store of Nomad Republic",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Filtrado de programas"
+          },
+          {
+            "item": "Template de programa y colección personalizado"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp"
+          },
+          {
+            "item": "Integración con Hubspot"
+          },
+          {
+            "item": "Testimoniales"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Autoadministración de vistas"
+          },
+          {
+            "item": "Blog"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Aplicación a programas"
+          },
+          {
+            "item": "Formularios inteligentes"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          }
+        ],
+        "location": "CDMX, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/nomad-web.png",
+        "imgAlt": "Nomad Republic in a browser window",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/nomad-imagen.jpg",
+        "imgAlt": "Representative image of Nomad Republic",
+        "imgMobile": "/img/projects/nomad-imagen.jpg",
+        "imgMobileAlt": "Image in mobile version representative of Nomad Republic",
+        "smartphoneImg": "/img/projects/nomad-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with online store of Nomad Republic"
+      }
+    },
+    "schutique": {
+      "goProject": "https://schutiqueshoes.com/",
+      "projectType": "Online Store",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-schutique.svg",
+        "projectLogoAlt": "Schutique logo",
+        "projectName": "schutique",
+        "projectDesc": "Tienda en línea de Zapatos y accesorios para crear el mejor look de temporada."
+      },
+      "project": {
+        "laptopImg": "/img/projects/schutique-laptop.png",
+        "laptopImgAlt": "Image of a laptop showing the online store ofSchutique",
+        "laptopImgMobile": "/img/projects/schutique-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows the online store of Schutique",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Integración con Mailchimp"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Tarjeta de regalo"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          },
+          {
+            "item": "Integración con Instagram"
+          },
+          {
+            "item": "Venta en Facebook e Instagram"
+          },
+          {
+            "item": "Creación de guías automáticas"
+          },
+          {
+            "item": "Métodos de pago variados"
+          }
+        ],
+        "location": "Veracruz, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/schutique-web.png",
+        "imgAlt": "Schutique in a browser window",
+        "circles": [
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/schutique-imagen.jpg",
+        "imgAlt": "Representative image of Schutique",
+        "imgMobile": "/img/projects/schutique-imagen.jpg",
+        "imgMobileAlt": "Image in mobile version representative of Schutique",
+        "smartphoneImg": "/img/projects/schutique-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with online store of Schutique"
+      }
+    },
+    "yazbek": {
+      "projectType": "Point of Sale",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-yazbek.svg",
+        "projectLogoAlt": "Yazbek logo",
+        "projectName": "yazbek",
+        "projectDesc": "Empresa mexicana líder en la fabricación de artículos textiles. La mejor opción en playeras y ropa casual."
+      },
+      "project": {
+        "laptopImg": "/img/projects/yazbek-laptop.png",
+        "laptopImgAlt": "Image of a laptop showing Point of Sale Yazbek",
+        "laptopImgMobile": "/img/projects/yazbek-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows Point of sale of Yazbek",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catáproducto logos"
+          },
+          {
+            "item": "Facturación de pedidos"
+          },
+          {
+            "item": "Impresión de tickets"
+          },
+          {
+            "item": "Inventario en tiempo real"
+          },
+          {
+            "item": "Categoría de productos"
+          },
+          {
+            "item": "Administración de usuarios"
+          },
+          {
+            "item": "Fácil uso y navegación"
+          }
+        ],
+        "location": "CDMX, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/yazbek-web.png",
+        "imgAlt": "Yazbek in a browser window",
+        "circles": [
+          {
+            "title": "pos"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/yazbek-imagen.jpg",
+        "imgAlt": "Representative image of Yazbek",
+        "imgMobile": "/img/projects/yazbek-imagen.jpg",
+        "imgMobileAlt": "Image in mobile version representative of Yazbek",
+        "smartphoneImg": "/img/projects/yazbek-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with point of sale Yazbek"
+      }
+    },
+    "higia": {
+      "goProject": "https://www.higia.tech/es/index",
+      "projectType": "Website",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-higia.svg",
+        "projectLogoAlt": "Higia logo",
+        "projectName": "higia",
+        "projectDesc": "Empresa que desarrolló EVA, el primer wearable inteligente portátil y no invasivo, diseñado para detectar anormalidades en los patrones térmicos de los senos, un indicador de posible presencia de cáncer de mama."
+      },
+      "project": {
+        "laptopImg": "/img/projects/higia-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the website of Higia",
+        "laptopImgMobile": "/img/projects/higia-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows the web page of Higia",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Animaciones"
+          },
+          {
+            "item": "Cambio de idioma inglés / español"
+          },
+          {
+            "item": "Fácil navegación"
+          },
+          {
+            "item": "Programación web y móvil"
+          },
+          {
+            "item": "Formulario de contacto y ubicación"
+          },
+          {
+            "item": "8+ vistas"
+          }
+        ],
+        "location": "Monterrey, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/higia-web.png",
+        "imgAlt": "Higia in a browser window",
+        "circles": [
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/higia-imagen.png",
+        "imgAlt": "Representative image of Higia",
+        "imgMobile": "/img/projects/higia-imagen.png",
+        "imgMobileAlt": "Image in mobile version representative of Higia",
+        "smartphoneImg": "/img/projects/higia-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with the website of Higia"
+      }
+    },
+    "neulift": {
+      "goProject": "http://neulift.com.mx/",
+      "projectType": "Website",
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-neulift.svg",
+        "projectLogoAlt": "Neulift logo",
+        "projectName": "neulift",
+        "projectDesc": "Clínica de belleza integral sin cirugía para otorgar un servicio estético y con ello conseguir una mejora emocional."
+      },
+      "project": {
+        "laptopImg": "/img/projects/neulift-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the website of Neulift",
+        "laptopImgMobile": "/img/projects/neulift-laptop-movil.png",
+        "laptopImgMobileAlt": "Image in mobile version of a laptop that shows the web page of Neulift",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Navegación intuitiva"
+          },
+          {
+            "item": "Fácil acceso a dirección y Redes sociales"
+          },
+          {
+            "item": "Filtrado de Tratamientos"
+          },
+          {
+            "item": "Formulario de contacto y ubicación"
+          }
+        ],
+        "location": "Veracruz, México."
+      },
+      "functionalities": {
+        "img": "/img/projects/neulift-web.png",
+        "imgAlt": "Neulift in a browser window",
+        "circles": [
+          {
+            "title": "d"
+          },
+          {
+            "title": "ui"
+          },
+          {
+            "title": "ux"
+          },
+          {
+            "title": "dev"
+          }
+        ],
+        "easyText": "Best navigation"
+      },
+      "getmore": {
+        "img": "/img/projects/neulift-imagen.jpg",
+        "imgAlt": "Representative image of Neulift",
+        "imgMobile": "/img/projects/neulift-imagen.jpg",
+        "imgMobileAlt": "Image in mobile version representative of Neulift",
+        "smartphoneImg": "/img/projects/neulift-smartphone.png",
+        "smartphoneImgAlt": "Smartphone with the website of Neulift"
+      }
+    }
+  }
+}  
