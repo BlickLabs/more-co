@@ -1,0 +1,1715 @@
+{
+  "tbEN": {
+    "base": {
+      "linkReturn": "/en/our-work.html",
+      "iconReturn": "/img/icons/semi-triangulo.svg",
+      "iconReturnAlt": "Icon to emphasize the return link",
+      "textReturn": "Go back",
+      "data": {
+        "title": "Important facts",
+        "textYear": "Year",
+        "locationTitle": "Location",
+        "btnSee": "See project",
+        "btnQuoteLink": "/en/quote.html",
+        "btnQuote": "Quote my project"
+      }
+    },
+    "alianza": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-alianza-swe-mex.svg",
+        "projectLogoAlt": "Alianza Swe-Mex logo",
+        "projectName": "Alianza Swe-mex",
+        "projectType": "Website",
+        "projectDesc": "Las empresas de origen sueco Volvo Buses, Ericsson, ABB y Axis Communications, con la facilitación del Consejo Sueco de Comercio e Inversión, Business Sweden, han formado un grupo de colaboración denominado SweMex."
+      },
+      "data": {
+        "laptopImg": "/img/projects/alianza-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Alianza Swe-Mex",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Integración con Blog"
+          },
+          {
+            "item": "11+ vistas"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Redirección a otras páginas"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Diseño web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://alianzaswemex.com/"
+      }
+    },
+    "aromaria": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-aromaria.svg",
+        "projectLogoAlt": "Aromaria logo",
+        "projectName": "aromaria",
+        "projectType": "Online Store",
+        "projectDesc": "Compañía Mexicana que busca provocar momentos mágicos a través de la venta de productos para mejorar el ambiente, espacio y aroma: velas, perfumes de interiores y jabones."
+      },
+      "data": {
+        "laptopImg": "/img/projects/aromaria-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Aromaria",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Productos, descripciones y precios"
+          },
+          {
+            "item": "Búsqueda por tags"
+          },
+          {
+            "item": "Filtrado por menús"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Productos relacionados"
+          },
+          {
+            "item": "Testimoniales"
+          },
+          {
+            "item": "Diseño web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://aromaria.mx/"
+      }
+    },
+    "littleme": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-little-me.svg",
+        "projectLogoAlt": "Little me logo",
+        "projectName": "Little me",
+        "projectType": "Online Store",
+        "projectDesc": "Venta de ropa para bebé."
+      },
+      "data": {
+        "laptopImg": "/img/projects/littleme-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Little me",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Productos, descripciones y precios"
+          },
+          {
+            "item": "Subcolecciones"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Productos relacionados"
+          },
+          {
+            "item": "Testimoniales"
+          },
+          {
+            "item": "Compartir en Redes sociales"
+          },
+          {
+            "item": "Puntos de lealtad"
+          },
+          {
+            "item": "Tarjetas de regalo"
+          },
+          {
+            "item": "Filtrado básico de productos"
+          },
+          {
+            "item": "Diseño web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://littleme.mx/"
+      }
+    },
+    "ican": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-ican.svg",
+        "projectLogoAlt": "ICAN logo",
+        "projectName": "ican",
+        "projectType": "Website",
+        "projectDesc": "Asociación sin fines de lucro dedicada a presentar todos los beneficios de la Cannabis Medicinal dentro del sistema de salud."
+      },
+      "data": {
+        "laptopImg": "/img/projects/ican-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of ICAN",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Formularios de contacto"
+          },{
+            "item": "Integración con Whatsapp"
+          },
+          {
+            "item": "Integración de Blog"
+          },
+          {
+            "item": "Multi-idioma Inglés, español"
+          },
+          {
+            "item": "7+ vistas"
+          },
+          {
+            "item": "Redirección a Redes sociales"
+          },
+          {
+            "item": "Diseño web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://ican.mx/"
+      }
+    },
+    "coastav": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-98-coast-av.svg",
+        "projectLogoAlt": "98 Coast Av logo",
+        "projectName": "98 Coast Av.",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea de trajes de baño."
+      },
+      "data": {
+        "laptopImg": "/img/projects/98coast-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of 98 Coast Av",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Ingreso desde diferentes países"
+          },
+          {
+            "item": "Cambio de moneda e idioma"
+          },
+          {
+            "item": "Mejoras en experiencia de usuario"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://www.98coastav.mx/"
+      }
+    },
+    "mccosmetics": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-mc-cosmetics.svg",
+        "projectLogoAlt": "MC Cosmetics logo",
+        "projectName": "MC Cosmetics",
+        "projectType": "Online Store",
+        "projectDesc": "Venta de cosméticos en línea a mayoreo."
+      },
+      "data": {
+        "laptopImg": "/img/projects/mccosmetics-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of MC Cosmetics",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Integración de pagos"
+          },
+          {
+            "item": "Catálogo de productos"
+          },{
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Newsletter"
+          },
+          {
+            "item": "Envíos integrados con Fedex"
+          },
+          {
+            "item": "Diseño web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://www.mccosmetics.mx/"
+      }
+    },
+    "loretta": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-loretta.svg",
+        "projectLogoAlt": "Loretta logo",
+        "projectName": "Loretta",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea de ropa y accesorios."
+      },
+      "data": {
+        "laptopImg": "/img/projects/loretta-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Loretta",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Formularios de contacto"
+          },{
+            "item": "Venta en Facebook e Instagram"
+          },
+          {
+            "item": "InstaShop"
+          },
+          {
+            "item": "Redirección a Redes sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño web y móvil"
+          }
+        ],
+        "location": "Durango, México",
+        "btnSeeLink": "https://wearloretta.com/"
+      }
+    },
+    "entos": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-entos.svg",
+        "projectLogoAlt": "Entos logo",
+        "projectName": "Entos",
+        "projectType": "Website",
+        "projectDesc": "Fondo de inversión para diferentes empresas y proyectos que generen valor."
+      },
+      "data": {
+        "laptopImg": "/img/projects/entos-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Entos",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Integración con Blog"
+          },
+          {
+            "item": "Redirección a redes sociales"
+          },
+          {
+            "item": "Portafolio de proyectos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Integración de Feed de Twitter"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://entos.mx/"
+      }
+    },
+    "dondinero": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-don-dinero.svg",
+        "projectLogoAlt": "Don Dinero logo",
+        "projectName": "Don Dinero",
+        "projectType": "Website",
+        "projectDesc": "Portal de noticias del Alberto Aguilar en donde se publica lo más importante del mundo financiero de una manera sencilla y entretenida."
+      },
+      "data": {
+        "laptopImg": "/img/projects/dondinero-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Don Dinero",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Subir noticias"
+          },
+          {
+            "item": "Programar noticias"
+          },
+          {
+            "item": "Subir podcasts y videos"
+          },
+          {
+            "item": "Editar contenido"
+          },
+          {
+            "item": "Newsletter"
+          },
+          {
+            "item": "Link a Redes sociales"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://dondinero.mx/"
+      }
+    },
+    "sic": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-sic.svg",
+        "projectLogoAlt": "SIC logo",
+        "projectName": "sic",
+        "projectType": "Website",
+        "projectDesc": "SIC Comercialización y servicios. Empresa líder en tecnología e implementación de soluciones de cómputo."
+      },
+      "data": {
+        "laptopImg": "/img/projects/sic-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of SIC",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Multi idioma Inglés Español"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Cambio de país: Argentina, Colombia, Chile y México"
+          },
+          {
+            "item": "Animaciones"
+          },
+          {
+            "item": "Integración de estatus de servicio"
+          },
+          {
+            "item": "Contacto y ubicación"
+          }
+        ],
+        "location": "Estado de México, México",
+        "btnSeeLink": " http://sic.com.mx/"
+      }
+    },
+    "promor": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-promor.svg",
+        "projectLogoAlt": "Promor logo",
+        "projectName": "Promor",
+        "projectType": "Website",
+        "projectDesc": "Empresa de diseño y fabricación de maquinaria para café."
+      },
+      "data": {
+        "laptopImg": "/img/projects/promor-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Promor",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Vista por producto y ficha técnica"
+          },
+          {
+            "item": "Animaciones"
+          },
+          {
+            "item": "Contacto y ubicación"
+          }
+        ],
+        "location": "Veracruz, México",
+        "btnSeeLink": "http://www.promor.com.mx/"
+      }
+    },
+    "piktia": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-piktia.svg",
+        "projectLogoAlt": "Piktia logo",
+        "projectName": "Piktia",
+        "projectType": "Online Store",
+        "projectDesc": "Piktia imprime tus fotos ¡Fácil y rápido! Y te las enviamos a cualquier parte de la república."
+      },
+      "data": {
+        "laptopImg": "/img/projects/piktia-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Piktia",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Ajustes de programación"
+          },{
+            "item": "Subir imágenes al comprar productos"
+          },
+          {
+            "item": "Seleccionar cantidad de impresiones por foto"
+          },
+          {
+            "item": "Redirección automática al carrito de compras"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://piktia.mx/"
+      }
+    },
+    "coralbeach": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-coral-beach.svg",
+        "projectLogoAlt": "Coral Beach logo",
+        "projectName": "Coral Beach",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea de trajes de baño en México."
+      },
+      "data": {
+        "laptopImg": "/img/projects/coralbeach-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Coral Beach",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Códigos de descuento"
+          },
+          {
+            "item": "Correo automático al inscribirse"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Venta en Instagram y Facebook"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          }
+        ],
+        "location": "Monterrey, México",
+        "btnSeeLink": "https://coralbeachglam.com/"
+      }
+    },
+    "aventarte": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-aventarte.svg",
+        "projectLogoAlt": "Aventarte logo",
+        "projectName": "Aventarte",
+        "projectType": "Online Store",
+        "projectDesc": "Plataforma en línea para venta de obras de arte de diferentes artistas, en donde puedes comprar, leer acerca de ellos y conocer más para decidir cuál es la obra ideal para ti."
+      },
+      "data": {
+        "laptopImg": "/img/projects/aventarte-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Aventarte",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Integración de Blog"
+          },
+          {
+            "item": "Newsletter"
+          },{
+            "item": "Plataforma completamente auto-administrable"
+          },
+          {
+            "item": "Vista previa de productos"
+          },
+          {
+            "item": "Perfiles de artistas"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://aventarte.com/"
+      }
+    },
+    "dimsa": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-dimsa.svg",
+        "projectLogoAlt": "Dimsa logo",
+        "projectName": "Dimsa",
+        "projectType": "Website",
+        "projectDesc": "Dimsa, Distribuidora industrial Mexicana. Empresa líder en materiales y soluciones de empaque."
+      },
+      "data": {
+        "laptopImg": "/img/projects/dimsa-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Dimsa",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Carrusel de imágenes"
+          },
+          {
+            "item": "Categorías y productos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Animaciones y efectos"
+          },
+          {
+            "item": "Link a Redes sociales"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://www.dim-sa.com.mx/"
+      }
+    },
+    "wicore": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-wicore.svg",
+        "projectLogoAlt": "Wicore logo",
+        "projectName": "Wicore",
+        "projectType": "Website",
+        "projectDesc": "Dedicados a la logística y almacenamiento de empaques para ofrecer un servicio a todas las empresas que requieran una mejor tarifa y manejo de envíos."
+      },
+      "data": {
+        "laptopImg": "/img/projects/wicore-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Wicore",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Integración con blog"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Animaciones y efectos"
+          },
+          {
+            "item": "Link a Redes sociales"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Integración de videos"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://wicore.mx/"
+      }
+    },
+    "aerincompany": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-the-aerin-company.svg",
+        "projectLogoAlt": "The Aerin Company logo",
+        "projectName": "The Aerin Company",
+        "projectType": "Online Store",
+        "projectDesc": "Venta en línea de los mejores regalos, detalles y chocolates en todo México."
+      },
+      "data": {
+        "laptopImg": "/img/projects/aerincompany-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of The Aerin Company",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Registro de fechas por usuario"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://theaerincompany.com/"
+      }
+    },
+    "aguaviento": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-grupo-aguaviento.svg",
+        "projectLogoAlt": "Grupo Aguaviento logo",
+        "projectName": "Grupo Aguaviento",
+        "projectType": "Website",
+        "projectDesc": "Empresa especializada en el desarrollo y fabricación de productos de limpieza orgullosamente mexicanos, reconocidos por su alto desempeño, calidad y valor."
+      },
+      "data": {
+        "laptopImg": "/img/projects/aguaviento-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Grupo Aguaviento",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Multi idioma inglés / Español"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Galería de imágenes"
+          }
+        ],
+        "location": "Estado de México, México",
+        "btnSeeLink": "http://aguaviento.com/"
+      }
+    },
+    "bricksa": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-bricksa.svg",
+        "projectLogoAlt": "Bricksa logo",
+        "projectName": "Bricksa",
+        "projectType": "Website",
+        "projectDesc": "Empresa dedicada a la infraestructura y desarrollo de bienes raíces tanto residencial como comercial."
+      },
+      "data": {
+        "laptopImg": "/img/projects/bricksa-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Bricksa",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Auto Administración de proyectos"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Portafolio completo"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          }
+        ],
+        "location": "Veracruz, México",
+        "btnSeeLink": "http://bricksa.mx/"
+      }
+    },
+    "wellness": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-wellness-store.svg",
+        "projectLogoAlt": "Wellness Store logo",
+        "projectName": "Wellness Store",
+        "projectType": "point of sale",
+        "projectDesc": "Tienda en línea de productos orgánicos y benéficos para la salud."
+      },
+      "data": {
+        "laptopImg": "/img/projects/wellness-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Wellness Store",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Facturación de pedidos"
+          },
+          {
+            "item": "Impresión de tickets"
+          },
+          {
+            "item": "Inventario en tiempo real"
+          },
+          {
+            "item": "Categoría de productos"
+          },
+          {
+            "item": "Administración de usuarios"
+          },
+          {
+            "item": "Fácil uso y navegación"
+          }
+        ],
+        "location": "CDMX, México"
+      }
+    },
+    "finacero": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-finacero.svg",
+        "projectLogoAlt": "Finacero logo",
+        "projectName": "Finacero",
+        "projectType": "Website",
+        "projectDesc": "Empresa de soluciones en financiamiento para la industria acerera."
+      },
+      "data": {
+        "laptopImg": "/img/projects/finacero-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Finacero",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Animaciones y efectos"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://finacero.mx/"
+      }
+    },
+    "rancholasflores": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-rancho-las-flores.svg",
+        "projectLogoAlt": "Rancho las flores logo",
+        "projectName": "Rancho las flores",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea de productos mexicanos cultivados en el Rancho las Flores, Café, salsas, Miel y Sal."
+      },
+      "data": {
+        "laptopImg": "/img/projects/rancholasflores-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Rancho las flores",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Códigos de descuento"
+          },{
+            "item": "Vistas personalizadas"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://rancholasflores.com.mx/"
+      }
+    },
+    "rgv": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-rgv-soluciones.svg",
+        "projectLogoAlt": "RGV Soluciones logo",
+        "projectName": "RGV Soluciones",
+        "projectType": "Website",
+        "projectDesc": "Consultores especializados en las principales industrias del sector público y privado en México."
+      },
+      "data": {
+        "laptopImg": "/img/projects/rgv-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of RGV Soluciones",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },{
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Animaciones y efectos"
+          },
+          {
+            "item": "Catálogo de servicios"
+          }
+        ],
+        "location": "Veracruz, México",
+        "btnSeeLink": "http://rgvsoluciones.com/"
+      }
+    },
+    "tabbybeans": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-tabby-beans.svg",
+        "projectLogoAlt": "Tabby Beans logo",
+        "projectName": "Tabby Beans",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea de productos cultivados y exportados en Panamá, más que nada granos: Frijol, lentejas, Arveja, Garbanzo."
+      },
+      "data": {
+        "laptopImg": "/img/projects/tabbybeans-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Tabby Beans",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Códigos de descuento"
+          },{
+            "item": "Donativos en línea a fundaciones"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          }
+        ],
+        "location": "Panamá, Panamá",
+        "btnSeeLink": "https://tabbybeans.com/"
+      }
+    },
+    "rer": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-rer-energy-group.svg",
+        "projectLogoAlt": "RER Energy Group logo",
+        "projectName": "RER Energy Group",
+        "projectType": "Website",
+        "projectDesc": "Empresa líder en desarrollo y financiamiento solar."
+      },
+      "data": {
+        "laptopImg": "/img/projects/rer-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of RER Energy Group",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Integración con Blog"
+          },
+          {
+            "item": "Portafolio de proyectos"
+          },
+          {
+            "item": "Animaciones y efectos"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://rerenergygroup.com.mx/"
+      }
+    },
+    "lasmezcas": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-las-mezcas.svg",
+        "projectLogoAlt": "Las Mezcas logo",
+        "projectName": "Las Mezcas",
+        "projectType": "Online Store",
+        "projectDesc": "Venta de Bebidas 100% naturales mezcladas de agave espadín con Jamaico o Tamarindo."
+      },
+      "data": {
+        "laptopImg": "/img/projects/lasmezcas-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Las Mezcas",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Vistas personalizadas"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Programación Web y móvil"
+          },
+          {
+            "item": "Venta en Facebook"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://lasmezcas.com/"
+      }
+    },
+    "fortia": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-fortia.svg",
+        "projectLogoAlt": "Fortia logo",
+        "projectName": "Fortia",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda especialista en nutrición y suplementos deportivos sanos y nutritivos."
+      },
+      "data": {
+        "laptopImg": "/img/projects/fortia-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Fortia",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://fortia.me/"
+      }
+    },
+    "endless": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-endless.svg",
+        "projectLogoAlt": "Endless logo",
+        "projectName": "Endless",
+        "projectType": "Online Store",
+        "projectDesc": "Empresa de soluciones energéticas para una vida auto-sustentable."
+      },
+      "data": {
+        "laptopImg": "/img/projects/endless-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Endless",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },{
+            "item": "Programación Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Búsqueda"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://endlessolutions.com/"
+      }
+    },
+    "dreamwatershop": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-dream-water.svg",
+        "projectLogoAlt": "Dream Water Shop logo",
+        "projectName": "Dream Water Shop",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea para productos exclusivos de Google Shop. Shots y polvos 100% naturales para dormir y tener una mejor calidad de vida."
+      },
+      "data": {
+        "laptopImg": "/img/projects/dreamwatershop-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Dream Water Shop",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Programación Web y móvil"
+          },
+          {
+            "item": "Compra por membresía únicamente"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          }
+        ],
+        "location": "Florida, Estados Unidos.",
+        "btnSeeLink": "https://shop.drinkdreamwater.com/"
+      }
+    },
+    "loquay": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-loquay.svg",
+        "projectLogoAlt": "Loquay logo",
+        "projectName": "Loquay",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea de empresa líder en venta de productos para el cabello."
+      },
+      "data": {
+        "laptopImg": "/img/projects/loquay-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Loquay",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Programación Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Búsqueda"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://tienda.loquay.com/"
+      }
+    },
+    "indots": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-indots.svg",
+        "projectLogoAlt": "Indots logo",
+        "projectName": "Indots",
+        "projectType": "Website",
+        "projectDesc": "InDots surge como una propuesta para la vida contemporánea: rápida, tecnológica y con necesidad de nuevas formas de conectar. Con sus herramientas multimedia encontrarás información y técnicas disponibles para relacionarte con tu mundo interno y externo de una forma más eficiente."
+      },
+      "data": {
+        "laptopImg": "/img/projects/indots-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Indots",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Integración con Shopify"
+          },
+          {
+            "item": "Integración con Leadpages"
+          },
+          {
+            "item": "Integración con Blog"
+          },
+          {
+            "item": "Galería de videos"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://indots.com/"
+      }
+    },
+    "florella": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-florella.svg",
+        "projectLogoAlt": "Florella logo",
+        "projectName": "Florella",
+        "projectType": "Online Store",
+        "projectDesc": "Tienda en línea de alta floristería, envíos de Flores y arreglos."
+      },
+      "data": {
+        "laptopImg": "/img/projects/florella-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Florella",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Vista previa de productos"
+          },
+          {
+            "item": "Productos relacionados"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Búsqueda"
+          }
+        ],
+        "location": "Veracruz, México",
+        "btnSeeLink": "https://florella.mx/"
+      }
+    },
+    "atelier": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-atelier-cote-jardin.svg",
+        "projectLogoAlt": "Atelier Côté Jardin logo",
+        "projectName": "Atelier Côté Jardin",
+        "projectType": "Online Store",
+        "projectDesc": "Empresa que te envía arreglos florales únicos cada semana a través de una selección de flores de temporada."
+      },
+      "data": {
+        "laptopImg": "/img/projects/atelier-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Atelier Côté Jardin",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Vista previa de productos"
+          },
+          {
+            "item": "Productos relacionados"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Membresía y suscripción"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Búsqueda integrada"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://cotejardinatelier.com/"
+      }
+    },
+    "neopraxis": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-neopraxis.svg",
+        "projectLogoAlt": "Neopraxis logo",
+        "projectName": "Neopraxis",
+        "projectType": "Website",
+        "projectDesc": "Renta de consultorios y espacios de trabajo para psicólogos en el corazón de la Ciudad de México."
+      },
+      "data": {
+        "laptopImg": "/img/projects/neopraxis-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Neopraxis",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Galería de imágenes"
+          },
+          {
+            "item": "Integración con Blog"
+          },
+          {
+            "item": "Sesiones de usuario"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://neopraxis.mx/"
+      }
+    },
+    "workin": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-working-chapultepec.svg",
+        "projectLogoAlt": "Working Chapultepec logo",
+        "projectName": "Working Chapultepec",
+        "projectType": "Website",
+        "projectDesc": "Renta de oficinas y coworking para empresas."
+      },
+      "data": {
+        "laptopImg": "/img/projects/workin-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Working Chapultepec",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Animaciones y efectos"
+          },
+          {
+            "item": "Formularios integrados"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://workingch.com/"
+      }
+    },
+    "iidea": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-iidea.svg",
+        "projectLogoAlt": "iiDEA logo",
+        "projectName": "iiDEA",
+        "projectType": "Website",
+        "projectDesc": "Plataforma de cursos en línea enfocada en ser una nueva opción educativa al alcance de profesionales y estudiantes."
+      },
+      "data": {
+        "laptopImg": "/img/projects/iidea-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of iiDEA",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Integración con Tienda en línea"
+          },
+          {
+            "item": "Contacto y ubicación"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://iidea.org.mx/"
+      }
+    },
+    "begonia": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-begonia-fernandez.svg",
+        "projectLogoAlt": "Begoña Fernández logo",
+        "projectName": "Begoña Fernández",
+        "projectType": "Website",
+        "projectDesc": "Empresa de botas artesanales personalizadas, hechas por manos mexicanas con los mejores materiales usados en su producción."
+      },
+      "data": {
+        "laptopImg": "/img/projects/begonia-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Begoña Fernández",
+        "numberYear": "2016",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Formulario de medidas"
+          },
+          {
+            "item": "Galería de imágenes"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Contacto y ubicación"
+          }
+        ],
+        "location": "Veracruz, México",
+        "btnSeeLink": "http://www.begonafernandez.com.mx/"
+      }
+    },
+    "rlabogados": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-rl-abogados.svg",
+        "projectLogoAlt": "Rocha Landero Abogados logo",
+        "projectName": "Rocha Landero Abogados",
+        "projectType": "Website",
+        "projectDesc": "Despacho especializado en la asesoría y patrocinio de litigios civiles, mercantiles y administrativos tanto en procedimientos judiciales inclusive el juicio de Amparo, como extrajudiciales."
+      },
+      "data": {
+        "laptopImg": "/img/projects/rochalandero-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Rocha Landero Abogados",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Información de contacto"
+          },
+          {
+            "item": "Contacto y ubicación"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "http://rlabogados.mx/"
+      }
+    },
+    "alegp": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-nutriologa-ale-gp.svg",
+        "projectLogoAlt": "Nutrióloga Alejandra Gutiérrez Páez logo",
+        "projectName": "Nutrióloga Alejandra Gutiérrez Páez",
+        "projectType": "Website",
+        "projectDesc": "Nutrióloga educadora en diabetes y nutrición deportiva."
+      },
+      "data": {
+        "laptopImg": "/img/projects/alegpaez-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Nutrióloga Alejandra Gutiérrez Páez",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Integración con Blog"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Auto administración de recetas en línea"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Galería de videos auto administrable"
+          },
+          {
+            "item": "Contacto y ubicación"
+          }
+        ],
+        "location": "Puebla, México",
+        "btnSeeLink": "http://alegpaez.com/"
+      }
+    },
+    "estilizate": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-estilizate.svg",
+        "projectLogoAlt": "Estilízate logo",
+        "projectName": "estilízate",
+        "projectType": "Online Store",
+        "projectDesc": "Venta de productos de belleza en línea. "
+      },
+      "data": {
+        "laptopImg": "/img/projects/estilizate-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Estilízate",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Ajustes en programación"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://www.estilizate.mx/"
+      }
+    },
+    "pacer": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-pacer.svg",
+        "projectLogoAlt": "Pacer logo",
+        "projectName": "pacer",
+        "projectType": "Online Store",
+        "projectDesc": "Venta de suplementos para antes y después de hacer ejercicio."
+      },
+      "data": {
+        "laptopImg": "/img/projects/pacer-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Pacer",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Búsqueda integrada"
+          },
+          {
+            "item": "Blog integrado"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://pacer.mx/"
+      }
+    },
+    "opia": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-opia-jewelry.svg",
+        "projectLogoAlt": "Opia Jewelry logo",
+        "projectName": "opia jewelry",
+        "projectType": "Online Store",
+        "projectDesc": "Accesorios para mujer, desde aretes hasta cualquier tipo de joyería."
+      },
+      "data": {
+        "laptopImg": "/img/projects/opia-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Opia Jewelry",
+        "numberYear": "2017",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Búsqueda integrada"
+          },
+          {
+            "item": "Blog integrado"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://www.opiajewelry.com/"
+      }
+    },
+    "sante": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-sante.svg",
+        "projectLogoAlt": "Santé logo",
+        "projectName": "santé",
+        "projectType": "Online Store",
+        "projectDesc": "Venta de productos en línea de la marca Distroller en Perú."
+      },
+      "data": {
+        "laptopImg": "/img/projects/sante-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Santé",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Newsletter"
+          }
+        ],
+        "location": "Lima, Perú",
+        "btnSeeLink": "https://santte.net/"
+      }
+    },
+    "decosnay": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-decosnay.svg",
+        "projectLogoAlt": "Decosnay logo",
+        "projectName": "decosnay",
+        "projectType": "Online Store",
+        "projectDesc": "Venta de productos y accesorios para fiestas de todo tipo."
+      },
+      "data": {
+        "laptopImg": "/img/projects/decosnay-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Decosnay",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://decosnay.com/"
+      }
+    },
+    "opalo": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-opalo-accesorios.svg",
+        "projectLogoAlt": "Opalo accesorios logo",
+        "projectName": "opalo accesorios",
+        "projectType": "Online Store",
+        "projectDesc": "Accesorios para mujer, desde aretes hasta cualquier tipo de joyería."
+      },
+      "data": {
+        "laptopImg": "/img/projects/opalo-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of Opalo accesorios",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Pasarelas de pagos"
+          },
+          {
+            "item": "Contacto y ubicación"
+          },
+          {
+            "item": "Diseño Web y móvil"
+          },
+          {
+            "item": "Link a Redes Sociales"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda integrada"
+          }
+        ],
+        "location": "Veracruz, México",
+        "btnSeeLink": "https://opaloaccesorios.com/"
+      }
+    },
+    "confettiparty": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-confetti-party.svg",
+        "projectLogoAlt": "The Confetti Party logo",
+        "projectName": "The Confetti Party",
+        "projectType": "point of sale",
+        "projectDesc": "Venta de accesorios para eventos y fiestas."
+      },
+      "data": {
+        "laptopImg": "/img/projects/confettiparty-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of The Confetti Party",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Facturación de pedidos"
+          },
+          {
+            "item": "Impresión de tickets"
+          },
+          {
+            "item": "Inventario en tiempo real"
+          },
+          {
+            "item": "Categoría de productos"
+          },
+          {
+            "item": "Administración de usuarios"
+          },
+          {
+            "item": "Fácil uso y navegación"
+          }
+        ],
+        "location": "CDMX, México"
+      }
+    }
+  }
+}
