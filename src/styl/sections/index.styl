@@ -153,7 +153,8 @@
 
     &-info
       & .btn.transparent
-        width 164.17px
+        justify-content center
+        width 166px
 
     & .banner-title,
     & .banner-desc
@@ -459,6 +460,10 @@
     &-bannertwo
       padding 0 13%
 
+      &-content
+        justify-content flex-start
+        padding-left 85px
+
     &-bannerthree
       padding 0 16%
 
@@ -466,7 +471,7 @@
   .home
     &-bannertwo
       &-content
-        display flex-start
+        justify-content flex-start
         padding-left 150px
 
 @media screen and (max-width 1010px)
@@ -710,7 +715,7 @@
         top 17px
 
     &-start
-      margin 0
+      margin 0 0 30px 0
 
       &:before
         border-top solid 1px $grayT3
@@ -728,6 +733,12 @@
       &-btns
         justify-content center
         margin-top 44px
+
+@media screen and (min-width 640px) and (max-width 770px)
+  .home
+    &-bannerthree
+      &-content
+        margin-top 150px
 
 @media screen and (max-width 460px)
   .home
@@ -782,9 +793,16 @@
           display none
 
       &-lowerinfo
-        display none
+        margin-left 0
+
+        & .banner-subtitle,
+        & .banner-desc
+          display none !important
 
     &-bannerthree
+      &-content
+        margin-top 0
+
       &-lowerinfo
         display none
 

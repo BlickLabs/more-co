@@ -1,16 +1,16 @@
 <footer class="footer">
   <div class="footer-background"></div>
   <div class="footer-content">
-    <a href="index.html">
+    <a href="/en/index.html">
       <img class="footer-logo" src="{{en.footer.logo}}" alt="{{en.footer.logoAlt}}">
     </a>
     <div class="footer-section-container">
       {% for section in en.footer.sections %}
-      <a class="footer-section metropolis-medium {% if section.btnAspect == true %} btn borderBlack {% endif %}" href="{{section.link}}">{{section.name}}</a>
+      <a class="footer-section metropolis-medium {% if section.btnAspect == true %} btn borderBlack {% endif %}{% if view_name == section.viewName %}active{% endif %}" href="{{section.link}}">{{section.name}}</a>
       {% endfor %}
     </div>
-    <span class="footer-email metropolis-medium">{{en.footer.email}}</span>
+    <a class="footer-email metropolis-medium" href="mailto:hola@getmore.mx">{{en.footer.email}}</a>
   </div>
-  <span class="footer-copyrigth metropolis-medium">{{en.footer.copyright}}</span>
+  <span class="footer-copyrigth metropolis-medium">&copy; <script>document.write(new Date().getFullYear());</script> Get More.</span>
   <img class="footer-decorator" src="{{en.footer.decorator}}">
 </footer>

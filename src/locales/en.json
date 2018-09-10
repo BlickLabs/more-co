@@ -1,8 +1,8 @@
 {
   "en": {
     "nav": {
-      "logo": "/img/logos/logo-moreco-black.png",
-      "logoScroll": "/img/logos/logo-moreco-white.png",
+      "logo": "/img/logos/logo-getmore-negro.png",
+      "logoScroll": "/img/logos/logo-getmore-blanco.png",
       "logoAlt": "Logo del sitio dentro de la barra de navegación",
       "hamburgerLogoAlt": "Logo del sitio dentro del menu hamburguesa",
       "hamburgerClose": "/img/icons/cerrar-menu-hamburguesa.png",
@@ -14,13 +14,13 @@
           "viewName": "homepage"
         },
         {
-          "name": "portafolio",
+          "name": "our work",
           "link": "/en/our-work.html",
-          "viewName": "portfolio"
+          "viewName": "ourwork"
         },
         {
           "name": "contact us",
-          "link": "/en/contact.html",
+          "link": "/en/contact-us.html",
           "viewName": "contact"
         }
       ]
@@ -929,8 +929,8 @@
       "title": "Quote"
     },
     "footer": {
-      "logo": "/img/logos/logo-moreco-black.png",
-      "logoAlt": "Logo del sitio dentro del pie de página",
+      "logo": "/img/logos/logo-getmore-negro.png",
+      "logoAlt": "Website logo within the footer",
       "sections": [
         {
           "name": "home",
@@ -940,11 +940,11 @@
         {
           "name": "our work",
           "link": "/en/our-work.html",
-          "viewName": "portfolio"
+          "viewName": "ourwork"
         },
         {
-          "name": "contactar",
-          "link": "/en/contact us.html",
+          "name": "contact us",
+          "link": "/en/contact-us.html",
           "viewName": "contact",
           "btnAspect": true
         }

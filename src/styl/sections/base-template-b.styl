@@ -1,12 +1,12 @@
 .templateb
-  margin 55px 0 170px 0
+  margin 0 0 170px 0
 
   &-cover
     background-position center
     background-repeat no-repeat
     background-size cover
     height auto
-    padding-bottom 150px
+    padding 80px 0 150px 0
 
     &-content
       margin 0 auto
@@ -88,6 +88,11 @@
       & > a:first-child
         margin-right 15px
 
+      & .btn.borderBlack
+        min-width 145px
+
+      & .btn
+        min-width 200px
 
   /*Alianza Swe-mex project*/
   &.alianza
@@ -539,6 +544,10 @@
 
       &-btns
         margin-top 30px
+
+@media screen and (max-width 940px)
+  .templateb
+    margin-bottom 10px
 
 @media screen and (max-width 440px)
   .templateb
