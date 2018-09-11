@@ -66,7 +66,7 @@
       display flex
       flex-direction row
       justify-content center
-      margin -19% 0 70px 0
+      margin -19% 0 40px 0
 
     &-mobile
       &-carousel
@@ -236,6 +236,7 @@
         animation-iteration-count infinite
         -webkit-animation-fill-mode none
         animation-fill-mode none
+        position absolute
         width 100%
 
   &-bannertwo
@@ -552,7 +553,8 @@
 @media screen and (max-width 770px)
   .home
     &-cover
-      height 475px
+      height 495px
+      padding-top 130px
 
       &-content
         max-width 260px
@@ -588,10 +590,13 @@
       &-container
         display none
 
+      &-descr
+        margin-bottom 0
+
       &-mobile
         &-carousel
           display block !important
-          margin -10% 0 70px 0
+          margin -10% 0 25px 0
           padding 0 10%
           position relative
 
@@ -731,6 +736,12 @@
         justify-content center
         margin-top 44px
 
+  .service
+    &-shopify
+      &-experts,
+      &-pos
+        margin-top 18px
+
 @media screen and (min-width 640px) and (max-width 770px)
   .home
     &-bannerthree
@@ -741,7 +752,6 @@
   .home
     &-cover
       align-items flex-start
-      padding-top 110px //95px
 
       &-img
         &-left
