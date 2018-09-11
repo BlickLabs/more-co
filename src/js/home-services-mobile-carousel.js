@@ -8,7 +8,8 @@ homeServicesCarousel.owlCarousel ({
   margin: 20,
   responsive:{
     0:{
-      items:1
+      items:1,
+      autoHeight: true
     },
     800:{
       items: 1
