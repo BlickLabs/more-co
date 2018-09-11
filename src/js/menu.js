@@ -40,7 +40,7 @@ if (!(window.location.pathname === '/index.html' || window.location.pathname ===
 }
 
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = 'auto';
+  document.querySelector('#menuContainer').style.width = '54%';
   document.querySelector('#hamburgerMenu').style.display = 'none';
   document.querySelector('body').style.overflow = 'hidden';
 }
