@@ -9,9 +9,11 @@
     <link runat="server" rel="shortcut icon" href="/img/favicon/favicon-getmore.png" type="image/x-icon"/>
     <link runat="server" rel="icon" href="/img/favicon/favicon-getmore.png" type="image/ico"/>
     <title>{% block title %}{% endblock %} | Get More</title>
-    {% include 'seo/tracking/facebookpixel.njk' %}
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.15.0/lazyload.min.js"></script>
+    <script src="//code.tidio.co/8a6mytjh6ieldbhh3xgh5uspwmz8ii2e.js"></script>
+    {% include 'seo/tracking/hotjar.njk' %}
+    {% include 'seo/tracking/facebookpixel.njk' %}
   </head>
   <body>
     <div id="page">
@@ -41,5 +43,6 @@
     <script>
       AOS.init();
     </script>
+    {% include 'seo/tracking/hubspot.njk' %}
   </body>
 </html>
