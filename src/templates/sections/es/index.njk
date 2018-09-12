@@ -3,12 +3,12 @@
 {% block title %}Tiendas en línea y páginas web{% endblock %}
 
 {% set meta_description = "Expertos en el diseño y en la programación de tiendas en línea y de páginas web. Sin importar el tamaño de tu empresa, nosotros te ayudamos a vender en internet." %}
-{% set og_url = "https://getmore.mx/es/index.html" %}
+{% set og_url = "https://getmore.mx/index.html" %}
 {% set og_title = "Expertos en tiendas en línea y en páginas web | Get More" %}
 {% set og_description = "Expertos en el diseño y en la programación de tiendas en línea y de páginas web. Sin importar el tamaño de tu empresa, nosotros te ayudamos a vender en internet." %}
-{% set og_img = "" %}
-{% set og_img_width = "" %}
-{% set og_img_height = "" %}
+{% set og_img = "/img/seo/inicio-seo.jpg" %}
+{% set og_img_width = "728" %}
+{% set og_img_height = "437" %}
 
 {% set view_name = "homepage" %}
 {% set lang_view = "spanish" %}
@@ -21,7 +21,7 @@
       <img class="home-cover-logo" src="{{es.home.cover.shopifyLogo}}" alt="{{es.home.cover.shopifyLogoAlt}}">
       <span class="home-cover-subtitle metropolis-medium">{{es.home.cover.subtitlePart1}} <span class="metropolis-bold">{{es.home.cover.subtitlePart2}}</span> {{es.home.cover.subtitlePart3}} <span class="metropolis-bold">{{es.home.cover.subtitlePart4}}</span></span>
       <h1 class="home-cover-title metropolis-bold">{{es.home.cover.title}}</h1>
-      <a class="btn metropolis-bold" href="">{{es.home.cover.btn}}</a>
+      <a class="btn metropolis-bold" href="{{es.home.cover.btnLink}}">{{es.home.cover.btn}}</a>
     </div>
     <img class="home-cover-scrolling" src="/img/icons/scroll-indicator.png">
     <img class="home-cover-img-right" src="{{es.home.cover.imgRight}}" alt="{{es.home.cover.imgRightAlt}}" data-aos="fade-up" data-aos-delay="600" data-aos-duration="3000">
@@ -54,6 +54,9 @@
       </div>
       {% endfor %}
     </div>
+    <div class="home-services-btn-container">
+      <a class="btn metropolis-bold" href="{{es.home.services.btnLink}}">{{es.home.services.btn}}</a>
+    </div>
     <h3 class="home-services-ourwork metropolis-bold">{{es.home.services.ourWork}}</h3>
   </section>
 
@@ -65,7 +68,7 @@
       <div class="home-bannerone-logo-container">
         <img class="{{es.home.bannerone.shopifyLogoClass}}" src="{{es.home.bannerone.shopifyLogo}}" alt="{{es.home.bannerone.shopifyLogoAlt}}">
       </div>
-      <a class="btn transparent metropolis-bold" href="">{{es.home.bannerone.btn}}</a>
+      <a class="btn transparent metropolis-bold" href="{{es.home.bannerone.btnLink}}">{{es.home.bannerone.btn}}</a>
     </div>
     <div>
       <div class="home-bannerone-animation">
@@ -108,7 +111,7 @@
         <div class="home-bannertwo-lowerinfo">
           <h6 class="banner-subtitle metropolis-bold">{{es.home.bannertwo.subtitle}}</h6>
           <span class="banner-desc metropolis-medium">{{es.home.bannertwo.subDesc}}</span>
-          <a class="btn metropolis-bold" href="">{{es.home.bannerone.btn}}</a>
+          <a class="btn metropolis-bold" href="{{es.home.bannertwo.btnLink}}">{{es.home.bannertwo.btn}}</a>
         </div>
       </div>
     </div>
@@ -119,7 +122,7 @@
     <div class="home-bannerthree-content">
       <h3 class="banner-title metropolis-bold">{{es.home.bannerthree.title}}</h3>
       <p class="banner-desc metropolis-medium">{{es.home.bannerthree.desc}}</p>
-      <a class="btn metropolis-bold" href="">{{es.home.bannerthree.btn}}</a>
+      <a class="btn metropolis-bold" href="{{es.home.bannerthree.btnLink}}">{{es.home.bannerthree.btn}}</a>
       <div class="home-bannerthree-lowerinfo">
         <h6 class="banner-subtitle metropolis-bold">{{es.home.bannerthree.subtitle}}</h6>
         <span class="banner-desc metropolis-medium">{{es.home.bannerthree.subDesc}}</span>
@@ -138,8 +141,8 @@
     <div class="home-start-content">
       <h3 class="home-start-title metropolis-bold">{{es.home.start.title}}</h3>
       <div class="home-start-btns">
-        <a class="btn borderBlack metropolis-bold" href="">{{es.home.start.btnLeft}}</a>
-        <a class="btn metropolis-bold" href="">{{es.home.start.btnRight}}</a>
+        <a class="btn borderBlack metropolis-bold" href="{{es.home.start.btnLeftLink}}">{{es.home.start.btnLeft}}</a>
+        <a class="btn metropolis-bold" href="{{es.home.start.btnRightLink}}">{{es.home.start.btnRight}}</a>
       </div>
     </div>
   </section>
