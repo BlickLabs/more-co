@@ -631,7 +631,7 @@ img:not([src])
         margin-bottom 20px
 
     &-tab
-      width 210px
+      width auto//210px
 
       &-container
         margin 35px auto 50px auto
@@ -639,6 +639,10 @@ img:not([src])
 
       &-content
         width 100%
+
+      & > a > h2
+        &:hover
+          font-weight 700
 
     &-project
       height auto

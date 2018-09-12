@@ -35,8 +35,12 @@ window.addEventListener('scroll', function(e) {
   ticking = true;
 });
 
+if (!(window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/more-co/index.html' || window.location.pathname === '/more-co/' || window.location.pathname === '/more-co/es/index.html' || window.location.pathname === '/more-co/en/index.html' || window.location.pathname === '/es/index.html' || window.location.pathname === '/en/index.html' || window.location.pathname === 'es/index.html' || window.location.pathname === 'en/index.html')) {
+  siteNavbar.classList.add('nav-scroll');
+}
+
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = '85%';
+  document.querySelector('#menuContainer').style.width = '54%';
   document.querySelector('#hamburgerMenu').style.display = 'none';
   document.querySelector('body').style.overflow = 'hidden';
 }

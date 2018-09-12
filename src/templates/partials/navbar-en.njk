@@ -1,4 +1,4 @@
-<nav class="nav {% if section != 'index' or section != 'es/index' or section != 'en/index' %}nav-scroll{% endif %}">
+<nav class="nav">
   <div>
     <a href="/en/index.html">
       <img class="nav-logo" src="{{en.nav.logo}}" alt="{{en.nav.logoAlt}}">
@@ -28,11 +28,6 @@
   </div>
   <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
     <div class="hamburger-menu-header" data-attribute="">
-      <div class="hamburger-logo-container" data-attribute="">
-        <a href="/en/index.html" data-attribute="">
-          <img class="hamburger-logo" src="{{en.nav.logoScroll}}" data-attribute="" alt="{{en.nav.hamburgerLogoAlt}}">
-        </a>
-      </div>
 
       {% include 'partials/navLang.njk' %}
 

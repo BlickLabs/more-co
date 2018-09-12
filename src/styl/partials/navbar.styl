@@ -13,8 +13,8 @@
   z-index 12
 
   &-logo
-    height 18px
-    width 103px
+    height 22px
+    width 125.88px
 
     &-scroll
       display none
@@ -110,14 +110,15 @@
   color $blackT2
   display flex
   font-size 12px
-  height 22px
+  height 29px
   justify-content center
   letter-spacing 2px
   padding-top 2px
   transition 0.3s
-  width 120px
+  width 140px
 
-  &:hover
+  &:hover,
+  &.active
     background-color $blueT1
     border solid 1px $blueT1
     color $whiteT1
@@ -163,11 +164,15 @@
         border solid 1px $whiteT1
         height 34px
         margin-left -13px
-        width 124px
+        width 140px
 
     &-scroll
       & .hamburger-line-icon
         background-color $whiteT1
+
+    &-lang
+      &-container
+        margin-left 0
 
   .hamburger
     background-color transparent
@@ -197,7 +202,7 @@
 
     &-menu
       &-container
-        background-color rgba(38, 38, 38, 0.92)
+        background-color rgba(38, 38, 38, 1)
         display inline
         bottom 33px
         overflow scroll

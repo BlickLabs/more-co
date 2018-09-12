@@ -77,21 +77,27 @@
     vertical-align middle
     width 20px
 
-@keyframes scrollCoverBrowser
-  10%
-    -webkit-transform translateY(0%)
-    -ms-transform translateY(0%)
-    transform translateY(0%)
+@media screen and (min-width 571px)
+  @keyframes scrollCoverBrowser
+    10%
+      top 16px
 
-  50%
-    -webkit-transform translateY(calc(-50% + 285px))
-    -ms-transform translateY(calc(-50% + 285px))
-    transform translateY(calc(-50% + 285px))
+    50%
+      top -250%
 
-  100%
-    -webkit-transform translateY(calc(-100% + 570px))
-    -ms-transform translateY(calc(-100% + 570px))
-    transform translateY(calc(-100% + 570px))
+    100%
+      top -500%
+
+@media screen and (max-width 570px)
+  @keyframes scrollCoverBrowser
+    10%
+      top 16px
+
+    50%
+      top -130%
+
+    100%
+      top -270%
 
 @keyframes fadeUpAndDown
    0%
