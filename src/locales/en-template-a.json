@@ -48,19 +48,19 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Filtrado de productos"
+            "item": "Product filter"
           },
           {
-            "item": "Selección de variantes"
+            "item": "Variant selection"
           },
           {
-            "item": "Chat en línea"
+            "item": "Online Chat"
           },
           {
-            "item": "Integración con Mailchimp"
+            "item": "Newsletter integration"
           },
           {
-            "item": "Diseño web y móvil"
+            "item": "Web and mobile design"
           }
         ],
         "location": "Florida, Estados Unidos."
@@ -97,7 +97,7 @@
         "projectLogo": "/img/ourwork/logo-dream-water.svg",
         "projectLogoAlt": "Dream Water logo",
         "projectName": "dream water",
-        "projectDesc": "Dream Water es un producto que te tomas antes de dormir y te ayuda a tener el sueño más profundo. Natural, para viajar y sin ningún efecto secundario."
+        "projectDesc": "Drug free, fast acting, natural sleep aid. Convenient, travel-friendly, single serving liquid and powder sleep aids."
       },
       "project": {
         "laptopImg": "/img/projects/dreamwater-laptop.png",
@@ -108,31 +108,31 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Compras recurrentes"
+            "item": "Recurrent Order"
           },
           {
-            "item": "Selección de variantes"
+            "item": "Variant selection"
           },
           {
-            "item": "Chat en línea"
+            "item": "Online Chat"
           },
           {
-            "item": "Integración con Mailchimp"
+            "item": "Newsletter integration"
           },
           {
-            "item": "Testimoniales"
+            "item": "Testimonials"
           },
           {
-            "item": "Pasarelas de pago"
+            "item": "Payment Gateways"
           },
           {
-            "item": "Envíos personalizados"
+            "item": "Personalized Shipping"
           },
           {
-            "item": "Diseño web y móvil"
+            "item": "Web and Mobile Design"
           },
           {
-            "item": "Productos similares"
+            "item": "Similar products recommendation"
           }
         ],
         "location": "Florida, Estados Unidos."
@@ -169,7 +169,7 @@
         "projectLogo": "/img/ourwork/logo-vre-mexico.svg",
         "projectLogoAlt": "VRE México logo",
         "projectName": "vre méxico",
-        "projectDesc": "Diseño, desarrollo y venta de departamentos en el corazón de la Ciudad de México."
+        "projectDesc": "Design, development and sale of apartments in the heart of Mexico City."
       },
       "project": {
         "laptopImg": "/img/projects/vremexico-laptop.png",
@@ -180,37 +180,37 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "SEO avanzado"
+            "item": "Advanced SEO"
           },
           {
-            "item": "Fácil acceso a dirección y Redes sociales"
+            "item": "Social media"
           },
           {
-            "item": "Navegación intuitiva"
+            "item": "Best navigation"
           },
           {
-            "item": "Integración con Whatsapp"
+            "item": "Whatsapp integration"
           },
           {
-            "item": "Formularios inteligentes"
+            "item": "Smart forms"
           },
           {
-            "item": "Integración con Hubspot"
+            "item": "Hubspot Integration"
           },
           {
-            "item": "Integración con Shopify"
+            "item": "Shopify Integration"
           },
           {
-            "item": "Formulario de contacto y ubicación"
+            "item": "Contact and location Form"
           },
           {
             "item": "Blog"
           },
           {
-            "item": "Chat en línea"
+            "item": "Online Chat"
           },
           {
-            "item": "20+ vistas"
+            "item": "20+ pages"
           }
         ],
         "location": "CDMX, México"
@@ -247,7 +247,7 @@
         "projectLogo": "/img/ourwork/logo-nomad-republic.svg",
         "projectLogoAlt": "Nomad Republic logo",
         "projectName": "nomad republic",
-        "projectDesc": "Viaja con Nomad Republic para vivir experiencias que cambiarán tu vida y harán al mundo un lugar mejor."
+        "projectDesc": "Travel with Nomad Republic and experience lifetime adventures that will change your life and make the world a better place."
       },
       "project": {
         "laptopImg": "/img/projects/nomad-laptop.png",
@@ -258,46 +258,46 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Búsqueda inteligente"
+            "item": "Smart Search"
           },
           {
-            "item": "Filtrado de programas"
+            "item": "Filters"
           },
           {
-            "item": "Template de programa y colección personalizado"
+            "item": "Tailor made Template"
           },
           {
-            "item": "Chat en línea"
+            "item": "Online Chat"
           },
           {
-            "item": "Integración con Mailchimp"
+            "item": "Mailchimp Integration"
           },
           {
-            "item": "Integración con Hubspot"
+            "item": "Hubspot Integration"
           },
           {
-            "item": "Testimoniales"
+            "item": "Testimonials"
           },
           {
-            "item": "Diseño web y móvil"
+            "item": "Web and Mobile Design"
           },
           {
-            "item": "Autoadministración de vistas"
+            "item": "Autoadministrable pages"
           },
           {
             "item": "Blog"
           },
           {
-            "item": "Sesiones de usuario"
+            "item": "User sessions"
           },
           {
-            "item": "Aplicación a programas"
+            "item": "Program Application forms"
           },
           {
-            "item": "Formularios inteligentes"
+            "item": "Smart Forms"
           },
           {
-            "item": "Integración con Whatsapp"
+            "item": "Whatsapp integration"
           }
         ],
         "location": "CDMX, México."
@@ -334,7 +334,7 @@
         "projectLogo": "/img/ourwork/logo-schutique.svg",
         "projectLogoAlt": "Schutique logo",
         "projectName": "schutique",
-        "projectDesc": "Tienda en línea de Zapatos y accesorios para crear el mejor look de temporada."
+        "projectDesc": "Online Shoe Store to buy your best season look."
       },
       "project": {
         "laptopImg": "/img/projects/schutique-laptop.png",
@@ -345,43 +345,43 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Chat en línea"
+            "item": "Online Chat"
           },
           {
-            "item": "Integración con Mailchimp"
+            "item": "Mailchimp Integration"
           },
           {
-            "item": "Diseño web y móvil"
+            "item": "Web and Mobile Design"
           },
           {
-            "item": "Filtrado de productos"
+            "item": "Product filter"
           },
           {
-            "item": "Búsqueda inteligente"
+            "item": "Smart search"
           },
           {
-            "item": "Sesiones de usuario"
+            "item": "User Sessions"
           },
           {
-            "item": "Productos similares"
+            "item": "Similar products recommendation"
           },
           {
-            "item": "Tarjeta de regalo"
+            "item": "Gift Cards"
           },
           {
-            "item": "Integración con Whatsapp"
+            "item": "Whatsapp Integration"
           },
           {
-            "item": "Integración con Instagram"
+            "item": "Instagram Integration"
           },
           {
-            "item": "Venta en Facebook e Instagram"
+            "item": "Facebook and Instagram Shop"
           },
           {
-            "item": "Creación de guías automáticas"
+            "item": "Automatic guide creation"
           },
           {
-            "item": "Métodos de pago variados"
+            "item": "Different Payment Gateways"
           }
         ],
         "location": "Veracruz, México."
@@ -417,7 +417,7 @@
         "projectLogo": "/img/ourwork/logo-yazbek.svg",
         "projectLogoAlt": "Yazbek logo",
         "projectName": "yazbek",
-        "projectDesc": "Empresa mexicana líder en la fabricación de artículos textiles. La mejor opción en playeras y ropa casual."
+        "projectDesc": "Textile Company that offers the best option on t-shirts and casual wear for embellishment, ensuring quality, service and competitive price."
       },
       "project": {
         "laptopImg": "/img/projects/yazbek-laptop.png",
@@ -428,25 +428,25 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Catáproducto logos"
+            "item": "Product Catalog"
           },
           {
-            "item": "Facturación de pedidos"
+            "item": "Order Invoice"
           },
           {
-            "item": "Impresión de tickets"
+            "item": "Ticket printing"
           },
           {
-            "item": "Inventario en tiempo real"
+            "item": "Real time inventory"
           },
           {
-            "item": "Categoría de productos"
+            "item": "Product Categorization"
           },
           {
-            "item": "Administración de usuarios"
+            "item": "User administration"
           },
           {
-            "item": "Fácil uso y navegación"
+            "item": "Easy navigation"
           }
         ],
         "location": "CDMX, México."
@@ -477,7 +477,7 @@
         "projectLogo": "/img/ourwork/logo-higia.svg",
         "projectLogoAlt": "Higia logo",
         "projectName": "higia",
-        "projectDesc": "Empresa que desarrolló EVA, el primer wearable inteligente portátil y no invasivo, diseñado para detectar anormalidades en los patrones térmicos de los senos, un indicador de posible presencia de cáncer de mama."
+        "projectDesc": "Higia is a Company that is developing EVA, an accessible and non-invasive wearable device for breast cancer risk assessment."
       },
       "project": {
         "laptopImg": "/img/projects/higia-laptop.png",
@@ -488,22 +488,22 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Animaciones"
+            "item": "Animations"
           },
           {
-            "item": "Cambio de idioma inglés / español"
+            "item": "Language change"
           },
           {
-            "item": "Fácil navegación"
+            "item": "Easy Navigation"
           },
           {
-            "item": "Programación web y móvil"
+            "item": "Web and Mobile development"
           },
           {
-            "item": "Formulario de contacto y ubicación"
+            "item": "Contact and location forms"
           },
           {
-            "item": "8+ vistas"
+            "item": "8+ Pages"
           }
         ],
         "location": "Monterrey, México."
@@ -537,7 +537,7 @@
         "projectLogo": "/img/ourwork/logo-neulift.svg",
         "projectLogoAlt": "Neulift logo",
         "projectName": "neulift",
-        "projectDesc": "Clínica de belleza integral sin cirugía para otorgar un servicio estético y con ello conseguir una mejora emocional."
+        "projectDesc": "Integral Beauty clinic without surgery that provides an aesthetic service and thereby achieves an emotional improvement on the patients."
       },
       "project": {
         "laptopImg": "/img/projects/neulift-laptop.png",
@@ -548,16 +548,16 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Navegación intuitiva"
+            "item": "Intuitive Navigation"
           },
           {
-            "item": "Fácil acceso a dirección y Redes sociales"
+            "item": "Easy access, Address and Social Media"
           },
           {
-            "item": "Filtrado de Tratamientos"
+            "item": "Filters"
           },
           {
-            "item": "Formulario de contacto y ubicación"
+            "item": "Contact and location forms"
           }
         ],
         "location": "Veracruz, México."
