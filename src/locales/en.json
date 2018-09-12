@@ -39,7 +39,7 @@
         "imgRight": "/img/utils/show-store-in-laptop.png",
         "imgRightAlt": "Example of online store, seen from a laptop",
         "btn": "contact us",
-        "btnLink": "/en/contact.html",
+        "btnLink": "/en/contact-us.html",
         "verticalText": "Online Stores"
       },
       "services": {
@@ -52,7 +52,7 @@
             "title": "E-commerce",
             "descOne": "We design and develop your",
             "descBold": "Online Store",
-            "descTwo": "a la medida",
+            "descTwo": "",
             "shopifyLogo": "/img/logos/logo-shopify-experts.png",
             "shopifyLogoClass": "service-shopify-experts"
           },
@@ -61,9 +61,9 @@
             "iconClass": "service-icon-page",
             "iconAlt": "Icon for webpage service",
             "title": "Websites",
-            "descOne": "We create",
-            "descBold": "your tailor",
-            "descTwo": "made Website"
+            "descOne": "We create your tailor made",
+            "descBold": "Website",
+            "descTwo": ""
           },
           {
             "icon": "/img/icons/icon-tag-white.svg",
@@ -78,6 +78,8 @@
             "shopifyLogoClass": "service-shopify-pos"
           }
         ],
+        "btn": "contact us",
+        "btnLink": "/en/contact-us.html",
         "ourWork": "Our Work"
       },
       "bannerone": {
@@ -95,7 +97,7 @@
         "shopifyLogoClass": "home-bannerone-logo",
         "shopifyLogoAlt": "Shopify Experts logo within the first project banner",
         "btn": "more like this",
-        "btnLink": "",
+        "btnLink": "/en/our-work.html",
         "verticalText": "Sell Online"
       },
       "bannertwo": {
@@ -110,12 +112,14 @@
         "subtitle": "E-commerce",
         "subDesc": "Design and development of an Online platform using Shopify.",
         "btn": "more like this",
+        "btnLink": "/en/our-work.html",
         "verticalText": "upgrade your sales"
       },
       "bannerthree": {
         "title": "El Trébol + Yazbek",
         "desc": "Textile company that offers the best option on t-shirts and casual wear.",
         "btn": "more like this",
+        "btnLink": "/en/our-work.html",
         "subtitle": "Point of Sale",
         "subDesc": "We set up the POS in their multi location physical stores.",
         "shopifyLogo": "/img/logos/logo-shopify-pos.png",
@@ -130,9 +134,9 @@
       "start": {
         "title": "Ready for your project?",
         "btnLeft": "more projects",
-        "btnLeftLink": "/en/portafolio.html",
-        "btnRight": "contact us",
-        "btnRightLink": "/en/contacto.html"
+        "btnLeftLink": "/en/our-work.html",
+        "btnRight": "quote my project",
+        "btnRightLink": "/en/quote.html"
       }
     },
     "portfolio": {
