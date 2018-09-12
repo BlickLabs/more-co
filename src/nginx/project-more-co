@@ -1,13 +1,49 @@
 server {
   listen 80;
   listen [::]:80;
+  server_name getmore.mx www.getmore.mx;
+  return 301 https://getmore.mx$request_uri;
+}
+
+server {
+  listen 443 ssl;
+  listen [::]:443;
+  ssl on;
+
+  ssl_certificate  /home/ubuntu/certs/more/getmore_mx_e04e6_d45a3_1541198700_fa164aec7cfac173fbd4b101964d669b.crt;
+  ssl_certificate_key /home/ubuntu/certs/more/e04e6_d45a3_dd05dc0780e60223badfa0845531f30f.key;
 
   root /home/static/more-co;
-  index index.html index.htm;
+  index index.php index.html index.htm;
+  server_name getmore.mx www.getmore.mx sandbox.more-co.getmore.mx;
 
-  server_name sandbox.more-co.getmore.mx;
+  if ($host != $server_name) {
+    return 444;
+  }
 
   location / {
-      try_files $uri $uri/ =404;
+    try_files $uri $uri/ =404;
+  }
+
+  # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+  #
+  location ~ \.php$ {
+    try_files $uri =404;
+    fastcgi_split_path_info ^(.+\.php)(/.+)$;
+    # NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
+
+    # With php5-cgi alone:
+    #fastcgi_pass 127.0.0.1:9000;
+    # With php5-fpm:
+    fastcgi_pass unix:/var/run/php5-fpm.sock;
+    fastcgi_index index.php;
+    include fastcgi_params;
+  }
+
+  # deny access to .htaccess files, if Apache's document root
+  # concurs with nginx's one
+  #
+  location ~ /\.ht {
+    deny all;
   }
 }
