@@ -281,7 +281,7 @@
         {
           "img": "/img/ourwork/alianza-swe-mex.jpg",
           "imgAlt": "Imagen representativa del proyecto alianza swe mex",
-          "title": "Alianza Swe-mex",
+          "title": "Alianza SweMex",
           "layerClass": "alianzaswemex",
           "layerLogo": "/img/ourwork/logo-alianza-swe-mex.svg",
           "layerLogoClass": "logo-alianzaswemex",
@@ -771,7 +771,7 @@
         {
           "img": "/img/ourwork/working-chapultepec.jpg",
           "imgAlt": "Imagen representativa del proyecto working chapultepec",
-          "title": "Workin Chapultepec",
+          "title": "Working Chapultepec",
           "layerClass": "workingchapultepec",
           "layerLogo": "/img/ourwork/logo-working-chapultepec.svg",
           "layerLogoClass": "logo-workingchapultepec",
@@ -813,7 +813,7 @@
         {
           "img": "/img/ourwork/nutriologa-ale-gp.jpg",
           "imgAlt": "Imagen representativa del proyecto nutrióloga ale gp",
-          "title": "Nutrióloga Ale G.P.",
+          "title": "Nutrióloga AleGPaez",
           "layerClass": "nutriologaalegp",
           "layerLogo": "/img/ourwork/logo-nutriologa-ale-gp.svg",
           "layerLogoClass": "logo-nutriologaalegp",
@@ -869,7 +869,7 @@
         {
           "img": "/img/ourwork/sante.jpg",
           "imgAlt": "Imagen representativa del proyecto santé",
-          "title": "Santé",
+          "title": "Santte",
           "layerClass": "sante",
           "layerLogo": "/img/ourwork/logo-sante.svg",
           "layerLogoClass": "logo-sante",
