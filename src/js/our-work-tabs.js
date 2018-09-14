@@ -22,7 +22,7 @@ function portfolioSwitchTab(portfolioTabID, portfolioTabContent) {
 }
 
 $(function () {
-  $(".moreAll").slice(10).hide();
+  $(".moreAll").slice(20).hide();
   if ($(".itemAll:hidden").length !== 0) {
     $("#load-all").show();
   }
@@ -37,7 +37,7 @@ $(function () {
 });
 
 $(function () {
-  $(".moreOnlineStore").slice(10).hide();
+  $(".moreOnlineStore").slice(20).hide();
   if ($(".itemOnlineStore:hidden").length !== 0) {
     $("#load-online-store").show();
   }
@@ -52,7 +52,7 @@ $(function () {
 });
 
 $(function () {
-  $(".moreWebPages").slice(10).hide();
+  $(".moreWebPages").slice(20).hide();
   if ($(".itemWebPages:hidden").length !== 0) {
     $("#load-web-pages").show();
   }
@@ -74,3 +74,5 @@ $(window).scroll(function(){
     $('.ourwork-tab-container').removeClass('fixed-tab');
   }
 });
+
+
