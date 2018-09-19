@@ -11,7 +11,8 @@ function startCarousel () {
       0:{
         items: 2,
         nav: false,
-        autoWidth: true
+        autoWidth: true,
+        loop: true
       },
       421:{
         items: 2,
