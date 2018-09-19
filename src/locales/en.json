@@ -140,7 +140,7 @@
       }
     },
     "portfolio": {
-      "title": "Our work",
+      "title": "Our Work",
       "tabs": [
         {
           "title": "View All",
@@ -927,7 +927,7 @@
       "hoverIconAlt": "Icon indicating the link to the project information"
     },
     "contacto": {
-      "title": "Contact us"
+      "title": "Contact Us"
     },
     "quote": {
       "title": "Quote"
