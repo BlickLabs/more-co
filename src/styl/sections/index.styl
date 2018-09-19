@@ -256,7 +256,7 @@
       background-repeat no-repeat
       background-size cover
       height 503px
-      min-width 439px
+      min-width 55%//439px
 
     &-devices
       animation fadeUpAndDown 6s infinite
@@ -308,11 +308,11 @@
   &-bannerthree
     display flex
     flex-direction row
-    padding 0 0 0 111px
+    padding 0 0 0 15%
     position relative
 
     &-content
-      align-items flex-end
+      align-items flex-start
       display flex
       flex-direction column
       padding-right 240px
@@ -445,10 +445,17 @@
       padding-right 22%
 
     &-bannertwo
-      padding 0 23%
+      padding 0 23% 0 0
 
     &-bannerthree
-      padding 0 25%
+      justify-content flex-end
+      padding 0 0 0 25%
+
+      &-content
+        width auto
+
+      &-background
+        min-width 70%
 
 @media screen and (min-width 1250px) and (max-width 1719px)
   .home
@@ -457,21 +464,29 @@
       padding-right 20%
 
     &-bannertwo
-      padding 0 13%
+      padding 0 13% 0 0
 
       &-content
         justify-content flex-start
         padding-left 85px
 
     &-bannerthree
-      padding 0 16%
+      justify-content flex-end
+      padding 0 0 0 10%
+
+      &-background
+        min-width 70%
+
+      &-content
+        padding-right 110px
+        width auto
 
 @media screen and (min-width 1011px) and (max-width 1250px)
   .home
     &-bannertwo
       &-content
         justify-content flex-start
-        padding-left 150px
+        padding-left 90px
 
 @media screen and (max-width 1010px)
   .home
@@ -498,7 +513,11 @@
 
     &-bannertwo
       &-content
+        padding-left 30px
         padding-right 32px
+
+      &-img
+        min-width 50%
 
       &-devices
         left 50px
