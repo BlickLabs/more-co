@@ -719,7 +719,7 @@
             "item": "Project Autoadministration"
           },
           {
-            "item": "Diseño web y móvil"
+            "item": "Web and Mobile Design"
           },
           {
             "item": "Portfolio"
@@ -820,7 +820,7 @@
         "functionalities": [
           {
             "title": "Features",
-            "item": "Catálogo de productos"
+            "item": "Product Catalog"
           },
           {
             "item": "Discount Coupons"
@@ -1297,7 +1297,7 @@
             "item": "Blog Integration"
           },
           {
-            "item": "Sesiones de usuario"
+            "item": "User sessions"
           }
         ],
         "location": "CDMX, México",
