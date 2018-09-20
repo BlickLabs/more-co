@@ -23,7 +23,7 @@
       <h1 class="home-cover-title metropolis-bold">{{en.home.cover.title}}</h1>
       <a class="btn metropolis-bold" href="{{en.home.cover.btnLink}}">{{en.home.cover.btn}}</a>
     </div>
-    <img class="home-cover-scrolling" src="/img/icons/scroll-indicator.png">
+    <img class="home-cover-scrolling" src="{{en.home.cover.scrollIndicator}}" alt="{{en.home.cover.scrollIndicatorAlt}}">
     <img class="home-cover-img-right" src="{{en.home.cover.imgRight}}" alt="{{en.home.cover.imgRightAlt}}" data-aos="fade-up" data-aos-delay="600" data-aos-duration="3000">
   </section>
 
@@ -38,7 +38,7 @@
         </div>
         <h4 class="home-services-item-title metropolis-semibold">{{service.title}} {% if service.titleItalic %}<span class="metropolis-semibolditalic">{{service.titleItalic}}</span>{% endif %}</h4>
         <p class="home-services-descr metropolis-regular">{{service.descOne}} <span class="metropolis-bold">{{service.descBold}}</span> {{service.descTwo}}</p>
-        {% if service.shopifyLogo %}<img class="{{service.shopifyLogoClass}}" src="{{service.shopifyLogo}}">{% endif %}
+        {% if service.shopifyLogo %}<img class="{{service.shopifyLogoClass}}" src="{{service.shopifyLogo}}" alt="{{service.shopifyLogoAlt}}">{% endif %}
       </div>
       {% endfor %}
     </div>
@@ -50,7 +50,7 @@
         </div>
         <h4 class="home-services-item-title metropolis-semibold">{{service.title}} {% if service.titleItalic %}<span class="metropolis-semibolditalic">{{service.titleItalic}}</span>{% endif %}</h4>
         <p class="home-services-descr metropolis-regular">{{service.descOne}} <span class="metropolis-bold">{{service.descBold}}</span> {{service.descTwo}}</p>
-        {% if service.shopifyLogo %}<img class="{{service.shopifyLogoClass}}" src="{{service.shopifyLogo}}">{% endif %}
+        {% if service.shopifyLogo %}<img class="{{service.shopifyLogoClass}}" src="{{service.shopifyLogo}}" alt="{{service.shopifyLogoAlt}}">{% endif %}
       </div>
       {% endfor %}
     </div>
@@ -97,10 +97,10 @@
     <div class="home-bannertwo-img"></div>
     <div class="home-bannertwo-devices">
       <div class="home-bannertwo-devices-container">
-        <img class="home-bannertwo-devices-img" src="/img/utils/nomad-elefante.png">
+        <img class="home-bannertwo-devices-img" src="{{en.home.bannertwo.imgOne}}" alt="{{en.home.bannertwo.imgOneAlt}}">
       </div>
       <div class="home-bannertwo-devices-container">
-        <img class="home-bannertwo-devices-img" src="/img/utils/nomad-selva.png">
+        <img class="home-bannertwo-devices-img" src="{{en.home.bannertwo.imgTwo}}" alt="{{en.home.bannertwo.imgTwoAlt}}">
       </div>
     </div>
     <div class="home-bannertwo-content">
