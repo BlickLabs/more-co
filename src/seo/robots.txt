@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: http://sandbox.more-co.getmore.mx/
-Disallow: https://getmore.mx/index.html
+Disallow: /vre/
+Disallow: /nomad/
 Sitemap: https://getmore.mx/sitemap.xml
