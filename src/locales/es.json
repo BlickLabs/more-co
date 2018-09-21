@@ -10,7 +10,7 @@
       "sections": [
         {
           "name": "inicio",
-          "link": "/es/index.html",
+          "link": "/",
           "viewName": "homepage"
         },
         {
@@ -946,7 +946,7 @@
       "sections": [
         {
           "name": "inicio",
-          "link": "/es/index.html",
+          "link": "/",
           "viewName": "homepage"
         },
         {
