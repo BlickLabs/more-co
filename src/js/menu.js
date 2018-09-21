@@ -5,7 +5,7 @@ var siteNavbar = document.querySelector('.nav');
 
 //navbar-fixed-top
 function doSomething(scroll_pos) {
-  if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/more-co/index.html' || window.location.pathname === '/more-co/' || window.location.pathname === '/more-co/es/index.html' || window.location.pathname === '/more-co/en/index.html' || window.location.pathname === '/es/index.html' || window.location.pathname === '/en/index.html' || window.location.pathname === 'es/index.html' || window.location.pathname === 'en/index.html') {
+  if (window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/more-co/index.html' || window.location.pathname === '/more-co/' || window.location.pathname === '/more-co/en/index.html' || window.location.pathname === '/en/index.html' || window.location.pathname === 'en/index.html') {
     if (scroll_pos > 30) {
       siteNavbar.classList.add('nav-scroll');
       $('.nav-logo').attr('src', '/img/logos/logo-getmore-blanco.png');
@@ -35,7 +35,7 @@ window.addEventListener('scroll', function(e) {
   ticking = true;
 });
 
-if (!(window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/more-co/index.html' || window.location.pathname === '/more-co/' || window.location.pathname === '/more-co/es/index.html' || window.location.pathname === '/more-co/en/index.html' || window.location.pathname === '/es/index.html' || window.location.pathname === '/en/index.html' || window.location.pathname === 'es/index.html' || window.location.pathname === 'en/index.html')) {
+if (!(window.location.pathname === '/index.html' || window.location.pathname === '/' || window.location.pathname === '/more-co/index.html' || window.location.pathname === '/more-co/' || window.location.pathname === '/more-co/en/index.html' || window.location.pathname === '/en/index.html' || window.location.pathname === 'en/index.html')) {
   siteNavbar.classList.add('nav-scroll');
 }
 

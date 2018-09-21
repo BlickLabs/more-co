@@ -10,7 +10,7 @@
       "sections": [
         {
           "name": "inicio",
-          "link": "/es/index.html",
+          "link": "/",
           "viewName": "homepage"
         },
         {
@@ -40,7 +40,9 @@
         "imgRightAlt": "Ejemplo de tienda en línea, vista desde una laptop",
         "btn": "contactar",
         "btnLink": "/es/contacto.html",
-        "verticalText": "Tiendas en línea"
+        "verticalText": "Tiendas en línea",
+        "scrollIndicator": "/img/icons/scroll-indicator.png",
+        "scrollIndicatorAlt": "Ícono que indica scroll hacia abajo"
       },
       "services": {
         "title": "Servicios",
@@ -54,6 +56,7 @@
             "descBold": "tienda en línea",
             "descTwo": "a la medida",
             "shopifyLogo": "/img/logos/logo-shopify-experts.png",
+            "shopifyLogoAlt": "Logo de Shopify Experts en el servicio de Tiendas en línea",
             "shopifyLogoClass": "service-shopify-experts"
           },
           {
@@ -75,6 +78,7 @@
             "descBold": "punto de venta",
             "descTwo": "en tu tienda física",
             "shopifyLogo": "/img/logos/logo-shopify-pos.png",
+            "shopifyLogoAlt": "Logo de Shopify POS en el servicio de Punto de Venta",
             "shopifyLogoClass": "service-shopify-pos"
           }
         ],
@@ -113,7 +117,11 @@
         "subDesc": "Diseño y programación de plataforma en línea auto-administrable que utiliza Shopify.",
         "btn": "ver más tiendas",
         "btnLink": "/es/portafolio.html",
-        "verticalText": "aumenta tus ventas"
+        "verticalText": "aumenta tus ventas",
+        "imgOne": "/img/utils/nomad-elefante.png",
+        "imgOneAlt": "Imagen animada de un iphone sobre un Programa destacado de Nomad Republic",
+        "imgTwo": "/img/utils/nomad-selva.png",
+        "imgTwoAlt": "Imagen animada de un iphone sobre Nomad Republic"
       },
       "bannerthree": {
         "title": "El Trébol + Yazbek",
@@ -938,7 +946,7 @@
       "sections": [
         {
           "name": "inicio",
-          "link": "/es/index.html",
+          "link": "/",
           "viewName": "homepage"
         },
         {
@@ -955,7 +963,8 @@
       ],
       "email": "hola@getmore.mx",
       "copyright": "Get More 2018®",
-      "decorator": "/img/utils/show-neulift-in-phone.png"
+      "decorator": "/img/utils/show-neulift-in-phone.png",
+      "decoratorAlt": "La página de Neulift en un smartphone"
     }
   }
 }
