@@ -101,7 +101,7 @@
         "shopifyLogoClass": "home-bannerone-logo",
         "shopifyLogoAlt": "Logo de Shopify Experts dentro del primer banner de proyectos",
         "btn": "ver más tiendas",
-        "btnLink": "/es/portafolio.html#tiendas-en-linea",
+        "btnLink": "/es/portafolio.html",
         "verticalText": "Vende en línea"
       },
       "bannertwo": {
@@ -116,7 +116,7 @@
         "subtitle": "Tienda en línea",
         "subDesc": "Diseño y programación de plataforma en línea auto-administrable que utiliza Shopify.",
         "btn": "ver más tiendas",
-        "btnLink": "/es/portafolio.html#tiendas-en-linea",
+        "btnLink": "/es/portafolio.html",
         "verticalText": "aumenta tus ventas",
         "imgOne": "/img/utils/nomad-elefante.png",
         "imgOneAlt": "Imagen animada de un iphone sobre un Programa destacado de Nomad Republic",
@@ -127,7 +127,7 @@
         "title": "El Trébol + Yazbek",
         "desc": "Empresa mexicana líder en la fabricación de artículos textiles. La mejor opción en playeras y ropa casual.",
         "btn": "ver más puntos de venta",
-        "btnLink": "/es/portafolio.html#punto-de-venta",
+        "btnLink": "/es/portafolio.html",
         "subtitle": "Punto de venta",
         "subDesc": "Implementación y puesta en marcha del sistema en todas sus tiendas físicas.",
         "shopifyLogo": "/img/logos/logo-shopify-pos.png",
