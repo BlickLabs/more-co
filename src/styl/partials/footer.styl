@@ -3,7 +3,7 @@
   bottom 0
   display flex
   flex-direction column
-  height 330px
+  height 430px
   justify-content space-between
   padding 15px 92px 40px 0
   position relative
@@ -24,6 +24,15 @@
   &-content
     margin 0 0 0 auto
 
+    & .borderBlack
+      height 29px
+      margin-top 16px
+
+      &.active
+        background-color $blueT1
+        border solid 1px $blueT1
+        color $whiteT1
+
   &-logo
     height 18px
     width 103px
@@ -39,14 +48,6 @@
     &:hover,
     &.active
       color $blueT1
-
-    &.borderBlack
-      height 29px
-
-      &.active
-        background-color $blueT1
-        border solid 1px $blueT1
-        color $whiteT1
 
     &-container
       align-items center
@@ -74,6 +75,17 @@
     position absolute
     right 60px
 
+  &-social
+    &-container
+      margin-top 20px
+
+      & a:nth-child(1) .footer-social-icon
+        margin-right 22px
+
+    &-icon
+      height 15px
+      width auto
+
 @media screen and (max-width 940px)
   .footer
     &-background
@@ -86,12 +98,12 @@
 
 @media screen and (max-width 650px)
   .footer
-    height 566px
+    height 650px
     justify-content flex-start
     padding 44px 0 44px 0
 
     &-background
-      bottom 0
+      bottom 70px
 
     &-content
       align-items center
@@ -106,27 +118,31 @@
         justify-content center
         margin-top 35px
 
-      &.btn.borderBlack
-        margin-top 0
+      &.borderBlack
+        margin-top 25px
 
     &-decorator
       display none
 
     &-email
-      margin 35px 0 12px 0
+      margin 20px 0 12px 0
 
     &-decorator
       display none
 
+    &-copyrigth
+      bottom 24px
+      left 0
+      position absolute
+      right 0
+
 @media screen and (max-width 460px)
   .footer
     &-background
+      bottom 50px
       height 300px
       width 335px
 
     &-section
       &-container
         width 260px
-
-      &.btn.borderBlack
-        margin-top 25px
