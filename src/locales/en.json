@@ -953,12 +953,20 @@
           "name": "our work",
           "link": "/en/our-work.html",
           "viewName": "ourwork"
+        }
+      ],
+      "contactName": "contact us",
+      "contactLink": "/en/contact-us.html",
+      "social": [
+        {
+          "icon": "/img/icons/icono-instagram-negro.png",
+          "iconAlt": "Ícono de Instagram en color negro",
+          "link": "https://www.instagram.com/getmore.mx/"
         },
         {
-          "name": "contact us",
-          "link": "/en/contact-us.html",
-          "viewName": "contact",
-          "btnAspect": true
+          "icon": "/img/icons/icono-facebook-negro.png",
+          "iconAlt": "Ícono de Facebook en color negro",
+          "link": "https://www.facebook.com/getmoremx/"
         }
       ],
       "email": "hola@getmore.mx",
