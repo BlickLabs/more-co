@@ -6,10 +6,18 @@
     </a>
     <div class="footer-section-container">
       {% for section in en.footer.sections %}
-      <a class="footer-section metropolis-medium {% if section.btnAspect == true %} btn borderBlack {% endif %}{% if view_name == section.viewName %}active{% endif %}" href="{{section.link}}">{{section.name}}</a>
+      <a class="footer-section metropolis-medium {% if view_name == section.viewName %}active{% endif %}" href="{{section.link}}">{{section.name}}</a>
+      {% endfor %}
+    </div>
+    <div class="footer-social-container">
+      {% for social in en.footer.social %}
+      <a href="{{social.link}}" target="_blank">
+        <img class="footer-social-icon" src="{{social.icon}}" alt="{{social.iconAlt}}">
+      </a>
       {% endfor %}
     </div>
     <a class="footer-email metropolis-medium" href="mailto:hola@getmore.mx">{{en.footer.email}}</a>
+    <a class="metropolis-medium btn borderBlack {% if view_name == 'contact' %}active{% endif %}" href="{{en.footer.contactLink}}">{{en.footer.contactName}}</a>
   </div>
   <span class="footer-copyrigth metropolis-medium">&copy; <script>document.write(new Date().getFullYear());</script> Get More.</span>
   <img class="footer-decorator" src="{{en.footer.decorator}}" alt="{{en.footer.decoratorAlt}}">
