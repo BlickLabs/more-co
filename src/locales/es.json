@@ -19,6 +19,26 @@
           "viewName": "ourwork"
         },
         {
+          "name": "tiendas en línea",
+          "link": "/es/tiendas-en-linea.html",
+          "viewName": "ecommerce"
+        },
+        {
+          "name": "páginas web",
+          "link": "/es/paginas-web.html",
+          "viewName": "webpages"
+        },
+        {
+          "name": "punto de venta",
+          "link": "/es/punto-de-venta.html",
+          "viewName": "pointsale"
+        },
+        {
+          "name": "nosotros",
+          "link": "/es/nosotros.html",
+          "viewName": "aboutus"
+        },
+        {
           "name": "contactar",
           "link": "/es/contacto.html",
           "viewName": "contact"
@@ -934,6 +954,61 @@
       "hoverIcon": "/img/icons/icono-hover-proyecto.png",
       "hoverIconAlt": "Ícono que indica el enlace a la información del proyecto"
     },
+    "ecommerce": {
+      "cover": {
+        "title": "tiendas en línea",
+        "shopifyExperts": "/img/logos/logo-shopify-experts.png",
+        "shopifyExpertsAlt": "Logo de Shopify Experts",
+        "shopifyPartners": "/img/logos/logo-shopify-partners.png",
+        "shopifyPartnersAlt": "Logo de Shopify Partners",
+        "subtitle": "Tiendas en línea",
+        "desc": "Vende en línea, nosotros hacemos tu tienda",
+        "quoteBtn": "cotizar mi proyecto",
+        "quoteBtnLink": "/es/cotiza.html",
+        "laptopSite": "/img/services/laptop-schutique.png",
+        "laptopSiteMobile": "/img/services/laptop-schutique-movil.png",
+        "laptopSiteAlt": "Laptop con una muestra de Schutique"
+      },
+      "packages": {
+        "title": "Nuestros paquetes",
+        "sliceTable": "Desliza hacia la derecha",
+        "sliceTableIcon": "/img/icons/flecha-negra.svg",
+        "sliceTableIconAlt": "Flecha que indica el desplazamiento horizontal de la tabla",
+        "subtitle": "paquetes",
+        "quoteBtn": "cotizar mi proyecto",
+        "quoteBtnLink": "/es/cotiza.html"
+      },
+      "projects": {
+        "title": "Nuestros proyectos",
+        "cards": [
+          {
+            "link": "/es/portafolio/schutique.html",
+            "img": "/img/services/tienda-schutique.jpg",
+            "imgAlt": "Representación de la tienda de Schutique",
+            "title": "Schutique"
+          },
+          {
+            "link": "/es/portafolio/98-coast-av.html",
+            "img": "/img/services/tienda-98-coast.jpg",
+            "imgAlt": "Representación de la tienda de 98 Coast Av.",
+            "title": "98 Coast Av."
+          },
+          {
+            "link": "/es/portafolio/little-me.html",
+            "img": "/img/services/tienda-little-me.jpg",
+            "imgAlt": "Representación de la tienda de Little Me",
+            "title": "Little Me"
+          }
+        ],
+        "banner": {
+          "subtitle": "contactar",
+          "contactBtnLink": "/es/contacto.html",
+          "contactBtn": "contactar",
+          "quoteBtnLink": "/es/cotiza.html",
+          "quoteBtn": "cotizar mi proyecto"
+        }
+      }
+    },
     "contacto": {
       "title": "Contacto"
     },
@@ -955,10 +1030,38 @@
           "viewName": "ourwork"
         },
         {
-          "name": "contactar",
-          "link": "/es/contacto.html",
-          "viewName": "contact",
-          "btnAspect": true
+          "name": "tiendas en línea",
+          "link": "/es/tiendas-en-linea.html",
+          "viewName": "ecommerce"
+        },
+        {
+          "name": "páginas web",
+          "link": "/es/paginas-web.html",
+          "viewName": "webpages"
+        },
+        {
+          "name": "punto de venta",
+          "link": "/es/punto-de-venta.html",
+          "viewName": "pointsale"
+        },
+        {
+          "name": "nosotros",
+          "link": "/es/nosotros.html",
+          "viewName": "aboutus"
+        }
+      ],
+      "contactName": "contactar",
+      "contactLink": "/es/contacto.html",
+      "social": [
+        {
+          "icon": "/img/icons/icono-instagram-negro.png",
+          "iconAlt": "Ícono de Instagram en color negro",
+          "link": "https://www.instagram.com/getmore.mx/"
+        },
+        {
+          "icon": "/img/icons/icono-facebook-negro.png",
+          "iconAlt": "Ícono de Facebook en color negro",
+          "link": "https://www.facebook.com/getmoremx/"
         }
       ],
       "email": "hola@getmore.mx",
