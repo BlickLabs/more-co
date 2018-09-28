@@ -1009,6 +1009,61 @@
         }
       }
     },
+    "webpages": {
+      "cover": {
+        "title": "página web",
+        "shopifyExperts": "/img/logos/logo-shopify-experts.png",
+        "shopifyExpertsAlt": "Logo de Shopify Experts",
+        "shopifyPartners": "/img/logos/logo-shopify-partners.png",
+        "shopifyPartnersAlt": "Logo de Shopify Partners",
+        "subtitle": "Páginas Web",
+        "desc": "La primera impresión es la que cuenta, hacemos tu Página Web.",
+        "quoteBtn": "cotizar mi proyecto",
+        "quoteBtnLink": "/es/cotiza.html",
+        "laptopSite": "/img/services/laptop-getmore.png",
+        "laptopSiteMobile": "/img/services/laptop-getmore-movil.png",
+        "laptopSiteAlt": "Laptop con una muestra de Get More"
+      },
+      "packages": {
+        "title": "Nuestros paquetes",
+        "sliceTable": "Desliza hacia la derecha",
+        "sliceTableIcon": "/img/icons/flecha-negra.svg",
+        "sliceTableIconAlt": "Flecha que indica el desplazamiento horizontal de la tabla",
+        "subtitle": "paquetes",
+        "quoteBtn": "cotizar mi proyecto",
+        "quoteBtnLink": "/es/cotiza.html"
+      },
+      "projects": {
+        "title": "Nuestros proyectos",
+        "cards": [
+          {
+            "link": "/es/portafolio/vre-mexico.html",
+            "img": "/img/services/pagina-vre.jpg",
+            "imgAlt": "Representación de la página de VRE México",
+            "title": "VRE México"
+          },
+          {
+            "link": "/es/portafolio/entos.html",
+            "img": "/img/services/pagina-entos.jpg",
+            "imgAlt": "Representación de la página de Entos",
+            "title": "Entos"
+          },
+          {
+            "link": "/es/portafolio/higia.html",
+            "img": "/img/services/pagina-higia.jpg",
+            "imgAlt": "Representación de la página de Higia",
+            "title": "Higia"
+          }
+        ],
+        "banner": {
+          "subtitle": "contactar",
+          "contactBtnLink": "/es/contacto.html",
+          "contactBtn": "contactar",
+          "quoteBtnLink": "/es/cotiza.html",
+          "quoteBtn": "cotizar mi proyecto"
+        }
+      }
+    },
     "contacto": {
       "title": "Contacto"
     },

@@ -1,0 +1,76 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Páginas Web{% endblock %}
+
+{% set meta_description = "Encuentra tu paquete ideal, Nuestros proyectos" %}
+{% set og_url = "https://getmore.mx/es/tiendas-en-linea.html" %}
+{% set og_title = "Páginas Web | Get More" %}
+{% set og_description = "Encuentra tu paquete ideal, Nuestros proyectos" %}
+{% set og_img = "/img/seo/pagina-web-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "webpages" %}
+{% set lang_view = "spanish" %}
+
+{% block content %}
+<section class="service">
+  <section class="service-cover">
+    <h1 class="service-cover-title metropolis-bold">{{es.webpages.cover.title}}</h1>
+    <div class="service-cover-content">
+      <div class="service-cover-content-info">
+        <h2 class="service-cover-subtitle metropolis-bold">{{es.webpages.cover.subtitle}}</h2>
+        <span class="service-cover-desc metropolis-regular" id="webpages-cover-desc">{{es.webpages.cover.desc}}</span>
+        <a class="btn metropolis-bold" href="{{es.webpages.cover.quoteBtnLink}}">{{es.webpages.cover.quoteBtn}}</a>
+      </div>
+      <picture>
+        <source media="(max-width: 1000px)" srcset="{{es.webpages.cover.laptopSiteMobile}}">
+        <img class="service-cover-img" src="{{es.webpages.cover.laptopSite}}" alt="{{es.webpages.cover.laptopSiteAlt}}">
+      </picture>
+    </div>
+  </section>
+
+  <section class="service-packages">
+    <h2 class="service-packages-title metropolis-bold">{{es.webpages.packages.title}}</h2>
+    <span class="service-packages-slice metropolis-bold">{{es.webpages.packages.sliceTable}}<img class="service-packages-slice-icon" src="{{es.webpages.packages.sliceTableIcon}}" alt="{{es.webpages.packages.sliceTableIconAlt}}"></span>
+
+    {% include 'partials/webpagesPackages.njk' %}
+
+    <div class="service-card">
+      <div class="service-card-content">
+        <h3 class="service-card-title metropolis-bold">{{es.webpages.packages.subtitle}}</h3>
+        <a class="btn transparent metropolis-bold" href="{{es.webpages.packages.quoteBtnLink}}">{{es.webpages.packages.quoteBtn}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-projects">
+    <div class="service-projects-info">
+      <h2 class="service-projects-title metropolis-bold">{{es.webpages.projects.title}}</h2>
+      <div class="service-projects-img-container">
+        {% for card in es.webpages.projects.cards %}
+        <a class="service-projects-img-content" href="{{card.link}}">
+          <img class="service-projects-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+          <span class="service-projects-label metropolis-bold">{{card.title}}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="service-projects-img-carousel owl-carousel">
+        {% for card in es.webpages.projects.cards %}
+        <a class="service-projects-img-content" href="{{card.link}}">
+          <img class="service-projects-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+          <span class="service-projects-label metropolis-bold">{{card.title}}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="service-projects-banner">
+      <h3 class="service-projects-subtitle metropolis-bold">{{es.webpages.projects.banner.subtitle}}</h3>
+      <div class="service-projects-btns">
+        <a class="btn borderBlack metropolis-bold" href="{{es.webpages.projects.banner.contactBtnLink}}">{{es.webpages.projects.banner.contactBtn}}</a>
+        <a class="btn metropolis-bold" href="{{es.webpages.projects.banner.quoteBtnLink}}">{{es.webpages.projects.banner.quoteBtn}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}
