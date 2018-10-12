@@ -1064,6 +1064,60 @@
         }
       }
     },
+    "aboutus": {
+      "cover": {
+        "title": "Somos Shopify Experts."
+      },
+      "intro": {
+        "desc": "Somos un equipo multidisciplinario. Diseñamos y desarrollamos Tiendas en línea, Páginas Web y Puntos de venta. Te acompañamos desde el comienzo hasta el final de tu proyecto para que puedas llevar tu servicio o producto al mundo digital. Siempre tomando en cuenta lo más importante:",
+        "descBold": "Funcionalidad y diseño."
+      },
+      "about": {
+        "bigText": "nosotros",
+        "title": "Nosotros",
+        "descOne": "Get More nació por la pasión por el diseño y las ganas de ayudar a las personas a llevar a cabo su propio sueño a través del mundo digital.",
+        "descTwo": "Buscamos que el proceso de hacer tu Página web o Tienda en línea sea algo divertido, que lo disfrutes y más que nada que se logre un excelente resultado final.",
+        "card": {
+          "subtitle": "Nuestro trabajo",
+          "descOnePartOne": "Conoce todos los proyectos que hemos creado en",
+          "descLinkOne": "nuestro portafolio",
+          "linkOne": "/es/portafolio.html",
+          "descOnePartTwo": "para que te des una idea de cómo podría ser el tuyo.",
+          "descTwoPartOne": "Te invitamos también a conocer nuestro perfil de",
+          "descLinkTwo": "Shopify Experts",
+          "linkTwo": "https://experts.shopify.com/getmore",
+          "descTwoPartTwo": "en donde puedes leer acerca de los testimoniales de clientes que han confiado en nosotros."
+        }
+      },
+      "pillars": {
+        "bigText": "pilares",
+        "title": "Nuestros 4 pilares",
+        "card": [
+          {
+            "title": "Humildad",
+            "desc": "Siempre estamos en una constante búsqueda de cómo hacer más con menos"
+          },
+          {
+            "title": "Eficiencia",
+            "desc": "Creemos firmemente que la pasión te lleva a ser mejor cada día y por lo mismo a obtener mejores resultados"
+          },
+          {
+            "title": "Pasión",
+            "desc": "Siempre se puede mejorar, aprender algo nuevo y hacer mejor las cosas"
+          },
+          {
+            "title": "Compromiso",
+            "desc": "Nos comprometemos con nosotros mismos, con nuestro equipo, con el proyecto y con el cliente para buscar constantemente el \"extra mile\""
+          }
+        ]
+      },
+      "work": {
+        "title": "¡Trabajemos juntos!",
+        "btn": "contactar",
+        "btnLink": "/es/contacto.html",
+        "bigText": "get shit done"
+      }
+    },
     "contacto": {
       "title": "Contacto"
     },
