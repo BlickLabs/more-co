@@ -19,6 +19,11 @@
           "viewName": "ourwork"
         },
         {
+          "name": "online stores",
+          "link": "/en/online-stores.html",
+          "viewName": "ecommerce"
+        },
+        {
           "name": "contact us",
           "link": "/en/contact-us.html",
           "viewName": "contact"
@@ -934,6 +939,61 @@
       "hoverIcon": "/img/icons/icono-hover-proyecto.png",
       "hoverIconAlt": "Icon indicating the link to the project information"
     },
+    "ecommerce": {
+      "cover": {
+        "title": "online stores",
+        "shopifyExperts": "/img/logos/logo-shopify-experts.png",
+        "shopifyExpertsAlt": "Shopify Experts logo",
+        "shopifyPartners": "/img/logos/logo-shopify-partners.png",
+        "shopifyPartnersAlt": "Shopify Partners logo",
+        "subtitle": "Online Stores",
+        "desc": "Sell Online, we’ll create your store",
+        "quoteBtn": "Quote my project",
+        "quoteBtnLink": "/en/quote.html",
+        "laptopSite": "/img/services/laptop-schutique.png",
+        "laptopSiteMobile": "/img/services/laptop-schutique-movil.png",
+        "laptopSiteAlt": "Laptop with a sample of Schutique"
+      },
+      "packages": {
+        "title": "Our Packages",
+        "sliceTable": "Slide to the right",
+        "sliceTableIcon": "/img/icons/flecha-negra.svg",
+        "sliceTableIconAlt": "Arrow indicating the horizontal displacement of the table",
+        "subtitle": "packages",
+        "quoteBtn": "Quote my project",
+        "quoteBtnLink": "/en/quote.html"
+      },
+      "projects": {
+        "title": "Our Projects",
+        "cards": [
+          {
+            "link": "/en/our-work/schutique.html",
+            "img": "/img/services/tienda-schutique.jpg",
+            "imgAlt": "Representation of the Schutique store",
+            "title": "Schutique"
+          },
+          {
+            "link": "/en/our-work/98-coast-av.html",
+            "img": "/img/services/tienda-98-coast.jpg",
+            "imgAlt": "Representation of the 98 Coast Av. store",
+            "title": "98 Coast Av."
+          },
+          {
+            "link": "/en/our-work/little-me.html",
+            "img": "/img/services/tienda-little-me.jpg",
+            "imgAlt": "Representation of the Little Me store",
+            "title": "Little Me"
+          }
+        ],
+        "banner": {
+          "subtitle": "Contact",
+          "contactBtnLink": "/en/contact-us.html",
+          "contactBtn": "Contact",
+          "quoteBtnLink": "/en/quote.html",
+          "quoteBtn": "Quote my project"
+        }
+      }
+    },
     "contacto": {
       "title": "Contact Us"
     },
@@ -948,6 +1008,11 @@
           "name": "home",
           "link": "/en/index.html",
           "viewName": "homepage"
+        },
+        {
+          "name": "online stores",
+          "link": "/en/online-stores.html",
+          "viewName": "ecommerce"
         },
         {
           "name": "our work",
