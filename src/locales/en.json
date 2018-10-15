@@ -24,6 +24,11 @@
           "viewName": "ecommerce"
         },
         {
+          "name": "websites",
+          "link": "/en/websites.html",
+          "viewName": "webpages"
+        },
+        {
           "name": "contact us",
           "link": "/en/contact-us.html",
           "viewName": "contact"
@@ -994,6 +999,57 @@
         }
       }
     },
+    "webpages": {
+      "cover": {
+        "title": "websites",
+        "subtitle": "Websites",
+        "desc": "The first impression is what matters the most. We make your Website.",
+        "quoteBtn": "Quote my project",
+        "quoteBtnLink": "/en/quote.html",
+        "laptopSite": "/img/services/laptop-getmore.png",
+        "laptopSiteMobile": "/img/services/laptop-getmore-movil.png",
+        "laptopSiteAlt": "Laptop with a sample of Get More"
+      },
+      "packages": {
+        "title": "Our Packages",
+        "sliceTable": "Slide to the right",
+        "sliceTableIcon": "/img/icons/flecha-negra.svg",
+        "sliceTableIconAlt": "Arrow indicating the horizontal displacement of the table",
+        "subtitle": "packages",
+        "quoteBtn": "Quote my project",
+        "quoteBtnLink": "/en/quote.html"
+      },
+      "projects": {
+        "title": "Our Projects",
+        "cards": [
+          {
+            "link": "/en/our-work/vre-mexico.html",
+            "img": "/img/services/pagina-vre.jpg",
+            "imgAlt": "Representation of the VRE México page",
+            "title": "VRE México"
+          },
+          {
+            "link": "/en/our-work/entos.html",
+            "img": "/img/services/pagina-entos.jpg",
+            "imgAlt": "Representation of the Entos page",
+            "title": "Entos"
+          },
+          {
+            "link": "/en/our-work/higia.html",
+            "img": "/img/services/pagina-higia.jpg",
+            "imgAlt": "Representation of the Higia page",
+            "title": "Higia"
+          }
+        ],
+        "banner": {
+          "subtitle": "Contact",
+          "contactBtnLink": "/en/contact-us.html",
+          "contactBtn": "contact",
+          "quoteBtnLink": "/en/quote.html",
+          "quoteBtn": "Quote my project"
+        }
+      }
+    },
     "contacto": {
       "title": "Contact Us"
     },
@@ -1013,6 +1069,11 @@
           "name": "online stores",
           "link": "/en/online-stores.html",
           "viewName": "ecommerce"
+        },
+        {
+          "name": "websites",
+          "link": "/en/websites.html",
+          "viewName": "webpages"
         },
         {
           "name": "our work",
