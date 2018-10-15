@@ -1,0 +1,80 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Online Stores{% endblock %}
+
+{% set meta_description = "Sell Online, we’ll create your store" %}
+{% set og_url = "https://getmore.mx/es/tiendas-en-linea.html" %}
+{% set og_title = "Online Stores | Get More" %}
+{% set og_description = "Sell Online, we’ll create your store" %}
+{% set og_img = "/img/seo/tienda-en-linea-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ecommerce" %}
+{% set lang_view = "english" %}
+
+{% block content %}
+<section class="service">
+  <section class="service-cover">
+    <h1 class="service-cover-title metropolis-bold">{{en.ecommerce.cover.title}}</h1>
+    <div class="service-cover-content">
+      <div class="service-cover-content-info">
+        <div class="service-cover-logo-container">
+          <img class="service-cover-logo" src="{{en.ecommerce.cover.shopifyExperts}}" alt="{{en.ecommerce.cover.shopifyExpertsAlt}}">
+          <img class="service-cover-logo" src="{{en.ecommerce.cover.shopifyPartners}}" alt="{{en.ecommerce.cover.shopifyPartnersAlt}}">
+        </div>
+        <h2 class="service-cover-subtitle metropolis-bold">{{en.ecommerce.cover.subtitle}}</h2>
+        <span class="service-cover-desc metropolis-regular">{{en.ecommerce.cover.desc}}</span>
+        <a class="btn metropolis-bold" href="{{en.ecommerce.cover.quoteBtnLink}}">{{en.ecommerce.cover.quoteBtn}}</a>
+      </div>
+      <picture>
+        <source media="(max-width: 1000px)" srcset="{{en.ecommerce.cover.laptopSiteMobile}}">
+        <img class="service-cover-img" src="{{en.ecommerce.cover.laptopSite}}" alt="{{en.ecommerce.cover.laptopSiteAlt}}">
+      </picture>
+    </div>
+  </section>
+
+  <section class="service-packages">
+    <h2 class="service-packages-title metropolis-bold">{{en.ecommerce.packages.title}}</h2>
+    <span class="service-packages-slice metropolis-bold">{{en.ecommerce.packages.sliceTable}}<img class="service-packages-slice-icon" src="{{en.ecommerce.packages.sliceTableIcon}}" alt="{{en.ecommerce.packages.sliceTableIconAlt}}"></span>
+
+    {% include 'partials/ecommercePackagesEnglish.njk' %}
+
+    <div class="service-card">
+      <div class="service-card-content">
+        <h3 class="service-card-title metropolis-bold">{{en.ecommerce.packages.subtitle}}</h3>
+        <a class="btn transparent metropolis-bold" href="{{en.ecommerce.packages.quoteBtnLink}}">{{en.ecommerce.packages.quoteBtn}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-projects">
+    <div class="service-projects-info">
+      <h2 class="service-projects-title metropolis-bold">{{en.ecommerce.projects.title}}</h2>
+      <div class="service-projects-img-container">
+        {% for card in en.ecommerce.projects.cards %}
+        <a class="service-projects-img-content" href="{{card.link}}">
+          <img class="service-projects-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+          <span class="service-projects-label metropolis-bold">{{card.title}}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="service-projects-img-carousel owl-carousel">
+        {% for card in en.ecommerce.projects.cards %}
+        <a class="service-projects-img-content" href="{{card.link}}">
+          <img class="service-projects-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+          <span class="service-projects-label metropolis-bold">{{card.title}}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="service-projects-banner">
+      <h3 class="service-projects-subtitle metropolis-bold">{{en.ecommerce.projects.banner.subtitle}}</h3>
+      <div class="service-projects-btns">
+        <a class="btn borderBlack metropolis-bold" href="{{en.ecommerce.projects.banner.contactBtnLink}}">{{en.ecommerce.projects.banner.contactBtn}}</a>
+        <a class="btn metropolis-bold" href="{{en.ecommerce.projects.banner.quoteBtnLink}}">{{en.ecommerce.projects.banner.quoteBtn}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}
