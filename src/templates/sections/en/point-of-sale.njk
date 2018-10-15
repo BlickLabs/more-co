@@ -1,0 +1,79 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Point of Sale{% endblock %}
+
+{% set meta_description = "Physical Points of Sale where you can have all the information of your Business." %}
+{% set og_url = "https://getmore.mx/en/point-of-sale.html" %}
+{% set og_title = "Point of Sale | Get More" %}
+{% set og_description = "Physical Points of Sale where you can have all the information of your Business." %}
+{% set og_img = "/img/seo/punto-de-venta-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "pointsale" %}
+{% set lang_view = "english" %}
+
+{% block content %}
+<section class="service">
+  <section class="service-cover">
+    <h1 class="service-cover-title metropolis-bold">{{en.pointsale.cover.title}}</h1>
+    <div class="service-cover-content">
+      <div class="service-cover-content-info">
+        <div class="service-cover-logo-container">
+          <img class="service-cover-logo" src="{{en.pointsale.cover.shopifyPOS}}" alt="{{en.pointsale.cover.shopifyPOSAlt}}">
+        </div>
+        <h2 class="service-cover-subtitle metropolis-bold">{{en.pointsale.cover.subtitle}}</h2>
+        <span class="service-cover-desc metropolis-regular" id="pointsale-cover-desc">{{en.pointsale.cover.desc}}</span>
+        <a class="btn metropolis-bold" href="{{en.pointsale.cover.quoteBtnLink}}">{{en.pointsale.cover.quoteBtn}}</a>
+      </div>
+      <picture>
+        <source media="(max-width: 1000px)" srcset="{{en.pointsale.cover.laptopSiteMobile}}">
+        <img class="service-cover-img" src="{{en.pointsale.cover.laptopSite}}" alt="{{en.pointsale.cover.laptopSiteAlt}}">
+      </picture>
+    </div>
+  </section>
+
+  <section class="service-packages">
+    <h2 class="service-packages-title metropolis-bold">{{en.pointsale.packages.title}}</h2>
+    <span class="service-packages-slice metropolis-bold">{{en.pointsale.packages.sliceTable}}<img class="service-packages-slice-icon" src="{{en.pointsale.packages.sliceTableIcon}}" alt="{{en.pointsale.packages.sliceTableIconAlt}}"></span>
+
+    {% include 'partials/pointsalePackagesEnglish.njk' %}
+
+    <div class="service-card">
+      <div class="service-card-content">
+        <h3 class="service-card-title metropolis-bold">{{en.pointsale.packages.subtitle}}</h3>
+        <a class="btn transparent metropolis-bold" href="{{en.pointsale.packages.quoteBtnLink}}">{{en.pointsale.packages.quoteBtn}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-projects">
+    <div class="service-projects-info">
+      <h2 class="service-projects-title metropolis-bold">{{en.pointsale.projects.title}}</h2>
+      <div class="service-projects-img-container">
+        {% for card in en.pointsale.projects.cards %}
+        <a class="service-projects-img-content" href="{{card.link}}">
+          <img class="service-projects-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+          <span class="service-projects-label metropolis-bold">{{card.title}}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="service-projects-img-carousel owl-carousel">
+        {% for card in en.pointsale.projects.cards %}
+        <a class="service-projects-img-content" href="{{card.link}}">
+          <img class="service-projects-img" src="{{card.img}}" alt="{{card.imgAlt}}">
+          <span class="service-projects-label metropolis-bold">{{card.title}}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="service-projects-banner">
+      <h3 class="service-projects-subtitle metropolis-bold">{{en.pointsale.projects.banner.subtitle}}</h3>
+      <div class="service-projects-btns">
+        <a class="btn borderBlack metropolis-bold" href="{{en.pointsale.projects.banner.contactBtnLink}}">{{en.pointsale.projects.banner.contactBtn}}</a>
+        <a class="btn metropolis-bold" href="{{en.pointsale.projects.banner.quoteBtnLink}}">{{en.pointsale.projects.banner.quoteBtn}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}
