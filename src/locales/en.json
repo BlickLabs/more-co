@@ -29,6 +29,11 @@
           "viewName": "webpages"
         },
         {
+          "name": "point of sale",
+          "link": "/en/point-of-sale.html",
+          "viewName": "pointsale"
+        },
+        {
           "name": "contact us",
           "link": "/en/contact-us.html",
           "viewName": "contact"
@@ -953,7 +958,7 @@
         "shopifyPartnersAlt": "Shopify Partners logo",
         "subtitle": "Online Stores",
         "desc": "Sell Online, we’ll create your store",
-        "quoteBtn": "Quote my project",
+        "quoteBtn": "quote my project",
         "quoteBtnLink": "/en/quote.html",
         "laptopSite": "/img/services/laptop-schutique.png",
         "laptopSiteMobile": "/img/services/laptop-schutique-movil.png",
@@ -965,7 +970,7 @@
         "sliceTableIcon": "/img/icons/flecha-negra.svg",
         "sliceTableIconAlt": "Arrow indicating the horizontal displacement of the table",
         "subtitle": "packages",
-        "quoteBtn": "Quote my project",
+        "quoteBtn": "quote my project",
         "quoteBtnLink": "/en/quote.html"
       },
       "projects": {
@@ -991,11 +996,11 @@
           }
         ],
         "banner": {
-          "subtitle": "Contact",
+          "subtitle": "contact",
           "contactBtnLink": "/en/contact-us.html",
           "contactBtn": "Contact",
           "quoteBtnLink": "/en/quote.html",
-          "quoteBtn": "Quote my project"
+          "quoteBtn": "quote my project"
         }
       }
     },
@@ -1004,7 +1009,7 @@
         "title": "websites",
         "subtitle": "Websites",
         "desc": "The first impression is what matters the most. We make your Website.",
-        "quoteBtn": "Quote my project",
+        "quoteBtn": "quote my project",
         "quoteBtnLink": "/en/quote.html",
         "laptopSite": "/img/services/laptop-getmore.png",
         "laptopSiteMobile": "/img/services/laptop-getmore-movil.png",
@@ -1016,7 +1021,7 @@
         "sliceTableIcon": "/img/icons/flecha-negra.svg",
         "sliceTableIconAlt": "Arrow indicating the horizontal displacement of the table",
         "subtitle": "packages",
-        "quoteBtn": "Quote my project",
+        "quoteBtn": "quote my project",
         "quoteBtnLink": "/en/quote.html"
       },
       "projects": {
@@ -1042,11 +1047,64 @@
           }
         ],
         "banner": {
-          "subtitle": "Contact",
+          "subtitle": "contact",
           "contactBtnLink": "/en/contact-us.html",
           "contactBtn": "contact",
           "quoteBtnLink": "/en/quote.html",
-          "quoteBtn": "Quote my project"
+          "quoteBtn": "quote my project"
+        }
+      }
+    },
+    "pointsale": {
+      "cover": {
+        "title": "point of sale",
+        "shopifyPOS": "/img/logos/logo-shopify-pos.png",
+        "shopifyPOSAlt": "Shopify POS logo",
+        "subtitle": "Point of Sale",
+        "desc": "Physical Points of Sale where you can have all the information of your Business.",
+        "quoteBtn": "quote my project",
+        "quoteBtnLink": "/en/quote.html",
+        "laptopSite": "/img/services/ventana-yazbek.png",
+        "laptopSiteMobile": "/img/services/ventana-yazbek-movil.png",
+        "laptopSiteAlt": "Image of a browser window with the Yazbek point of sale"
+      },
+      "packages": {
+        "title": "Our Packages",
+        "sliceTable": "Slide to the right",
+        "sliceTableIcon": "/img/icons/flecha-negra.svg",
+        "sliceTableIconAlt": "Arrow indicating the horizontal displacement of the table",
+        "subtitle": "packages",
+        "quoteBtn": "quote my project",
+        "quoteBtnLink": "/en/quote.html"
+      },
+      "projects": {
+        "title": "Our Projects",
+        "cards": [
+          {
+            "link": "/en/our-work/yazbek.html",
+            "img": "/img/services/punto-yazbek.jpg",
+            "imgAlt": "Representation of the Yazbek Point Sale",
+            "title": "Yazbek"
+          },
+          {
+            "link": "/en/our-work/the-confetti-party.html",
+            "img": "/img/services/punto-confetti-party.jpg",
+            "imgAlt": "Representation of the The Confetti Party Point Sale",
+            "title": "The Confetti Party"
+          },
+          {
+            "link": "/en/our-work/wellness-store.html",
+            "img": "/img/services/punto-wellness.jpg",
+            "imgAlt": "Representation of the Wellness Store Point Sale",
+            "title": "Wellness"
+          }
+        ],
+        "banner": {
+          "subtitle": "contact",
+          "contactBtnLink": "/en/contact-us.html",
+          "contactBtn": "contact",
+          "quoteBtnLink": "/en/quote.html",
+          "quoteBtn": "quote my project"
         }
       }
     },
@@ -1074,6 +1132,11 @@
           "name": "websites",
           "link": "/en/websites.html",
           "viewName": "webpages"
+        },
+        {
+          "name": "point of sale",
+          "link": "/en/point-of-sale.html",
+          "viewName": "pointsale"
         },
         {
           "name": "our work",
