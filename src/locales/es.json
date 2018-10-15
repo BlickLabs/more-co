@@ -1064,6 +1064,59 @@
         }
       }
     },
+    "pointsale": {
+      "cover": {
+        "title": "punto de venta",
+        "shopifyPOS": "/img/logos/logo-shopify-pos.png",
+        "shopifyPOSAlt": "Logo de Shopify POS",
+        "subtitle": "Punto de venta",
+        "desc": "Sistema para puntos de venta físicos en donde podrás tener toda la información de tu negocio",
+        "quoteBtn": "cotizar mi proyecto",
+        "quoteBtnLink": "/es/cotiza.html",
+        "laptopSite": "/img/services/ventana-yazbek.png",
+        "laptopSiteMobile": "/img/services/ventana-yazbek-movil.png",
+        "laptopSiteAlt": "Imagen de una ventana de navegador con el punto de venta de Yazbek"
+      },
+      "packages": {
+        "title": "Encuentra tu paquete ideal",
+        "sliceTable": "Desliza hacia la derecha",
+        "sliceTableIcon": "/img/icons/flecha-negra.svg",
+        "sliceTableIconAlt": "Flecha que indica el desplazamiento horizontal de la tabla",
+        "subtitle": "paquetes",
+        "quoteBtn": "cotizar mi proyecto",
+        "quoteBtnLink": "/es/cotiza.html"
+      },
+      "projects": {
+        "title": "Nuestros proyectos",
+        "cards": [
+          {
+            "link": "/es/portafolio/yazbek.html",
+            "img": "/img/services/punto-yazbek.jpg",
+            "imgAlt": "Representación del punto de venta Yazbek",
+            "title": "Yazbek"
+          },
+          {
+            "link": "/es/portafolio/the-confetti-party.html",
+            "img": "/img/services/punto-confetti-party.jpg",
+            "imgAlt": "Representación del punto de venta The Confetti Party",
+            "title": "The Confetti Party"
+          },
+          {
+            "link": "/es/portafolio/wellness-store.html",
+            "img": "/img/services/punto-wellness.jpg",
+            "imgAlt": "Representación del punto de venta Wellness Store",
+            "title": "Wellness"
+          }
+        ],
+        "banner": {
+          "subtitle": "contactar",
+          "contactBtnLink": "/es/contacto.html",
+          "contactBtn": "contactar",
+          "quoteBtnLink": "/es/cotiza.html",
+          "quoteBtn": "cotizar mi proyecto"
+        }
+      }
+    },
     "aboutus": {
       "cover": {
         "title": "Somos Shopify Experts."
@@ -1095,15 +1148,15 @@
         "card": [
           {
             "title": "Humildad",
-            "desc": "Siempre estamos en una constante búsqueda de cómo hacer más con menos"
+            "desc": "Siempre se puede mejorar, aprender algo nuevo y hacer mejor las cosas"
           },
           {
             "title": "Eficiencia",
-            "desc": "Creemos firmemente que la pasión te lleva a ser mejor cada día y por lo mismo a obtener mejores resultados"
+            "desc": "Siempre estamos en una constante búsqueda de cómo hacer más con menos"
           },
           {
             "title": "Pasión",
-            "desc": "Siempre se puede mejorar, aprender algo nuevo y hacer mejor las cosas"
+            "desc": "Creemos firmemente que la pasión te lleva a ser mejor cada día y por lo mismo a obtener mejores resultados"
           },
           {
             "title": "Compromiso",
