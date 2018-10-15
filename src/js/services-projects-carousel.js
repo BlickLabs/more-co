@@ -4,7 +4,7 @@ servicesProjectsCarousel.owlCarousel ({
   loop: false,
   nav: true,
   dots: true,
-  navText: ['<img class="carousel-arrow" src="/img/icons/semiflecha-izquierda.png" />', '<img class="carousel-arrow" src="/img/icons/semiflecha-derecha.png" />'],
+  navText: ['<img class="carousel-arrow" src="/img/icons/control-left.png" />', '<img class="carousel-arrow" src="/img/icons/control-right.svg" />'],
   margin: 0,
   items: 1
 });

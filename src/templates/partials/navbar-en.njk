@@ -1,5 +1,5 @@
 <nav class="nav">
-  <div>
+  <div class="nav-logo-container">
     <a href="/en/index.html">
       <img class="nav-logo" src="{{en.nav.logo}}" alt="{{en.nav.logoAlt}}">
       <img class="nav-logo-scroll" src="{{en.nav.logoScroll}}" alt="{{en.nav.logoAlt}}">
@@ -17,6 +17,10 @@
     {% include 'partials/navLang.njk' %}
   </div>
 
+  <div class="nav-lang-mobile">
+    {% include 'partials/navLang.njk' %}
+  </div>
+
   <div data-attribute="" class="hamburger-visibility"  id="hamburgerMenu">
     <div class="nav-hamburguer" data-attribute="">
       <div class="hamburger-line-icon-container" data-attribute="">
@@ -28,9 +32,6 @@
   </div>
   <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
     <div class="hamburger-menu-header" data-attribute="">
-
-      {% include 'partials/navLang.njk' %}
-
       <div class="hamburger-close-container" id="hideHamburger">
         <img class="hamburger-close" src="{{en.nav.hamburgerClose}}" alt="{{en.nav.hamburgerCloseAlt}}">
       </div>

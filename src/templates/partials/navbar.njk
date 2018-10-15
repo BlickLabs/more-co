@@ -1,19 +1,50 @@
 <nav class="nav">
-  <div>
+  <div class="nav-logo-container">
     <a href="/">
       <img class="nav-logo" src="{{es.nav.logo}}" alt="{{es.nav.logoAlt}}">
       <img class="nav-logo-scroll" src="{{es.nav.logoScroll}}" alt="{{es.nav.logoAlt}}">
     </a>
   </div>
   <div class="nav-option-container">
-    {% for section in es.nav.sections %}
     <div class="nav-option-content">
-      <a href="{{section.link}}">
-        <span class="nav-option metropolis-medium {% if view_name == section.viewName %}active{% endif %} {% if section.name == 'contactar' %}special-btn{% endif %}">{{section.name}}</span>
+      <a href="/">
+        <span class="nav-option metropolis-medium {% if view_name == 'homepage' %}active{% endif %}">inicio</span>
       </a>
     </div>
-    {% endfor %}
+    <div class="nav-option-content">
+      <a href="/es/portafolio.html">
+        <span class="nav-option metropolis-medium {% if view_name == 'portfolio' %}active{% endif %}">Portafolio</span>
+      </a>
+    </div>
+    <div class="nav-option-content dropdown">
+    <button onclick="myFunction()" class="nav-option dropbtn metropolis-medium">Servicios</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="/es/tiendas-en-linea.html">
+          <span class="nav-option metropolis-medium">tiendas en línea</span>
+        </a>
+        <a href="/es/paginas-web.html">
+          <span class="nav-option metropolis-medium">páginas web</span>
+        </a>
+        <a href="/es/punto-de-venta.html">
+          <span class="nav-option metropolis-medium">punto de venta</span>
+        </a>
+      </div>
+    </div>
+    <div class="nav-option-content">
+      <a href="/es/nosotros.html">
+        <span class="nav-option metropolis-medium {% if view_name == 'aboutus' %}active{% endif %}">nosotros</span>
+      </a>
+    </div>
+    <div class="nav-option-content">
+      <a href="/es/contacto.html">
+        <span class="nav-option metropolis-medium {% if view_name == 'contact' %}active{% endif %} {% if section.name == 'contactar' %}special-btn{% endif %}">contactar</span>
+      </a>
+    </div>
 
+    {% include 'partials/navLang.njk' %}
+  </div>
+
+  <div class="nav-lang-mobile">
     {% include 'partials/navLang.njk' %}
   </div>
 
@@ -28,9 +59,6 @@
   </div>
   <div class="hamburger-menu-container" id="menuContainer" data-attribute="">
     <div class="hamburger-menu-header" data-attribute="">
-
-      {% include 'partials/navLang.njk' %}
-
       <div class="hamburger-close-container" id="hideHamburger">
         <img class="hamburger-close" src="{{es.nav.hamburgerClose}}" alt="{{es.nav.hamburgerCloseAlt}}">
       </div>

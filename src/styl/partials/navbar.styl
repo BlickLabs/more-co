@@ -73,6 +73,9 @@
     letter-spacing 1.7px
     height 11px
 
+    &-mobile
+      display none
+
     &-container
       align-items center
       border-radius 16px
@@ -132,11 +135,61 @@
     &-container
       display none
 
-@media screen and (max-width: 1000px)
+/*Dropdown Styles*/
+
+// .dropbtn
+//   background-color #3498DB
+//   color white
+//   padding 16px
+//   font-size 16px
+//   border none
+//   cursor pointer
+
+.dropbtn:hover, .dropbtn:focus
+  background-color #2980B9
+
+.dropdown
+  align-items center
+  position relative
+  display flex
+  padding-top 4px
+
+  & .nav-option
+    background-color transparent
+    border none
+    cursor pointer
+    padding 0
+
+.dropdown-content
+  display none
+  position absolute
+  background-color $grayT3 //rgba(49,49,49,1)
+  box-shadow 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index 1
+  top 100%
+  min-width 190px
+
+.dropdown-content a
+  color black
+  padding 12px 16px
+  text-decoration none
+  display block
+
+.dropdown a:hover
+  background-color #ddd
+
+.show
+  display block
+
+@media screen and (max-width: 840px)
   .nav
     justify-content space-between
     height 70px
     padding 0 18px
+
+    &-logo
+      &-container
+        width 100%
 
     &-option
       color $whiteT1
@@ -160,11 +213,19 @@
           height 100%
           width 100%
 
+        &:last-child
+          margin-top 13px
+
       &.special-btn
-        border solid 1px $whiteT1
+        background-color $blueT1
+        border solid 1px $blueT1
+        color $whiteT1
         height 34px
         margin-left -13px
         width 140px
+
+        &:hover
+          background-color $blueT5
 
     &-scroll
       & .hamburger-line-icon
@@ -173,6 +234,10 @@
     &-lang
       &-container
         margin-left 0
+
+      &-mobile
+        display block
+        margin-right 40px
 
   .hamburger
     background-color transparent
@@ -204,7 +269,7 @@
       &-container
         background-color rgba(38, 38, 38, 1)
         display inline
-        bottom 33px
+        bottom 0
         overflow scroll
         position fixed
         right 0
@@ -218,7 +283,7 @@
         align-items center
         display flex
         flex-direction row
-        justify-content space-between
+        justify-content flex-end
         padding 22px 30px 50px 30px
 
     &-text

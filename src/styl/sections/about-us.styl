@@ -1,0 +1,324 @@
+.about
+  margin-top 55px
+  margin-bottom 200px
+
+  &-cover
+    background-image url("../img/backgrounds/nosotros-palacio-bellasartes.jpg")
+    background-position center
+    background-repeat no-repeat
+    background-size cover
+    height 400px
+    margin 50px
+    padding 50px 0 0 80px
+
+    &-title
+      color $whiteT1
+      font-size 60px
+      letter-spacing 0.1px
+      line-height 62px
+      width 500px
+
+  &-intro
+    display flex
+    justify-content flex-end
+    margin 0 50px 25px 50px
+
+    &-content
+      background-color $grayT1
+      margin-left 175px
+      padding 35px 66px
+
+    &-desc
+      color $blackT2
+      font-size 18px
+      letter-spacing 0.1px
+      line-height 32px
+      max-width 620px
+
+      & br
+        display none
+
+  &-us
+    margin 0 50px
+
+    &-desc
+      color $blackT2
+      font-size 18px
+      letter-spacing 0.1px
+      line-height 32px
+      margin 0 80px
+      max-width 760px
+
+    &-card
+      background-color $blueT1
+      margin-top 45px
+      padding 34px 80px
+
+      &-title
+        color $whiteT1
+        font-size 25px
+        letter-spacing 0.2px
+        margin-bottom 25px
+        text-align center
+
+      &-desc
+        color $whiteT1
+        font-size 16px
+        letter-spacing 0.1px
+        line-height 22px
+
+        &:first-child
+          margin-right 30px
+          width 49%
+
+        &:nth-child(2)
+          width 51%
+
+        &-container
+          display flex
+          flex-direction row
+
+        & a
+          color $whiteT1
+          border-bottom solid 1px $whiteT1
+
+          &:hover
+            border none
+
+  &-pillars
+    margin 55px 50px 0 50px
+
+    &-title
+      color $blackT2
+      font-size 25px
+      left 5px
+      letter-spacing 0.2px
+      position absolute
+      top 50px
+
+      &:before
+        background-color $blueT1
+        content ""
+        height 2px
+        position absolute
+        top -7px
+        width 20px
+
+      &-container
+        margin-left 80px
+        position relative
+
+    &-card
+      align-items flex-start
+      background-color $grayT1
+      display flex
+      flex-wrap wrap
+      height auto
+      justify-content space-between
+      margin 0 0 0 175px
+      max-width 100%
+      padding 27px 30px
+
+    &-content
+      display flex
+      flex-direction column
+      height 25%
+      
+      padding 10px 20px
+      width 50%
+
+    &-subtitle
+      color $blackT2
+      font-size 18px
+
+    &-desc
+      color #a1aab2
+      font-size 14px
+      letter-spacing 0.4px
+      line-height 20px
+      margin-top 15px
+      max-width 268px
+
+  &-work
+    margin 60px 0 0 225px
+    position relative
+
+    &-title
+      color $blackT2
+      font-size 25px
+      letter-spacing -0.3px
+
+    &-row
+      display flex
+      flex-direction row
+      margin-top 40px
+
+    &-subtitle
+      color $grayT1
+      font-size 9vw
+      letter-spacing -4.6px
+      line-height 42px
+      margin-left 40px
+      position absolute
+      right 0
+
+  &-bigtext
+    color $grayT1
+    letter-spacing -2.6px
+
+    &.nosotros,
+    &.pilares
+      font-size 101px
+
+@media screen and (min-width 1366px)
+  .about
+    &-cover
+      background-image url("../img/backgrounds/nosotros-palacio-bellasartes-3x.jpg")
+
+@media screen and (max-width 760px)
+  .about
+    margin-bottom 40px
+
+    &-cover
+      margin 30px
+      padding 20px 0 0 14px
+
+      &-title
+        font-size 39px
+        line-height 38px
+        width 295px
+
+    &-intro
+      margin 0 30px 45px 30px
+
+      &-content
+        margin-left 80px
+        padding 24px 34px
+
+      &-desc
+        font-size 15px
+        line-height 26px
+
+        & br
+          display block
+
+    &-us
+      margin 0 30px
+
+      &-desc
+        font-size 16px
+        line-height 27px
+        margin 0 25px
+
+      &-card
+        padding 29px 25px
+
+        &-desc
+          &:first-child
+            margin 0 0 15px 0
+            width auto
+
+          &:nth-child(2)
+            width auto
+
+          &-container
+            flex-direction column
+
+    &-pillars
+      margin 55px 30px 0 30px
+
+      &-title
+        &-container
+          margin 0 0 0 25px
+
+      &-card
+        margin-left 66px
+        padding 26px 36px
+
+      &-content
+        padding 0 0 10px 0
+        width 100%
+
+      &-desc
+        max-width 100%
+
+    &-work
+      margin-left 0
+
+      &-title
+        margin-left 55px
+
+      &-row
+        flex-direction column
+
+        & a
+          margin-left 55px
+
+      &-subtitle
+        font-size 72px
+        margin 40px 0 0 0
+        position initial
+        text-align center
+
+        &:after
+          content ""
+          display inline-block
+          width 100%
+
+    &-bigtext.nosotros
+      font-size 96px
+      margin 0 -11px
+
+    &-bigtext.pilares
+      font-size 101px
+      margin 0
+
+@media screen and (max-width 420px)
+  .about
+    margin-bottom 0
+
+    &-cover
+      margin 15px 0 30px 0
+      height 225px
+      padding 20px 0 0 55px
+
+      &-title
+        font-size 28px
+        line-height 30px
+
+    &-intro
+      &-content
+        margin-left 0
+        padding 25px
+
+    &-pillars
+      &-title
+        left -1px
+        top 30px
+
+      &-card
+        margin-left 0
+        padding 25px
+
+    &-work
+      &-title
+        margin-left 0
+        text-align center
+
+      &-row
+        align-items center
+
+        & a
+          margin-left 0
+
+      &-subtitle
+        font-size 17vw
+        line-height 22px
+        margin-left 0
+        text-indent -4.6px
+
+    &-bigtext.nosotros
+      font-size 58px
+
+    &-bigtext.pilares
+      font-size 65px
