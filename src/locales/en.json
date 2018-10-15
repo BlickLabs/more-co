@@ -34,6 +34,11 @@
           "viewName": "pointsale"
         },
         {
+          "name": "about us",
+          "link": "/en/about-us.html",
+          "viewName": "aboutus"
+        },
+        {
           "name": "contact us",
           "link": "/en/contact-us.html",
           "viewName": "contact"
@@ -1108,6 +1113,60 @@
         }
       }
     },
+    "aboutus": {
+      "cover": {
+        "title": "We’re Shopify Experts."
+      },
+      "intro": {
+        "desc": "We’re a Multidisciplinary team. We Design and Develop Online Stores, Websites and Points of Sale. We guide you from the beginning to the end of your project so you can launch your service or product into the Digital World. Always taking care of the most important:",
+        "descBold": "Functionality and Design."
+      },
+      "about": {
+        "bigText": "about us",
+        "title": "About Us",
+        "descOne": "Get More was born to help other people to achieve their most crazy dreams through the Digital World.",
+        "descTwo": "Always trying to enhance the process of creating their Online Store or Website, making it something more enjoyable with the best end result.",
+        "card": {
+          "subtitle": "Our Work",
+          "descOnePartOne": "Get to know all the projects that we’ve created in",
+          "descLinkOne": "Our Work page",
+          "linkOne": "/en/our-work.html",
+          "descOnePartTwo": "so you can learn more about us.",
+          "descTwoPartOne": "We invite you to visit our",
+          "descLinkTwo": "Shopify Experts profile",
+          "linkTwo": "https://experts.shopify.com/getmore",
+          "descTwoPartTwo": "where you can read the testimonials of other clients that have worked with us."
+        }
+      },
+      "pillars": {
+        "bigText": "pillars",
+        "title": "Our Core Values",
+        "card": [
+          {
+            "title": "Humility",
+            "desc": "You can always be better, learn something new and be the best version of yourself."
+          },
+          {
+            "title": "Passion",
+            "desc": "We firmly believe that the passion can take you to be better everyday and achieve better results."
+          },
+          {
+            "title": "Efficiency",
+            "desc": "Always in a continuous search on how to do more with less."
+          },
+          {
+            "title": "Commitment",
+            "desc": "We commit with Ourselves, with our Team, with the Project and with the Client. So we can always look for the \"Extra mile\"."
+          }
+        ]
+      },
+      "work": {
+        "title": "Let’s work together!",
+        "btn": "contact",
+        "btnLink": "/en/contact.html",
+        "bigText": "get shit done"
+      }
+    },
     "contacto": {
       "title": "Contact Us"
     },
@@ -1137,6 +1196,11 @@
           "name": "point of sale",
           "link": "/en/point-of-sale.html",
           "viewName": "pointsale"
+        },
+        {
+          "name": "about us",
+          "link": "/en/about-us.html",
+          "viewName": "aboutus"
         },
         {
           "name": "our work",
