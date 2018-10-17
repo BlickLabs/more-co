@@ -85,13 +85,13 @@ hideHamburger.addEventListener('click', function(e) {
   hideMenu();
 });
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+function dropDown() {
+    document.getElementById("navDropdown").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+  if (!event.target.matches('.dropdown-btn')) {
 
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
