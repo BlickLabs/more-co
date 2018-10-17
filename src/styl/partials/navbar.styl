@@ -41,6 +41,9 @@
         color $whiteT1
         font-weight $bold
 
+    & .dropdown-btn:after
+      background-image url("/img/icons/icono-dropdown.png")
+
     & .special-btn
       border solid 1px $whiteT1
       color $whiteT1
@@ -123,7 +126,7 @@
   &:hover,
   &.active
     background-color $blueT1
-    border solid 1px $blueT1
+    border solid 1px $blueT1 !important
     color $whiteT1
     transition 0.3s
 
@@ -137,49 +140,54 @@
 
 /*Dropdown Styles*/
 
-// .dropbtn
-//   background-color #3498DB
-//   color white
-//   padding 16px
-//   font-size 16px
-//   border none
-//   cursor pointer
-
-.dropbtn:hover, .dropbtn:focus
-  background-color #2980B9
-
 .dropdown
   align-items center
-  position relative
   display flex
-  padding-top 4px
+  margin-right 20px
+  padding-top 2px
+  position relative
 
-  & .nav-option
+  &-btn
     background-color transparent
     border none
     cursor pointer
+    line-height 0px
     padding 0
+    position relative
 
-.dropdown-content
-  display none
-  position absolute
-  background-color $grayT3 //rgba(49,49,49,1)
-  box-shadow 0px 8px 16px 0px rgba(0,0,0,0.2)
-  z-index 1
-  top 100%
-  min-width 190px
+    &:after
+      background-image url("/img/icons/icono-dropdown-negro.png")
+      background-repeat no-repeat
+      background-size contain
+      bottom 0
+      content ""
+      display block
+      height 7px
+      margin auto
+      position absolute
+      right -15px
+      top 0
+      width 11px
 
-.dropdown-content a
-  color black
-  padding 12px 16px
-  text-decoration none
-  display block
+  &-content
+    background-color rgba(49,49,49,1)
+    box-shadow 0px 8px 16px 0px rgba(0,0,0,0.2)
+    display none
+    flex-direction column
+    min-width 190px
+    padding 8px 20px
+    position absolute
+    top 100%
+    z-index 1
 
-.dropdown a:hover
-  background-color #ddd
+    & a
+      margin 10px 0
 
-.show
-  display block
+    & .nav-option
+      color $whiteT1
+
+    &.show
+      display flex
 
 @media screen and (max-width: 840px)
   .nav
@@ -217,8 +225,7 @@
           margin-top 13px
 
       &.special-btn
-        background-color $blueT1
-        border solid 1px $blueT1
+        border solid 1px $whiteT1
         color $whiteT1
         height 34px
         margin-left -13px
