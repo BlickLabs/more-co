@@ -6,13 +6,40 @@
     </a>
   </div>
   <div class="nav-option-container">
-    {% for section in en.nav.sections %}
     <div class="nav-option-content">
-      <a href="{{section.link}}">
-        <span class="nav-option metropolis-medium {% if view_name == section.viewName %}active{% endif %} {% if section.name == 'contact us' %}special-btn{% endif %}">{{section.name}}</span>
+      <a href="/en/index.html">
+        <span class="nav-option metropolis-medium {% if view_name == 'homepage' %}active{% endif %}">home</span>
       </a>
     </div>
-    {% endfor %}
+    <div class="nav-option-content">
+      <a href="/en/our-work.html">
+        <span class="nav-option metropolis-medium {% if view_name == 'portfolio' %}active{% endif %}">our work</span>
+      </a>
+    </div>
+    <div class="nav-option-content dropdown">
+    <button onclick="dropDown()" class="nav-option dropdown-btn metropolis-medium {% if view_name == 'ecommerce' or view_name == 'webpages' or view_name == 'pointsale' %}active{% endif %}">our services</button>
+      <div id="navDropdown" class="dropdown-content">
+        <a href="/en/online-stores.html">
+          <span class="nav-option metropolis-medium {% if view_name == 'ecommerce' %}active{% endif %}">online stores</span>
+        </a>
+        <a href="/en/websites.html">
+          <span class="nav-option metropolis-medium {% if view_name == 'webpages' %}active{% endif %}">websites</span>
+        </a>
+        <a href="/en/point-of-sale.html">
+          <span class="nav-option metropolis-medium {% if view_name == 'pointsale' %}active{% endif %}">point of sale</span>
+        </a>
+      </div>
+    </div>
+    <div class="nav-option-content">
+      <a href="/en/about-us.html">
+        <span class="nav-option metropolis-medium {% if view_name == 'aboutus' %}active{% endif %}">about us</span>
+      </a>
+    </div>
+    <div class="nav-option-content">
+      <a href="/en/contact-us.html">
+        <span class="nav-option metropolis-medium special-btn {% if view_name == 'contact' %}active{% endif %}">contact us</span>
+      </a>
+    </div>
 
     {% include 'partials/navLang.njk' %}
   </div>
@@ -37,10 +64,10 @@
       </div>
     </div>
     <div class="hamburger-menu-body" data-attribute="">
-      {% for section in en.nav.sections %}
+      {% for section in es.nav.sections %}
       <div class="nav-option-content {% if view_name == section.viewName %}active{% endif %}">
         <a href="{{section.link}}">
-          <span class="nav-option metropolis-medium {% if section.name == 'contact us' %}special-btn{% endif %}">{{section.name}}</span>
+          <span class="nav-option metropolis-medium {% if section.name == 'contactar' %}special-btn{% endif %}">{{section.name}}</span>
         </a>
       </div>
       {% endfor %}
