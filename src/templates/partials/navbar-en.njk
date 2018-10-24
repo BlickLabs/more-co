@@ -17,7 +17,7 @@
       </a>
     </div>
     <div class="nav-option-content dropdown">
-    <button onclick="dropDown()" class="nav-option dropdown-btn metropolis-medium {% if view_name == 'ecommerce' or view_name == 'webpages' or view_name == 'pointsale' %}active{% endif %}">our services</button>
+    <button class="nav-option dropdown-btn metropolis-medium {% if view_name == 'ecommerce' or view_name == 'webpages' or view_name == 'pointsale' %}active{% endif %}">our services</button>
       <div id="navDropdown" class="dropdown-content">
         <a href="/en/online-stores.html">
           <span class="nav-option metropolis-medium {% if view_name == 'ecommerce' %}active{% endif %}">online stores</span>
@@ -64,10 +64,10 @@
       </div>
     </div>
     <div class="hamburger-menu-body" data-attribute="">
-      {% for section in es.nav.sections %}
+      {% for section in en.nav.sections %}
       <div class="nav-option-content {% if view_name == section.viewName %}active{% endif %}">
         <a href="{{section.link}}">
-          <span class="nav-option metropolis-medium {% if section.name == 'contactar' %}special-btn{% endif %}">{{section.name}}</span>
+          <span class="nav-option metropolis-medium {% if section.name == 'contact us' %}special-btn{% endif %}">{{section.name}}</span>
         </a>
       </div>
       {% endfor %}
