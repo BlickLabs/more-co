@@ -147,12 +147,14 @@
   padding-top 2px
   position relative
 
+  &:hover .dropdown-content
+    display flex
+
   &-btn
     background-color transparent
     border none
     cursor pointer
-    line-height 0px
-    padding 0
+    padding 2px 0 0 0
     position relative
 
     &:after
@@ -162,12 +164,12 @@
       bottom 0
       content ""
       display block
-      height 7px
+      height 5px
       margin auto
       position absolute
       right -15px
       top 0
-      width 11px
+      width 8px
 
   &-content
     background-color rgba(49,49,49,1)
@@ -185,9 +187,6 @@
 
     & .nav-option
       color $whiteT1
-
-    &.show
-      display flex
 
 @media screen and (max-width: 840px)
   .nav
@@ -225,7 +224,8 @@
           margin-top 13px
 
       &.special-btn
-        border solid 1px $whiteT1
+        background-color $blueT1
+        border solid 1px $blueT1
         color $whiteT1
         height 34px
         margin-left -13px
@@ -233,7 +233,7 @@
 
         &:hover
           background-color $blueT5
-          border solid 1px $blueT5
+          border solid 1px $blueT5 !important
 
     &-scroll
       & .hamburger-line-icon
