@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: http://sandbox.more-co.getmore.mx/
+Disallow: https://blicklabs.github.io/WorkingLab/
 Disallow: /vre/
 Disallow: /nomad/
-Sitemap: https://getmore.mx/sitemap.xml
+Sitemap: http://workingch.com/sitemap.xml
