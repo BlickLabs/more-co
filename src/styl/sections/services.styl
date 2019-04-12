@@ -275,6 +275,15 @@
     &-desc
       width 325px
 
+    &-img
+      box-shadow 0 19px 30px 0 rgba(0,0,0,0.26)
+      height 270px
+      margin-left 5%
+      width 432.95px
+
+  &-packages
+    margin-top 60px
+
 @media screen and (min-width 1040px)
   .service
     &-cover
@@ -292,6 +301,13 @@
     &-projects
       &-subtitle
         font-size 231px
+
+  #pointsale
+    &-cover
+      &-img
+        height 312px
+        margin-left 0
+        width 500.13px
 
 @media screen and (max-width 1000px)
   .service
@@ -427,17 +443,32 @@
       &-desc
         width 270px
 
+  #pointsale
+    &-cover
+      &-img
+        height auto
+        margin-bottom 40px
+        margin-left 0
+        width 70%
+
+    &-packages
+      margin-top 10px
+
 @media screen and (max-width 419px)
   .service
     &-projects
-      &-info
-        width 220px
+      // &-info
+      //   width 220px
 
       &-img
         height 220px
         width 220px !important
 
         &-carousel
+          margin-left auto
+          margin-right auto
+          width 220px
+
           & .owl-prev
             left -40px
 
@@ -453,6 +484,17 @@
           margin 0 0 15px 0
           width 198px
 
+        & #same-btn-width
+          width 176.64px
+
     &-packages
       &-slice
         width 190px
+
+  #pointsale
+    &-cover
+      &-desc
+        width 300px
+
+      &-img
+        width 85%

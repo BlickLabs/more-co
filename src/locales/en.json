@@ -171,25 +171,24 @@
       "title": "Our Work",
       "tabs": [
         {
-          "title": "View All",
-          "function": "javascript:portfolioSwitchTab('portfolioTab1', 'portfolioTabContent1');",
-          "id": "portfolioTab1",
-          "activeClass": "active"
+          "title": "view all",
+          "hash": "#view-all",
+          "id": "view-all"
         },
         {
-          "title": "Online Stores",
-          "function": "javascript:portfolioSwitchTab('portfolioTab2', 'portfolioTabContent2');",
-          "id": "portfolioTab2"
+          "title": "online stores",
+          "hash": "#online-stores",
+          "id": "online-stores"
         },
         {
-          "title": "Websites",
-          "function": "javascript:portfolioSwitchTab('portfolioTab3', 'portfolioTabContent3');",
-          "id": "portfolioTab3"
+          "title": "websites",
+          "hash": "#websites",
+          "id": "websites"
         },
         {
-          "title": "Point of Sale",
-          "function": "javascript:portfolioSwitchTab('portfolioTab4', 'portfolioTabContent4');",
-          "id": "portfolioTab4"
+          "title": "point of sale",
+          "hash": "#point-of-sale",
+          "id": "point-of-sale"
         }
       ],
       "btn": "Load more",
@@ -1115,10 +1114,10 @@
     },
     "aboutus": {
       "cover": {
-        "title": "We’re Shopify Experts."
+        "title": "We are Shopify Experts."
       },
       "intro": {
-        "desc": "We’re a Multidisciplinary team. We Design and Develop Online Stores, Websites and Points of Sale. We guide you from the beginning to the end of your project so you can launch your service or product into the Digital World. Always taking care of the most important:",
+        "desc": "We are a Multidisciplinary team. We Design and Develop Online Stores, Websites and Points of Sale. We guide you from the beginning to the end of your project so you can launch your service or product into the Digital World. Always taking care of the most important:",
         "descBold": "Functionality and Design."
       },
       "about": {
@@ -1163,7 +1162,7 @@
       "work": {
         "title": "Let’s work together!",
         "btn": "contact",
-        "btnLink": "/en/contact.html",
+        "btnLink": "/en/contact-us.html",
         "bigText": "get shit done"
       }
     },

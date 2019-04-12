@@ -40,13 +40,13 @@ if (!(window.location.pathname === '/index.html' || window.location.pathname ===
 }
 
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = '70%';
+  document.querySelector('#menuContainer').classList.add('show-hamburger');
   document.querySelector('#hamburgerMenu').style.display = 'none';
   document.querySelector('body').style.overflow = 'hidden';
 }
 
 function hideMenu() {
-  document.querySelector('#menuContainer').style.width = '0%';
+  document.querySelector('#menuContainer').classList.remove('show-hamburger');
   document.querySelector('#hamburgerMenu').style.display = 'inline';
   document.querySelector('body').style.overflow = 'auto';
 }
@@ -84,22 +84,3 @@ hideHamburger.addEventListener('click', function(e) {
   e.preventDefault();
   hideMenu();
 });
-
-function dropDown() {
-    document.getElementById("navDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropdown-btn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}

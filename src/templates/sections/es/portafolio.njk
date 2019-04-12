@@ -19,90 +19,96 @@
     <h1 class="ourwork-title metropolis-bold">{{es.portfolio.title}}</h1>
   </section>
 
-  <section class="ourwork-tab-container">
-    <ul class="metropolis-semibold ourwork-tab-carousel owl-carousel">
+  <section>
+    <ul role="tablist" class="ourwork-tab-container">
       {% for tab in es.portfolio.tabs %}
-      <li class="ourwork-tab"><a class="ourwork-tab-link {% if tab.activeClass %}{{tab.activeClass}}{% endif %}" href="{{tab.function}}" id="{{tab.id}}"><h2>{{tab.title}}</h2></a></li>
+      <li class="ourwork-tab"><a role="tab" aria-controls="{{tab.id}}" class="ourwork-tab-link" href="{{tab.hash}}"><h2 class="metropolis-semibold">{{tab.title}}</h2></a></li>
       {% endfor %}
     </ul>
-  </section>
-  <section id="results1">
 
-    <div id="portfolioTabContent1" class="ourwork-tab-content">
-      {% for project in es.portfolio.projects %}
-      {% if project.tagAll == true %}
-      <div class="ourwork-project itemAll moreAll" data-tags="{{project.tags}}">
-        <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
-        <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <a href="{{project.hoverIconLink}}">
-          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-            <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </div>
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-      <div class="ourwork-project-btn-container" id="load-all">
-        <a class="btn borderBlack metropolis-bold" href="">{{es.portfolio.btn}}</a>
-      </div>
-    </div> 
-
-    <div id="portfolioTabContent2" class="ourwork-tab-content">
-      {% for project in es.portfolio.projects %}
-      {% if project.tagOnlineStore == true %}
-      <div class="ourwork-project itemOnlineStore moreOnlineStore" data-tags="{{project.tags}}">
-        <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
-        <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <a href="{{project.hoverIconLink}}">
-          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-            <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </div>
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-      <div class="ourwork-project-btn-container" id="load-online-store">
-        <a class="btn borderBlack metropolis-bold" href="">{{es.portfolio.btn}}</a>
+    <div role="tabpanel" id="mostrar-todos">
+      <div class="ourwork-tab-content">
+        {% for project in es.portfolio.projects %}
+        {% if project.tagAll == true %}
+        <div class="ourwork-project itemAll moreAll" data-tags="{{project.tags}}">
+          <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
+          <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
+          <a href="{{project.hoverIconLink}}">
+            <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+              <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
+              <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
+            </div>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <div class="ourwork-project-btn-container" id="load-all">
+          <a class="btn borderBlack metropolis-bold" href="">{{es.portfolio.btn}}</a>
+        </div>
       </div>
     </div>
 
-    <div id="portfolioTabContent3" class="ourwork-tab-content"> 
-      {% for project in es.portfolio.projects %}
-      {% if project.tagWebPage == true %}
-      <div class="ourwork-project itemWebPages moreWebPages" data-tags="{{project.tags}}">
-        <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
-        <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <a href="{{project.hoverIconLink}}">
-          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-            <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </div>
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-      <div class="ourwork-project-btn-container" id="load-web-pages">
-        <a class="btn borderBlack metropolis-bold" href="">{{es.portfolio.btn}}</a>
+    <div role="tabpanel" id="tiendas-en-linea">
+      <div class="ourwork-tab-content">
+        {% for project in es.portfolio.projects %}
+        {% if project.tagOnlineStore == true %}
+        <div class="ourwork-project itemOnlineStore moreOnlineStore" data-tags="{{project.tags}}">
+          <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
+          <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
+          <a href="{{project.hoverIconLink}}">
+            <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+              <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
+              <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
+            </div>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <div class="ourwork-project-btn-container" id="load-online-store">
+          <a class="btn borderBlack metropolis-bold" href="">{{es.portfolio.btn}}</a>
+        </div>
       </div>
     </div>
 
-    <div id="portfolioTabContent4" class="ourwork-tab-content">
-      {% for project in es.portfolio.projects %}
-      {% if project.tagPOS == true %}
-      <div class="ourwork-project itemPOS morePOS" data-tags="{{project.tags}}">
-        <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
-        <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
-        <a href="{{project.hoverIconLink}}">
-          <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
-            <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
-            <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
-          </div>
-        </a>
+    <div role="tabpanel" id="paginas-web">
+      <div class="ourwork-tab-content">
+        {% for project in es.portfolio.projects %}
+        {% if project.tagWebPage == true %}
+        <div class="ourwork-project itemWebPages moreWebPages" data-tags="{{project.tags}}">
+          <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
+          <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
+          <a href="{{project.hoverIconLink}}">
+            <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+              <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
+              <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
+            </div>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <div class="ourwork-project-btn-container" id="load-web-pages">
+          <a class="btn borderBlack metropolis-bold" href="">{{es.portfolio.btn}}</a>
+        </div>
       </div>
-      {% endif %}
-      {% endfor %}
+    </div>
+
+    <div role="tabpanel" id="punto-de-venta">
+      <div class="ourwork-tab-content">
+        {% for project in es.portfolio.projects %}
+        {% if project.tagPOS == true %}
+        <div class="ourwork-project itemPOS morePOS" data-tags="{{project.tags}}">
+          <img class="ourwork-project-img" data-src="{{project.img}}" alt="{{project.imgAlt}}">
+          <h3 class="ourwork-project-title metropolis-bold">{{project.title}}</h3>
+          <a href="{{project.hoverIconLink}}">
+            <div class="ourwork-project-layer {{project.layerClass}}" onClick="return true">
+              <img class="{{project.layerLogoClass}}" src="{{project.layerLogo}}" alt="{{project.layerLogoAlt}}">
+              <img class="ourwork-project-icon" src="{{es.portfolio.hoverIcon}}" alt="{{es.portfolio.hoverIcon}}">
+            </div>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </section>
 </section>

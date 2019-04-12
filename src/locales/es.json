@@ -172,24 +172,23 @@
       "tabs": [
         {
           "title": "mostrar todos",
-          "function": "javascript:portfolioSwitchTab('portfolioTab1', 'portfolioTabContent1');",
-          "id": "portfolioTab1",
-          "activeClass": "active"
+          "hash": "#mostrar-todos",
+          "id": "mostrar-todos"
         },
         {
           "title": "tiendas en línea",
-          "function": "javascript:portfolioSwitchTab('portfolioTab2', 'portfolioTabContent2');",
-          "id": "portfolioTab2"
+          "hash": "#tiendas-en-linea",
+          "id": "tiendas-en-linea"
         },
         {
           "title": "páginas web",
-          "function": "javascript:portfolioSwitchTab('portfolioTab3', 'portfolioTabContent3');",
-          "id": "portfolioTab3"
+          "hash": "#paginas-web",
+          "id": "paginas-web"
         },
         {
           "title": "punto de venta (pos)",
-          "function": "javascript:portfolioSwitchTab('portfolioTab4', 'portfolioTabContent4');",
-          "id": "portfolioTab4"
+          "hash": "#punto-de-venta",
+          "id": "punto-de-venta"
         }
       ],
       "btn": "cargar más",
@@ -1074,7 +1073,7 @@
         "laptopSiteAlt": "Imagen de una ventana de navegador con el punto de venta de Yazbek"
       },
       "packages": {
-        "title": "Encuentra tu paquete ideal",
+        "title": "Nuestros paquetes",
         "sliceTable": "Desliza hacia la derecha",
         "sliceTableIcon": "/img/icons/flecha-negra.svg",
         "sliceTableIconAlt": "Flecha que indica el desplazamiento horizontal de la tabla",
