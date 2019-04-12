@@ -40,13 +40,13 @@ if (!(window.location.pathname === '/index.html' || window.location.pathname ===
 }
 
 function showMenu() {
-  document.querySelector('#menuContainer').style.width = '70%';
+  document.querySelector('#menuContainer').classList.add('show-hamburger');
   document.querySelector('#hamburgerMenu').style.display = 'none';
   document.querySelector('body').style.overflow = 'hidden';
 }
 
 function hideMenu() {
-  document.querySelector('#menuContainer').style.width = '0%';
+  document.querySelector('#menuContainer').classList.remove('show-hamburger');
   document.querySelector('#hamburgerMenu').style.display = 'inline';
   document.querySelector('body').style.overflow = 'auto';
 }

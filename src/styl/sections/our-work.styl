@@ -30,47 +30,80 @@
       margin 0 auto 30px auto
       width 41px
 
+  // &-tab
+  //   display flex
+  //   width 191px
+
+  //   &-container
+  //     margin 60px auto 35px auto
+  //     width 762px
+
+  //     & > ul
+  //       display flex
+  //       list-style none
+  //       margin 0
+  //       padding 0
+
+  //   &-content
+  //     display none
+  //     flex-wrap wrap
+  //     margin 0 auto
+  //     width 762px
+
+  //     &:first-child
+  //       display flex
+
+  //   & > a > h2
+  //     font-size 11px
+
+  //     &:hover
+  //       font-weight 900
+
+  //   & > a
+  //       border-bottom solid 1px $grayT3
+  //       color $blackT2
+  //       letter-spacing 0.5px
+  //       padding 10px 15px 24px 15px
+  //       text-align center
+  //       text-transform uppercase
+  //       width 100%
+
+  //     & > a.active
+  //       border-bottom solid 1px $blackT2
+  //       transition 0.3s
+
   &-tab
     display flex
     width 191px
 
     &-container
+      display flex
+      flex-direction row
+      list-style none
       margin 60px auto 35px auto
+      padding 0
       width 762px
 
-      & > ul
-        display flex
-        list-style none
-        margin 0
-        padding 0
+    &-link
+      border-bottom solid 1px $grayT5
+      width 100%
 
-    &-content
-      display none
-      flex-wrap wrap
-      margin 0 auto
-      width 762px
+      &.selected
+        border-bottom solid 1px $blackT2
 
-      &:first-child
-        display flex
-
-    & > a > h2
-      font-size 11px
-
-      &:hover
-        font-weight 900
-
-    & > a
-        border-bottom solid 1px $grayT3
+      & > h2
         color $blackT2
+        font-size 11px
         letter-spacing 0.5px
         padding 10px 15px 24px 15px
         text-align center
         text-transform uppercase
-        width 100%
 
-      & > a.active
-        border-bottom solid 1px $blackT2
-        transition 0.3s
+    &-content
+      display flex
+      flex-wrap wrap
+      margin 0 auto
+      width 762px
 
   &-project
     height 252px
@@ -631,11 +664,18 @@ img:not([src])
         margin-bottom 20px
 
     &-tab
-      width auto
+      width 50%
 
       &-container
+        flex-wrap wrap
         margin 35px auto 0 auto
         width 100%
+
+      &-link
+        padding 15px 0 !important
+
+        & > h2
+          padding 0
 
       &-content
         width 100%
@@ -656,3 +696,6 @@ img:not([src])
         &-container
           justify-content center
           margin-top 46px
+
+  .fixed-tab
+    padding-top 0
