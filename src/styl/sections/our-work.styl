@@ -30,51 +30,9 @@
       margin 0 auto 30px auto
       width 41px
 
-  // &-tab
-  //   display flex
-  //   width 191px
-
-  //   &-container
-  //     margin 60px auto 35px auto
-  //     width 762px
-
-  //     & > ul
-  //       display flex
-  //       list-style none
-  //       margin 0
-  //       padding 0
-
-  //   &-content
-  //     display none
-  //     flex-wrap wrap
-  //     margin 0 auto
-  //     width 762px
-
-  //     &:first-child
-  //       display flex
-
-  //   & > a > h2
-  //     font-size 11px
-
-  //     &:hover
-  //       font-weight 900
-
-  //   & > a
-  //       border-bottom solid 1px $grayT3
-  //       color $blackT2
-  //       letter-spacing 0.5px
-  //       padding 10px 15px 24px 15px
-  //       text-align center
-  //       text-transform uppercase
-  //       width 100%
-
-  //     & > a.active
-  //       border-bottom solid 1px $blackT2
-  //       transition 0.3s
-
   &-tab
     display flex
-    width 191px
+    width 285.75px
 
     &-container
       display flex
@@ -82,7 +40,7 @@
       list-style none
       margin 60px auto 35px auto
       padding 0
-      width 762px
+      width 1143px
 
     &-link
       border-bottom solid 1px $grayT5
@@ -103,7 +61,7 @@
       display flex
       flex-wrap wrap
       margin 0 auto
-      width 762px
+      width 1143px
 
   &-project
     height 252px
@@ -605,6 +563,17 @@ img:not([src])
 
   & .ourwork-tab-link.active
     border-bottom solid 1px $blackT2
+
+@media screen and (max-width 1220px)
+  .ourwork
+    &-tab
+      width 191px
+
+      &-container
+        width 762px
+
+      &-content
+        width 762px
 
 @media screen and (max-width 820px)
   .ourwork
