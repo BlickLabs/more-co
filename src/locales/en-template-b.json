@@ -1722,6 +1722,501 @@
         ],
         "location": "CDMX, México"
       }
+    },
+    "brnds": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-brnds.png",
+        "projectLogoAlt": "BRNDS logo",
+        "projectName": "BRNDS",
+        "projectType": "Online Store",
+        "projectDesc": "Outlet of the best brands with the best prices. Luxury Fashion Outlet."
+      },
+      "data": {
+        "laptopImg": "/img/projects/brnds-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of BRNDS",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Online Chat"
+          },
+          {
+            "item": "Menu Selection"
+          },
+          {
+            "item": "Buy direct from the collection"
+          },
+          {
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Product filter"
+          },
+          {
+            "item": "Smart Search"
+          },
+          {
+            "item": "User sessions"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Tailor made pages"
+          },
+          {
+            "item": "Wishlist"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://brndsmx.myshopify.com/"
+      }
+    },
+    "minaci": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-minaci.png",
+        "projectLogoAlt": "minaci logo",
+        "projectName": "Minaci",
+        "projectType": "Online Store",
+        "projectDesc": "Online store of underwear and clothing for women with the best models and market quality."
+      },
+      "data": {
+        "laptopImg": "/img/projects/minaci-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of minaci",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Online Chat"
+          },
+          {
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Product filter"
+          },
+          {
+            "item": "Smart Search"
+          },
+          {
+            "item": "User sessions"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Tailor made pages"
+          },
+          {
+            "item": "Wishlist"
+          },
+          {
+            "item": "Gift Card"
+          },
+          {
+            "item": "Whatsapp Integration"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://minaci.com/"
+      }
+    },
+    "airesdecampo": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-airesdecampo.svg",
+        "projectLogoAlt": "aires de campo logo",
+        "projectName": "Aires de Campo",
+        "projectType": "Online Store",
+        "projectDesc": "Online store of organic products direct from the Mexican countryside to your home."
+      },
+      "data": {
+        "laptopImg": "/img/projects/airesdecampo-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of aires de campo",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Product filter"
+          },
+          {
+            "item": "Smart Search"
+          },
+          {
+            "item": "Buy direct from the collection"
+          },
+          {
+            "item": "Buy direct from the homepage"
+          },
+          {
+            "item": "Buy by zip code"
+          },
+          {
+            "item": "User sessions"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Tailor made pages"
+          },
+          {
+            "item": "Order Invoice"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://airesdecampo.com/"
+      }
+    },
+    "danielareyes": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-danielareyes.svg",
+        "projectLogoAlt": "daniela reyes logo",
+        "projectName": "Daniela Reyes",
+        "projectType": "Online Store",
+        "projectDesc": "Buy incredible jewelry at the best market price. Jewels of all kinds made in Mexico."
+      },
+      "data": {
+        "laptopImg": "/img/projects/danielareyes-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of daniela reyes",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Smart Search"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Tailor made pages"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://danielareyesjoyeria.com/"
+      }
+    },
+    "sundar": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-sundar.png",
+        "projectLogoAlt": "sundar logo",
+        "projectName": "Sundar",
+        "projectType": "Online Store",
+        "projectDesc": "Online shop of bags 100% Mexican, of all kinds of colors and shapes, comfortable and at the best price."
+      },
+      "data": {
+        "laptopImg": "/img/projects/sundar-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of sundar",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Online Chat"
+          },
+          {
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Product filter"
+          },
+          {
+            "item": "Smart Search"
+          },
+          {
+            "item": "User sessions"
+          },
+          {
+            "item": "Wholesalers sessions"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Tailor made pages"
+          },
+          {
+            "item": "Whatsapp Integration"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://sundar.mx/"
+      }
+    },
+    "tuttopelle": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-tuttopelle.svg",
+        "projectLogoAlt": "tutto pelle logo",
+        "projectName": "Tutto Pelle",
+        "projectType": "Online Store",
+        "projectDesc": "Tutto Pelle is one of the first online stores in Mexico for luxury furniture. Get to know the incredible and detailed catalog they have for the best shopping experience."
+      },
+      "data": {
+        "laptopImg": "/img/projects/tuttopelle-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of tutto pelle",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Online Chat"
+          },
+          {
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Smart Search"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Tailor made pages"
+          },
+          {
+            "item": "Catalog of materials"
+          },
+          {
+            "item": "Whatsapp Integration"
+          },
+          {
+            "item": "Contact Forms"
+          },
+          {
+            "item": ""
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://shop.tuttopelle.mx/"
+      }
+    },
+    "vagandopormexico": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-vagandopormexico.png",
+        "projectLogoAlt": "vagando por méxico logo",
+        "projectName": "Vagando por México",
+        "projectType": "Online Store",
+        "projectDesc": "Travel Tours platform in Mexico, from the Traditional Huasteca, to the Route of the Warlocks you can know the whole country and travel with Vagando por México."
+      },
+      "data": {
+        "laptopImg": "/img/projects/vagandopormexico-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of vagando por méxico",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Smart Search"
+          },
+          {
+            "item": "Product filter"
+          },
+          {
+            "item": "Tailor made pages"
+          },
+          {
+            "item": "Online Chat"
+          },
+          {
+            "item": "Testimonials"
+          },
+          {
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "User sessions"
+          },
+          {
+            "item": "Whatsapp Integration"
+          },
+          {
+            "item": "Payment Gateways"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://vagandopormexico.com/"
+      }
+    },
+    "shopsell": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-shopsell.svg",
+        "projectLogoAlt": "shopsell logo",
+        "projectName": "Shopsell",
+        "projectType": "Online Store",
+        "projectDesc": "Online store where you buy products of great brands and high quality at the best prices since they belonged before someone else."
+      },
+      "data": {
+        "laptopImg": "/img/projects/shopsell-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of shopsell",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Online Chat"
+          },
+          {
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Product filter"
+          },
+          {
+            "item": "Smart Search"
+          },
+          {
+            "item": "User sessions"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Wishlist"
+          },
+          {
+            "item": "Whatsapp Integration"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://shopsell.mx/"
+      }
+    },
+    "cocoflamingo": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-cocoflamingo.png",
+        "projectLogoAlt": "coco flamingo logo",
+        "projectName": "Coco Flamingo",
+        "projectType": "Online Store",
+        "projectDesc": "Buy custom Bikinis of many different prints and fabrics, create your Bikinis outfits, full bathing suits or send your swimsuit with phrases for special events."
+      },
+      "data": {
+        "laptopImg": "/img/projects/cocoflamingo-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of coco flamingo",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Online Chat"
+          },
+          {
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Tailor made pages"
+          },
+          {
+            "item": "Size Guide"
+          },
+          {
+            "item": "Whatsapp Integration"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://cocoflamingo.mx/"
+      }
+    },
+    "fitzroi": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-fitzroi.svg",
+        "projectLogoAlt": "fitzroi logo",
+        "projectName": "Fitzroi",
+        "projectType": "Online Store",
+        "projectDesc": "Online store sunglasses with a different proposal at the best price."
+      },
+      "data": {
+        "laptopImg": "/img/projects/fitzroi-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of fitzroi",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Web and Mobile Design"
+          },
+          {
+            "item": "Similar products recommendation"
+          },
+          {
+            "item": "Payment Gateways"
+          },
+          {
+            "item": "Instagram Feed Integration"
+          },
+          {
+            "item": "Instagram Shop"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://fitzroi.mx/"
+      }
+    },
+    "asani": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-asani.png",
+        "projectLogoAlt": "asani logo",
+        "projectName": "Asani",
+        "projectType": "point of sale",
+        "projectDesc": "Creation and execution of the point of sale system for the Asani brand, sportswear of the best quality and with incredible designs."
+      },
+      "data": {
+        "laptopImg": "/img/projects/asani-laptop.png",
+        "laptopImgAlt": "Image of a laptop that shows the site of asani",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Features",
+            "item": "Product Catalog"
+          },
+          {
+            "item": "Real time inventory"
+          },
+          {
+            "item": "Product Categorization"
+          },
+          {
+            "item": "User administration"
+          },
+          {
+            "item": "Easy navigation"
+          },
+          {
+            "item": "Gift Card"
+          },
+          {
+            "item": "Multi Locations"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://fitzroi.mx/"
+      }
     }
+
   }
 }

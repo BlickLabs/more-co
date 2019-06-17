@@ -1,0 +1,48 @@
+{% extends "partials/base.njk" %}
+
+{% block title %}Punto de Venta de Asani{% endblock %}
+
+{% set meta_description = "Catálogo de productos | Inventario en tiempo real | Categoría de productos | Administración de usuarios | Fácil uso y navegación | Tarjetas de Regalo | Múltiples Locaciones" %}
+{% set og_url = "https://getmore.mx/es/portafolio/asani.html" %}
+{% set og_title = "Punto de Venta de Asani | Get More" %}
+{% set og_description = "Catálogo de productos | Inventario en tiempo real | Categoría de productos | Administración de usuarios | Fácil uso y navegación | Tarjetas de Regalo | Múltiples Locaciones" %}
+{% set og_img = "https://getmore.mx/img/seo/punto-de-venta-seo.jpg" %}
+{% set og_img_width = "500" %}
+{% set og_img_height = "300" %}
+
+{% set view_name = "ourwork" %}
+{% set lang_view = "spanish" %}
+
+{% block content %}
+<section class="templateb asani">
+  <section class="templateb-cover">
+    <div class="return-container">
+      <a class="return metropolis-semibold" href="{{tbES.base.linkReturn}}"><img class="semi-triangle" src="{{tbES.base.iconReturn}}" alt="{{tbES.base.iconReturnAlt}}">{{tbES.base.textReturn}}</a>
+    </div>
+    <div class="templateb-cover-content">
+      <img class="templateb-logo" src="{{tbES.asani.cover.projectLogo}}" alt="{{tbES.asani.cover.projectLogoAlt}}">
+      <h1 class="templateb-cover-title metropolis-bold">{{tbES.asani.cover.projectName}}&nbsp;<span class="metropolis-medium">|&nbsp;{{tbES.asani.cover.projectType}}</span></h1>
+      <p class="templateb-cover-paragraph metropolis-medium">{{tbES.asani.cover.projectDesc}}</p>
+    </div>
+  </section>
+
+  <section class="templateb-data">
+    <img class="templateb-data-img" src="{{tbES.asani.data.laptopImg}}" alt="{{tbES.asani.data.laptopImgAlt}}">
+    <div class="templateb-data-container">
+      <div>
+        <h2 class="templateb-data-title metropolis-semibold">{{tbES.base.data.title}}</h2>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.textYear}}</span>&nbsp;{{tbES.asani.data.numberYear}}</span>
+        <ul class="templateb-data-ul">
+          {% for list in tbES.asani.data.functionalities %}
+          <li class="templateb-data-desc metropolis-light">{% if list.title %}<span class="metropolis-medium">{{list.title}}</span>&nbsp;{% endif %}{{list.item}}</li>
+          {% endfor %}
+        </ul>
+        <span class="templateb-data-desc metropolis-light"><span class="metropolis-medium">{{tbES.base.data.locationTitle}}</span>&nbsp;{{tbES.asani.data.location}}</span>
+      </div>
+      <div class="templateb-data-btns">
+        <a class="btn metropolis-bold" href="{{tbES.base.data.btnQuoteLink}}">{{tbES.base.data.btnQuote}}</a>
+      </div>
+    </div>
+  </section>
+</section>
+{% endblock %}
