@@ -1713,6 +1713,501 @@
         ],
         "location": "CDMX, México"
       }
+    },
+    "brnds": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-brnds.png",
+        "projectLogoAlt": "Logo de BRNDS en color blanco",
+        "projectName": "BRNDS",
+        "projectType": "tienda en línea",
+        "projectDesc": "Outlet de las mejores marcas con los mejores precios. Luxury Fashion Outlet."
+      },
+      "data": {
+        "laptopImg": "/img/projects/brnds-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de BRNDS",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Selección de menú"
+          },
+          {
+            "item": "Compra directa desde colección"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Vista de producto personalizada"
+          },
+          {
+            "item": "Lista de productos favoritos"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://brndsmx.myshopify.com/"
+      }
+    },
+    "minaci": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-minaci.png",
+        "projectLogoAlt": "Logo de minaci en color blanco",
+        "projectName": "Minaci",
+        "projectType": "tienda en línea",
+        "projectDesc": "Tienda en línea de ropa interior y ropa para mujer con los mejores modelos y calidad del mercado."
+      },
+      "data": {
+        "laptopImg": "/img/projects/minaci-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de minaci",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Vista de producto personalizada"
+          },
+          {
+            "item": "Lista de productos favoritos"
+          },
+          {
+            "item": "Tarjeta de regalo"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://minaci.com/"
+      }
+    },
+    "airesdecampo": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-airesdecampo.svg",
+        "projectLogoAlt": "Logo de aires de campo en color blanco",
+        "projectName": "Aires de Campo",
+        "projectType": "tienda en línea",
+        "projectDesc": "Tienda en línea de productos orgánicos directos del campo mexicano a tu hogar."
+      },
+      "data": {
+        "laptopImg": "/img/projects/airesdecampo-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de aires de campo",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Compra directa desde colección"
+          },
+          {
+            "item": "Compra directa desde homepage"
+          },
+          {
+            "item": "Compra por código postal"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Vista de producto personalizada"
+          },
+          {
+            "item": "Facturación de pedidos"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://airesdecampo.com/"
+      }
+    },
+    "danielareyes": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-danielareyes.svg",
+        "projectLogoAlt": "Logo de daniela reyes en color blanco",
+        "projectName": "Daniela Reyes",
+        "projectType": "tienda en línea",
+        "projectDesc": "Compra joyería increíble al mejor precio del mercado. Joyas de todo tipo hechas en México."
+      },
+      "data": {
+        "laptopImg": "/img/projects/danielareyes-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de daniela reyes",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Vista de producto personalizada"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://danielareyesjoyeria.com/"
+      }
+    },
+    "sundar": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-sundar.png",
+        "projectLogoAlt": "Logo de sundar en color blanco",
+        "projectName": "Sundar",
+        "projectType": "tienda en línea",
+        "projectDesc": "Tienda en línea de bolsas 100% Mexicanas Sundar, de todo tipo de colores y formas, cómodas y al mejor precio."
+      },
+      "data": {
+        "laptopImg": "/img/projects/sundar-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de sundar",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Sesiones para mayoristas"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Vista de producto personalizada"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://sundar.mx/"
+      }
+    },
+    "tuttopelle": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-tuttopelle.svg",
+        "projectLogoAlt": "Logo de tutto pelle en color blanco",
+        "projectName": "Tutto Pelle",
+        "projectType": "tienda en línea",
+        "projectDesc": "Tutto Pelle es de las primeras tiendas en línea en México de muebles de lujo. Conoce el catálogo tan increíble y detallado que tienen para la mejor experiencia de compra."
+      },
+      "data": {
+        "laptopImg": "/img/projects/tuttopelle-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de tutto pelle",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Vista de producto personalizada"
+          },
+          {
+            "item": "Vista de colección personalizada"
+          },
+          {
+            "item": "Catálogos de materiales"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          },
+          {
+            "item": "Formularios de contacto"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://shop.tuttopelle.mx/"
+      }
+    },
+    "vagandopormexico": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-vagandopormexico.png",
+        "projectLogoAlt": "Logo de vagando por méxico en color blanco",
+        "projectName": "Vagando por México",
+        "projectType": "tienda en línea",
+        "projectDesc": "Plataforma de Tours de viajes en México, desde la Huasteca Tradicional, hasta la Ruta de los Brujos puedes conocer todo el país y viajar con Vagando por México."
+      },
+      "data": {
+        "laptopImg": "/img/projects/vagandopormexico-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de vagando por méxico",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Filtrado de programas"
+          },
+          {
+            "item": "Template de programa y colección personalizado"
+          },
+          {
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Testimoniales"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          },
+          {
+            "item": "Métodos de pago variados"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://vagandopormexico.com/"
+      }
+    },
+    "shopsell": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-shopsell.svg",
+        "projectLogoAlt": "Logo de shopsell en color blanco",
+        "projectName": "Shopsell",
+        "projectType": "tienda en línea",
+        "projectDesc": "Tienda en línea en donde compras productos de grandes marcas y alta calidad a los mejores precios ya que pertenecieron antes a alguien más."
+      },
+      "data": {
+        "laptopImg": "/img/projects/shopsell-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de shopsell",
+        "numberYear": "2019",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Filtrado de productos"
+          },
+          {
+            "item": "Búsqueda inteligente"
+          },
+          {
+            "item": "Sesiones de usuario"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Lista de productos favoritos"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://shopsell.mx/"
+      }
+    },
+    "cocoflamingo": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-cocoflamingo.png",
+        "projectLogoAlt": "Logo de coco flamingo en color blanco",
+        "projectName": "Coco Flamingo",
+        "projectType": "tienda en línea",
+        "projectDesc": "Compra Bikinis personalizados de muchos estampados y telas diferentes, crea tus conjuntos de Bikinis, Trajes de baño completo o manda a hacer tu traje de baño con frases para eventos especiales."
+      },
+      "data": {
+        "laptopImg": "/img/projects/cocoflamingo-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de coco flamingo",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Chat en línea"
+          },
+          {
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Vista de producto personalizada"
+          },
+          {
+            "item": "Guía de Tallas"
+          },
+          {
+            "item": "Integración con Whatsapp"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://cocoflamingo.mx/"
+      }
+    },
+    "fitzroi": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-fitzroi.svg",
+        "projectLogoAlt": "Logo de fitzroi en color blanco",
+        "projectName": "Fitzroi",
+        "projectType": "tienda en línea",
+        "projectDesc": "Tienda en línea de lentes de sol con una propuesta diferente al mejor precio."
+      },
+      "data": {
+        "laptopImg": "/img/projects/fitzroi-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de fitzroi",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Diseño web y móvil"
+          },
+          {
+            "item": "Productos similares"
+          },
+          {
+            "item": "Métodos de pago variados"
+          },
+          {
+            "item": "Integración de Instagram Feed"
+          },
+          {
+            "item": "Venta por Instagram"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://fitzroi.mx/"
+      }
+    },
+    "asani": {
+      "cover": {
+        "projectLogo": "/img/ourwork/logo-asani.png",
+        "projectLogoAlt": "Logo de asani en color blanco",
+        "projectName": "Asani",
+        "projectType": "punto de venta",
+        "projectDesc": "Creación y ejecución del sistema de punto de venta para la marca Asani, ropa deportiva de la mejor calidad y con diseños increíbles."
+      },
+      "data": {
+        "laptopImg": "/img/projects/asani-laptop.png",
+        "laptopImgAlt": "Imagen de una laptop que muestra el sitio de asani",
+        "numberYear": "2018",
+        "functionalities": [
+          {
+            "title": "Funcionalidades",
+            "item": "Catálogo de productos"
+          },
+          {
+            "item": "Inventario en tiempo real"
+          },
+          {
+            "item": "Categoría de productos"
+          },
+          {
+            "item": "Administración de usuarios"
+          },
+          {
+            "item": "Fácil uso y navegación"
+          },
+          {
+            "item": "Tarjetas de Regalo"
+          },
+          {
+            "item": "Múltiples Locaciones"
+          }
+        ],
+        "location": "CDMX, México",
+        "btnSeeLink": "https://fitzroi.mx/"
+      }
     }
+
   }
 }
